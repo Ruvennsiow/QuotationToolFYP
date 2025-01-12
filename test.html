@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation Management Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        input[type="text"], input[type="password"], button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .inventory-list {
+            margin-top: 20px;
+        }
+        .inventory-item {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: #f4f4f4;
+        }
+        .inventory-item h3 {
+            margin: 0;
+            color: #333;
+        }
+        .item-details {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #fdfdfd;
+            margin-top: 20px;
+        }
+        .item-details h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="login-page">
+        <div class="header">
+            <h1>Login</h1>
+        </div>
+        <input type="text" placeholder="Username or Email">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+    </div>
+
+    <div class="container" id="inventory-page" style="display: none;">
+        <div class="header">
+            <h1>Inventory Search</h1>
+        </div>
+        <input type="text" placeholder="Search Inventory">
+        <div class="inventory-list">
+            <div class="inventory-item">
+                <h3>Item 1</h3>
+                <p>Category: Electronics</p>
+                <button>View Details</button>
+            </div>
+            <div class="inventory-item">
+                <h3>Item 2</h3>
+                <p>Category: Furniture</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="item-details-page" style="display: none;">
+        <div class="header">
+            <h1>Item Details</h1>
+        </div>
+        <div class="item-details">
+            <h3>Item Name: Example Item</h3>
+            <p>Selling Price: $100</p>
+            <p>Cost Price: $80</p>
+            <p>Supplier Contact: supplier@example.com</p>
+        </div>
+        <button onclick="showPage('inventory-page')">Back to Inventory</button>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.container').forEach(page => {
+                page.style.display = 'none';
+            });
+            document.getElementById(pageId).style.display = 'block';
+        }
+
+        // Show login page by default
+        showPage('item-details-page');
+    </script>
+</body>
+</html>
