@@ -94,6 +94,64 @@ app.post('/quotations', async (req, res) => {
     res.status(500).send('Error adding quotation');
   }
 });
+// Update quotation items
+app.put('/quotations/:id/items', async (req, res) => {
+  const { id } = req.params; // Quotation ID
+  const items = req.body; // Array of updated items
+
+  try {
+    // Update each item's price in the database
+    const updateQueries = items.map((item) =>
+      pool.query(
+        'UPDATE quotation_items SET price = ? WHERE quotation_id = ? AND item_name = ?',
+        [item.price, id, item.item_name]
+      )
+    );
+
+    await Promise.all(updateQueries);
+
+    res.status(200).json({ success: true });
+  } catch (error) {
+    console.error('Error updating quotation items:', error);
+    res.status(500).send('Error updating quotation items');
+  }
+});
+// Add a new quotation from parsed JSON
+app.post('/quotations/from-email', async (req, res) => {
+  const { sender, subject, parsedQuotation } = req.body; // Get sender, subject, and parsed items
+
+  try {
+    // Insert the new quotation
+    const [result] = await pool.query(
+      'INSERT INTO quotations (company_name, order_date) VALUES (?, ?)',
+      [sender, new Date()] // Use sender as company_name and current date as order_date
+    );
+    const quotationId = result.insertId;
+
+    // Enrich and insert items into the quotation_items table
+    const enrichedItems = await Promise.all(
+      parsedQuotation.map(async (item) => {
+        const [inventory] = await pool.query(
+          'SELECT supplier_details FROM inventory WHERE name = ? LIMIT 1',
+          [item.item]
+        );
+        const supplier = inventory.length > 0 ? inventory[0].supplier_details : 'No known supplier';
+
+        await pool.query(
+          'INSERT INTO quotation_items (quotation_id, item_name, quantity, supplier_name) VALUES (?, ?, ?, ?)',
+          [quotationId, item.item, item.quantity, supplier]
+        );
+
+        return { ...item, supplier }; // Add supplier information for debugging/logging
+      })
+    );
+
+    res.status(201).json({ success: true, quotationId, items: enrichedItems });
+  } catch (error) {
+    console.error('Error adding quotation from email:', error);
+    res.status(500).send('Error adding quotation from email');
+  }
+});
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
