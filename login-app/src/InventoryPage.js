@@ -1,3 +1,4 @@
+// InventoryPage.js
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -6,7 +7,8 @@ function InventoryPage() {
   const [search, setSearch] = useState('');
   const [selectedItem, setSelectedItem] = useState(null);
   const navigate = useNavigate();
-  // Fetch inventory data from the server
+
+  // Fetch inventory data
   useEffect(() => {
     fetch('http://localhost:5000/inventory')
       .then((response) => response.json())
@@ -17,8 +19,8 @@ function InventoryPage() {
   // Filter inventory based on search
   const filteredInventory = inventory.filter(
     (item) =>
-      item.Name.toLowerCase().includes(search.toLowerCase()) ||
-      item.Description.toLowerCase().includes(search.toLowerCase())
+      item.name.toLowerCase().includes(search.toLowerCase()) ||
+      item.description.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -26,9 +28,9 @@ function InventoryPage() {
       <h2>Inventory</h2>
       <nav style={{ marginBottom: '20px' }}>
         <button onClick={() => navigate('/inventory')} style={{ marginRight: '10px' }}>
-            Inventory
+          Inventory
         </button>
-        <button onClick={() => navigate('/quotation')}>Quotation</button>
+        <button onClick={() => navigate('/quotations')}>Quotation</button>
       </nav>
       <input
         type="text"
@@ -46,16 +48,11 @@ function InventoryPage() {
 
       {selectedItem ? (
         <div>
-          <h3>{selectedItem.Name}</h3>
-          <img
-            src={`http://localhost:5000/images/${selectedItem.Picture}`}
-            alt={selectedItem.Name}
-            style={{ maxWidth: '100%', height: 'auto', marginBottom: '10px' }}
-          />
-          <p><strong>Description:</strong> {selectedItem.Description}</p>
-          <p><strong>Cost Price:</strong> ${selectedItem['Cost Price']}</p>
-          <p><strong>Selling Price:</strong> ${selectedItem['Selling Price']}</p>
-          <p><strong>Supplier:</strong> {selectedItem['Supplier Details']}</p>
+          <h3>{selectedItem.name}</h3>
+          <p><strong>Description:</strong> {selectedItem.description}</p>
+          <p><strong>Cost Price:</strong> ${selectedItem.cost_price}</p>
+          <p><strong>Selling Price:</strong> ${selectedItem.selling_price}</p>
+          <p><strong>Supplier:</strong> {selectedItem.supplier_details}</p>
           <button onClick={() => setSelectedItem(null)}>Back to List</button>
         </div>
       ) : (
@@ -70,13 +67,13 @@ function InventoryPage() {
           <tbody>
             {filteredInventory.map((item) => (
               <tr
-                key={item.Name}
+                key={item.id}
                 onClick={() => setSelectedItem(item)}
                 style={{ cursor: 'pointer', border: '1px solid #ccc' }}
               >
-                <td style={{ padding: '10px' }}>{item.Name}</td>
-                <td style={{ padding: '10px' }}>{item.Description}</td>
-                <td style={{ padding: '10px' }}>${item['Selling Price']}</td>
+                <td style={{ padding: '10px' }}>{item.name}</td>
+                <td style={{ padding: '10px' }}>{item.description}</td>
+                <td style={{ padding: '10px' }}>${item.selling_price}</td>
               </tr>
             ))}
           </tbody>

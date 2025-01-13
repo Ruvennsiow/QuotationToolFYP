@@ -1,133 +1,88 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 
 function QuotationPage() {
-  const [quotations, setQuotations] = useState([]);
-  const [newOrder, setNewOrder] = useState(false);
-  const [currentOrder, setCurrentOrder] = useState(null);
-  const [companyName, setCompanyName] = useState('');
-  const [orderDate, setOrderDate] = useState('');
-  const [items, setItems] = useState([{ name: '', quantity: '', price: '' }]);
-  const [groupedSuppliers, setGroupedSuppliers] = useState({});
-  const navigate = useNavigate();
+  const [quotations, setQuotations] = useState([]); // Array for storing orders
+  const [newOrder, setNewOrder] = useState(false); // Toggle for creating new order
+  const [currentOrder, setCurrentOrder] = useState(null); // Current selected order
+  const [companyName, setCompanyName] = useState(''); // New order company name
+  const [orderDate, setOrderDate] = useState(''); // New order date
+  const [items, setItems] = useState([{ name: '', quantity: '' }]); // Items in the new order
 
-  // Check if all items in an order are quoted
-  const isOrderComplete = (order) =>
-    Object.values(order.groupedSuppliers).every((items) =>
-      items.every((item) => item.price && item.price > 0)
-    );
+  // Fetch quotations data
+  useEffect(() => {
+    fetch('http://localhost:5000/quotations')
+      .then((response) => response.json())
+      .then((data) => {
+        setQuotations(data);
+      })
+      .catch((error) => console.error('Error fetching quotations:', error));
+  }, []);
 
-  // Handle item input changes
-  const handleItemChange = (index, field, value) => {
-    const updatedItems = [...items];
-    updatedItems[index][field] = value;
-    setItems(updatedItems);
-  };
-
-  // Add a new item row
-  const addItemRow = () => {
-    setItems([...items, { name: '', quantity: '', price: '' }]);
+  // Fetch items for a specific quotation
+  const fetchQuotationItems = (quotationId) => {
+    fetch(`http://localhost:5000/quotations/${quotationId}/items`)
+      .then((response) => response.json())
+      .then((data) => {
+        setCurrentOrder({ ...quotations.find((q) => q.id === quotationId), items: data });
+      })
+      .catch((error) => console.error('Error fetching quotation items:', error));
   };
 
   // Save a new order
   const saveOrder = () => {
-    fetch('http://localhost:5000/inventory')
+    const newQuotation = {
+      companyName,
+      orderDate,
+      items,
+    };
+
+    fetch('http://localhost:5000/quotations', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(newQuotation),
+    })
       .then((response) => response.json())
-      .then((inventory) => {
-        const suppliers = {};
-        items.forEach((item) => {
-          const inventoryItem = inventory.find(
-            (invItem) => invItem.Name.toLowerCase() === item.name.toLowerCase()
-          );
-          const supplier = inventoryItem ? inventoryItem['Supplier Details'] : 'No known supplier';
-          if (!suppliers[supplier]) suppliers[supplier] = [];
-          suppliers[supplier].push({ ...item, supplier });
-        });
-
-        const newQuotation = {
-          companyName,
-          orderDate,
-          groupedSuppliers: suppliers,
-          isComplete: false,
-        };
-
-        setQuotations([...quotations, newQuotation]);
-        setNewOrder(false); // Exit "New Order" mode
+      .then((createdQuotation) => {
+        setQuotations([...quotations, createdQuotation]); // Add new order to the list
+        setNewOrder(false); // Exit new order mode
         setCompanyName('');
         setOrderDate('');
-        setItems([{ name: '', quantity: '', price: '' }]);
+        setItems([{ name: '', quantity: '' }]); // Reset new order form
+        alert('Quotation successfully added!'); // Notify user
       })
-      .catch((error) => console.error('Error fetching inventory:', error));
+      .catch((error) => console.error('Error saving order:', error));
   };
 
-  // Manual price quotation
-  const updateItemPrice = (supplier, itemIndex, price) => {
-    const updatedOrder = { ...currentOrder };
-    updatedOrder.groupedSuppliers[supplier][itemIndex].price = price;
-    updatedOrder.isComplete = isOrderComplete(updatedOrder);
-    setCurrentOrder(updatedOrder);
-    setQuotations(
-      quotations.map((order) =>
-        order.companyName === updatedOrder.companyName ? updatedOrder : order
-      )
-    );
-  };
-
-  // Send Quotation to Customer
-  const handleSendQuotation = (order) => {
-    const emailTemplate = `Dear ${order.companyName},\n\nHere is the quotation for your order placed on ${order.orderDate}:\n\n` +
-      Object.entries(order.groupedSuppliers)
-        .map(
-          ([supplier, items]) =>
-            `From Supplier: ${supplier}\n` +
-            items.map(
-              (item) =>
-                `- ${item.name} (Quantity: ${item.quantity}) - Price: $${item.price}`
-            ).join('\n')
-        )
-        .join('\n\n') +
-      `\n\nThank you.\n`;
-
-    console.log('Email sent to:', order.companyName, '\nEmail Body:\n', emailTemplate);
+  // Handle sending the quotation request
+  const sendQuotationRequest = () => {
+    alert('Quotation request sent to suppliers!');
+    // Here you can implement functionality to send emails or further actions
   };
 
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: 'auto' }}>
       <h2>Quotations</h2>
-      <nav style={{ marginBottom: '20px' }}>
-        <button onClick={() => navigate('/inventory')} style={{ marginRight: '10px' }}>
-            Inventory
-        </button>
-        <button onClick={() => navigate('/quotation')}>Quotation</button>
-      </nav>
       {!newOrder && !currentOrder ? (
         <div>
           <button onClick={() => setNewOrder(true)}>New Quotation</button>
-          <ul>
-            {quotations.map((quotation, index) => (
+          <ul style={{ listStyleType: 'none', padding: 0 }}>
+            {quotations.map((quotation) => (
               <li
-                key={index}
-                onClick={() => setCurrentOrder(quotation)}
+                key={quotation.id}
+                onClick={() => fetchQuotationItems(quotation.id)}
                 style={{
                   padding: '10px',
                   border: '1px solid #ccc',
                   marginBottom: '10px',
                   cursor: 'pointer',
+                  display: 'flex',
+                  justifyContent: 'space-between',
                 }}
               >
-                {quotation.companyName} ({quotation.orderDate}){' '}
-                {isOrderComplete(quotation) ? '✔' : '✖'}
-                {isOrderComplete(quotation) && (
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation(); // Prevent clicking the order
-                      handleSendQuotation(quotation);
-                    }}
-                    style={{ marginLeft: '10px' }}
-                  >
-                    Send Quotation to Customer
-                  </button>
-                )}
+                <span>
+                  <strong>{quotation.companyName}</strong> ({quotation.orderDate})
+                </span>
+                <span>{quotation.items?.every((item) => item.supplier_name) ? '✔' : '✖'}</span>
               </li>
             ))}
           </ul>
@@ -154,19 +109,27 @@ function QuotationPage() {
                 type="text"
                 placeholder="Item Name"
                 value={item.name}
-                onChange={(e) => handleItemChange(index, 'name', e.target.value)}
+                onChange={(e) => {
+                  const updatedItems = [...items];
+                  updatedItems[index].name = e.target.value;
+                  setItems(updatedItems);
+                }}
                 style={{ marginRight: '10px', padding: '5px' }}
               />
               <input
                 type="number"
                 placeholder="Quantity"
                 value={item.quantity}
-                onChange={(e) => handleItemChange(index, 'quantity', e.target.value)}
+                onChange={(e) => {
+                  const updatedItems = [...items];
+                  updatedItems[index].quantity = e.target.value;
+                  setItems(updatedItems);
+                }}
                 style={{ padding: '5px' }}
               />
             </div>
           ))}
-          <button onClick={addItemRow}>+</button>
+          <button onClick={() => setItems([...items, { name: '', quantity: '' }])}>+</button>
           <br />
           <button onClick={saveOrder} style={{ marginTop: '20px' }}>
             Save Order
@@ -178,28 +141,16 @@ function QuotationPage() {
       ) : (
         <div>
           <h3>Order Details</h3>
-          {Object.entries(currentOrder.groupedSuppliers).map(([supplier, items]) => (
-            <div key={supplier} style={{ marginBottom: '20px' }}>
-              <h4>Supplier: {supplier}</h4>
-              <ul>
-                {items.map((item, index) => (
-                  <li key={index}>
-                    {item.name} (Quantity: {item.quantity}) -{' '}
-                    {item.price ? `Price: $${item.price}` : 'Price not quoted'}
-                    <input
-                      type="number"
-                      placeholder="Manual Price"
-                      value={item.price || ''}
-                      onChange={(e) =>
-                        updateItemPrice(supplier, index, parseFloat(e.target.value))
-                      }
-                      style={{ marginLeft: '10px', padding: '5px' }}
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <ul>
+            {(currentOrder?.items || []).map((item, index) => (
+              <li key={index}>
+                {item.item_name} (Quantity: {item.quantity}) - Supplier: {item.supplier_name || 'No known supplier'}
+              </li>
+            ))}
+          </ul>
+          <button onClick={sendQuotationRequest} style={{ marginBottom: '10px' }}>
+            Send Quotation Request
+          </button>
           <button onClick={() => setCurrentOrder(null)}>Back to Orders</button>
         </div>
       )}

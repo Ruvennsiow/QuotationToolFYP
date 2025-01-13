@@ -1,3 +1,4 @@
+// LoginPage.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -5,11 +6,11 @@ function LoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    setError(''); // Clear previous errors
+    setError('');
 
     try {
       const response = await fetch('http://localhost:5000/login', {
@@ -27,7 +28,7 @@ function LoginPage() {
       const data = await response.json();
 
       if (data.success) {
-        navigate('/inventory'); // Navigate to inventory page
+        navigate('/inventory');
       } else {
         setError('Incorrect username or password');
       }
