@@ -6,7 +6,7 @@ function EmailTemplate({ supplier, items, onClose, onEmailSent }) {
     .join('\n')}\n\nBest regards,\nRuvenn`;
 
   const handleSendEmail = () => {
-    fetch('http://localhost:5000/send-email', {
+    fetch('https://quotationtoolfyp.onrender.com/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

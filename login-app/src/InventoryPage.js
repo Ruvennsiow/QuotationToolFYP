@@ -10,7 +10,7 @@ function InventoryPage() {
 
   // Fetch inventory data
   useEffect(() => {
-    fetch('http://localhost:5000/inventory')
+    fetch('https://quotationtoolfyp.onrender.com/inventory')
       .then((response) => response.json())
       .then((data) => setInventory(data))
       .catch((error) => console.error('Error fetching inventory:', error));

@@ -127,7 +127,7 @@ async function fetchEmailContent(gmail, messageId) {
 // Save quotation to the database
 async function saveQuotationToDatabase(sender, subject, parsedQuotation) {
   try {
-    const response = await axios.post('http://localhost:5000/quotations/from-email', {
+    const response = await axios.post('https://quotationtoolfyp.onrender.com/quotations/from-email', {
       sender,
       subject,
       parsedQuotation,

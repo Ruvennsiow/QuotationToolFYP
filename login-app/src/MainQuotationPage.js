@@ -7,14 +7,14 @@ function MainQuotationPage() {
 
   // Fetch quotations data
   useEffect(() => {
-    fetch('http://localhost:5000/quotations')
+    fetch('https://quotationtoolfyp.onrender.com/quotations')
       .then((response) => response.json())
       .then(async (data) => {
         // Fetch items for each quotation and enrich the quotation with its items
         const enrichedQuotations = await Promise.all(
           data.map(async (quotation) => {
             const itemsResponse = await fetch(
-              `http://localhost:5000/quotations/${quotation.id}/items`
+              `https://quotationtoolfyp.onrender.com/quotations/${quotation.id}/items`
             );
             const items = await itemsResponse.json();
             return { ...quotation, items };
