@@ -12,7 +12,7 @@ function QuotationDetailsPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/quotations/${id}/items`)
+    fetch(`https://quotationtoolfyp.onrender.com/quotations/${id}/items`)
       .then((response) => response.json())
       .then((data) => {
         setQuotation(data);
@@ -28,7 +28,7 @@ function QuotationDetailsPage() {
   };
 
   const saveQuotationPrices = () => {
-    fetch(`http://localhost:5000/quotations/${id}/items`, {
+    fetch(`https://quotationtoolfyp.onrender.com/quotations/${id}/items`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(editedItems),
@@ -50,7 +50,7 @@ function QuotationDetailsPage() {
     );
   
     itemsToUpdate.forEach((item) => {
-      fetch(`http://localhost:5000/quotation-items/${item.id}/status`, {
+      fetch(`https://quotationtoolfyp.onrender.com/quotation-items/${item.id}/status`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: 'pending' }),
