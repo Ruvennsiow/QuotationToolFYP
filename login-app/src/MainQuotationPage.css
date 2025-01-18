@@ -1,0 +1,210 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f5f6fa;
+    --text-color: #2c3e50;
+    --border-color: #e1e8ed;
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --hover-color: #f8f9fa;
+    --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quotation-container {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    padding: 20px;
+  }
+  
+  .quotation-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .page-title {
+    color: var(--primary-color);
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .navigation-bar {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .nav-button.active {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .new-quotation-button {
+    background-color: var(--success-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-quotation-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .quotation-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quotation-item {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .quotation-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .quotation-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .company-name {
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  .order-date {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .status-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .status-indicator.complete {
+    background-color: rgba(46, 204, 113, 0.1);
+    color: var(--success-color);
+  }
+  
+  .status-indicator.incomplete {
+    background-color: rgba(231, 76, 60, 0.1);
+    color: var(--error-color);
+  }
+  
+  .send-button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .quotation-content {
+      padding: 20px;
+    }
+  
+    .page-title {
+      font-size: 24px;
+    }
+  
+    .navigation-bar {
+      flex-wrap: wrap;
+    }
+  
+    .nav-button {
+      flex: 1;
+      min-width: 120px;
+    }
+  
+    .quotation-item {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .send-button {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quotation-container {
+      padding: 10px;
+    }
+  
+    .quotation-content {
+      padding: 15px;
+    }
+  
+    .company-info {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+  
+    .nav-button {
+      padding: 8px 15px;
+    }
+  }

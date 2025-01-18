@@ -1,0 +1,120 @@
+.email-customer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .email-customer-modal {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .email-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .email-field {
+    margin-bottom: 20px;
+  }
+  
+  .field-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #2c3e50;
+  }
+  
+  .field-value {
+    color: #34495e;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .email-input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  }
+  
+  .email-body {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family: inherit;
+    line-height: 1.6;
+    color: #2c3e50;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+  }
+  
+  .send-button, .close-button {
+    flex: 1;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .send-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .send-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .send-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .close-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .close-button:hover {
+    background-color: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .email-customer-modal {
+      padding: 20px;
+      width: 95%;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  }

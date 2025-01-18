@@ -168,7 +168,104 @@ app.put('/quotation-items/:id/status', async (req, res) => {
     res.status(500).send('Error updating status');
   }
 });
+// to edit inventory
+app.put('/inventory/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { name, description, cost_price, selling_price, supplier_details } = req.body;
+    
+    // Validate the input
+    if (!name || !description || !cost_price || !selling_price) {
+      return res.status(400).json({ error: 'All fields are required' });
+    }
 
+    // Convert price values to numbers if they're strings
+    const costPrice = parseFloat(cost_price);
+    const sellingPrice = parseFloat(selling_price);
+
+    const query = `
+      UPDATE inventory 
+      SET 
+        name = ?,
+        description = ?,
+        cost_price = ?,
+        selling_price = ?,
+        supplier_details = ?,
+        updated_at = CURRENT_TIMESTAMP
+      WHERE id = ?
+    `;
+
+    const values = [
+      name,
+      description,
+      costPrice,
+      sellingPrice,
+      supplier_details || null,
+      id
+    ];
+
+    await pool.query(query, values);
+
+    // Fetch the updated record
+    const selectQuery = 'SELECT * FROM inventory WHERE id = ?';
+    const [updatedItem] = await pool.query(selectQuery, [id]);
+
+    if (!updatedItem.length) {
+      return res.status(404).json({ error: 'Inventory item not found' });
+    }
+
+    res.json(updatedItem[0]);
+  } catch (error) {
+    console.error('Error updating inventory:', error);
+    res.status(500).json({ 
+      error: 'Internal server error', 
+      details: error.message 
+    });
+  }
+});
+// to add inventory 
+app.post('/inventory', async (req, res) => {
+  try {
+    const { name, description, cost_price, selling_price, supplier_details } = req.body;
+    
+    // Validate the input
+    if (!name || !description || !cost_price || !selling_price) {
+      return res.status(400).json({ error: 'All fields are required' });
+    }
+
+    const query = `
+      INSERT INTO inventory 
+      (name, description, cost_price, selling_price, supplier_details) 
+      VALUES (?, ?, ?, ?, ?)
+    `;
+
+    const values = [
+      name,
+      description,
+      parseFloat(cost_price),
+      parseFloat(selling_price),
+      supplier_details || null
+    ];
+
+    const [result] = await pool.query(query, values);
+
+    if (result.affectedRows === 1) {
+      res.status(201).json({ 
+        message: 'Inventory item added successfully',
+        id: result.insertId 
+      });
+    } else {
+      res.status(400).json({ error: 'Failed to add inventory item' });
+    }
+
+  } catch (error) {
+    console.error('Error adding inventory:', error);
+    res.status(500).json({ 
+      error: 'Internal server error', 
+      details: error.message 
+    });
+  }
+});
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

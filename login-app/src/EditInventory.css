@@ -1,0 +1,132 @@
+.edit-inventory-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .edit-inventory-modal {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .modal-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .search-section {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .inventory-selection {
+    margin-bottom: 20px;
+  }
+  
+  .inventory-list {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .inventory-list option {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .inventory-list option:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .save-button {
+    background-color: var(--success-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    flex: 1;
+  }
+  
+  .cancel-button {
+    background-color: var(--error-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-inventory-modal {
+      padding: 20px;
+      width: 95%;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  }

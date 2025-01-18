@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import EmailTemplate from './EmailTemplate';
+import './QuotationDetailsPage.css';
+import LoadingSpinner from './components/LoadingSpinner';
 
 function QuotationDetailsPage() {
   const { id } = useParams();
@@ -10,15 +12,19 @@ function QuotationDetailsPage() {
   const [showEmailTemplate, setShowEmailTemplate] = useState(false);
   const [selectedSupplier, setSelectedSupplier] = useState(null);
   const navigate = useNavigate();
+  const BASE_URL = require('./config');
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    fetch(`https://quotationtoolfyp.onrender.com/quotations/${id}/items`)
+    setIsLoading(true);
+    fetch(`${BASE_URL}/quotations/${id}/items`)
       .then((response) => response.json())
       .then((data) => {
         setQuotation(data);
         setEditedItems(data.map((item) => ({ ...item, price: item.price || '' })));
       })
-      .catch((error) => console.error('Error fetching quotation details:', error));
+      .catch((error) => console.error('Error fetching quotation details:', error))
+      .finally(() => setIsLoading(false));
   }, [id]);
 
   const handlePriceChange = (index, value) => {
@@ -28,7 +34,8 @@ function QuotationDetailsPage() {
   };
 
   const saveQuotationPrices = () => {
-    fetch(`https://quotationtoolfyp.onrender.com/quotations/${id}/items`, {
+    setIsLoading(true);
+    fetch(`${BASE_URL}/quotations/${id}/items`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(editedItems),
@@ -42,7 +49,8 @@ function QuotationDetailsPage() {
           alert('Failed to save prices.');
         }
       })
-      .catch((error) => console.error('Error saving prices:', error));
+      .catch((error) => console.error('Error saving prices:', error))
+      .finally(() => setIsLoading(false));
   };
   const updateItemStatusToPending = (supplier) => {
     const itemsToUpdate = editedItems.filter(
@@ -50,7 +58,7 @@ function QuotationDetailsPage() {
     );
   
     itemsToUpdate.forEach((item) => {
-      fetch(`https://quotationtoolfyp.onrender.com/quotation-items/${item.id}/status`, {
+      fetch(`${BASE_URL}/quotation-items/${item.id}/status`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: 'pending' }),
@@ -86,73 +94,91 @@ function QuotationDetailsPage() {
 
 
   return (
-    <div style={{ padding: '20px', maxWidth: '800px', margin: 'auto' }}>
-      <h3>Quotation Details</h3>
-      {quotation ? (
-        <div>
-          <ul>
-            {editedItems.map((item, index) => (
-              <li key={index} style={{ marginBottom: '10px' }}>
-                <span>
-                  {item.item_name} (Quantity: {item.quantity}) - Supplier: {item.supplier_name || 'No known supplier'}
-                </span>
-                <br />
-                <label>
-                  Quotation Price:
-                  <input
-                    type="number"
-                    value={item.price}
-                    onChange={(e) => handlePriceChange(index, e.target.value)}
-                    style={{ marginLeft: '10px', padding: '5px' }}
-                  />
-                </label>
-                {item.supplier_name && item.supplier_name !== 'No known supplier' && (
-                <>
-                    {item.status === 'not sent' && (
-                    <button
-                        onClick={() =>
-                        handleSendQuotationRequest(
+    <div className="quotation-details-container">
+      {isLoading && <LoadingSpinner />}
+      <div className="quotation-details-content">
+        <h3 className="page-title">Quotation Details</h3>
+        
+        {quotation ? (
+          <div className="details-wrapper">
+            <ul className="items-list">
+              {editedItems.map((item, index) => (
+                <li key={index} className="item-card">
+                  <div className="item-info">
+                    <span className="item-name">
+                      {item.item_name} 
+                      <span className="quantity-badge">
+                        Quantity: {item.quantity}
+                      </span>
+                    </span>
+                    <span className="supplier-info">
+                      Supplier: {item.supplier_name || 'No known supplier'}
+                    </span>
+                  </div>
+                  
+                  <div className="price-section">
+                    <label className="price-label">
+                      Quotation Price:
+                      <input
+                        type="number"
+                        value={item.price}
+                        onChange={(e) => handlePriceChange(index, e.target.value)}
+                        className="price-input"
+                      />
+                    </label>
+                  </div>
+
+                  {item.supplier_name && item.supplier_name !== 'No known supplier' && (
+                    <div className="supplier-actions">
+                      {item.status === 'not sent' && (
+                        <button
+                          onClick={() => handleSendQuotationRequest(
                             item.supplier_name,
                             editedItems.filter((itm) => itm.supplier_name === item.supplier_name)
-                        )
-                        }
-                        style={{ marginLeft: '10px', padding: '5px' }}
-                    >
-                        Send Quotation Request
-                    </button>
-                    )}
-                    {item.status === 'pending' && (
-                    <span style={{ color: 'green', marginLeft: '10px' }}>
-                        ✔ Pending Quotation from Supplier
-                    </span>
-                    )}
-                    {item.status === 'received' && (
-                    <span style={{ color: 'blue', marginLeft: '10px' }}>
-                        Received Quotation
-                    </span>
-                    )}
-                </>
-                )}
-              </li>
-            ))}
-          </ul>
-          <button onClick={saveQuotationPrices} style={{ marginBottom: '10px', marginRight: '10px' }}>
-            Save Prices
-          </button>
-          <button onClick={() => navigate('/quotations')}>Back to Orders</button>
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
+                          )}
+                          className="request-button"
+                        >
+                          Send Quotation Request
+                        </button>
+                      )}
+                      {item.status === 'pending' && (
+                        <span className="status-badge pending">
+                          ✔ Pending Quotation from Supplier
+                        </span>
+                      )}
+                      {item.status === 'received' && (
+                        <span className="status-badge received">
+                          Received Quotation
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+            
+            <div className="action-buttons">
+              <button onClick={saveQuotationPrices} className="save-button">
+                Save Prices
+              </button>
+              <button onClick={() => navigate('/quotations')} className="back-button">
+                Back to Orders
+              </button>
+            </div>
+          </div>
+        ) : (
+          <p className="loading-text">Loading...</p>
+        )}
 
-      {showEmailTemplate && selectedSupplier && (
-        <EmailTemplate
-          supplier={selectedSupplier}
-          items={editedItems.filter((item) => item.supplier_name === selectedSupplier)} // Only show items for the selected supplier
-          onClose={() => setShowEmailTemplate(false)}
-          onEmailSent={() => handleEmailSent(selectedSupplier)} // Callback when email is sent
-        />
-      )}
+        {showEmailTemplate && selectedSupplier && (
+          <EmailTemplate
+            supplier={selectedSupplier}
+            items={editedItems.filter((item) => item.supplier_name === selectedSupplier)}
+            onClose={() => setShowEmailTemplate(false)}
+            onEmailSent={() => handleEmailSent(selectedSupplier)}
+          />
+        )}
+      </div>
     </div>
   );
 }

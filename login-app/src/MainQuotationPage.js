@@ -1,20 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './MainQuotationPage.css';
+import LoadingSpinner from './components/LoadingSpinner';
+import EmailCustomer from './EmailCustomer';
 
 function MainQuotationPage() {
   const [quotations, setQuotations] = useState([]);
   const navigate = useNavigate();
+  const BASE_URL = require('./config');
+  const [isLoading, setIsLoading] = useState(false);
+  const [showCustomerEmail, setShowCustomerEmail] = useState(false);
+  const [selectedQuotation, setSelectedQuotation] = useState(null);
 
   // Fetch quotations data
   useEffect(() => {
-    fetch('https://quotationtoolfyp.onrender.com/quotations')
+    setIsLoading(true);
+    fetch(`${BASE_URL}/quotations`)
       .then((response) => response.json())
       .then(async (data) => {
         // Fetch items for each quotation and enrich the quotation with its items
         const enrichedQuotations = await Promise.all(
           data.map(async (quotation) => {
             const itemsResponse = await fetch(
-              `https://quotationtoolfyp.onrender.com/quotations/${quotation.id}/items`
+              `${BASE_URL}/quotations/${quotation.id}/items`
             );
             const items = await itemsResponse.json();
             return { ...quotation, items };
@@ -22,59 +30,79 @@ function MainQuotationPage() {
         );
         setQuotations(enrichedQuotations);
       })
-      .catch((error) => console.error('Error fetching quotations:', error));
+      .catch((error) => console.error('Error fetching quotations:', error))
+      .finally(() => setIsLoading(false));
   }, []);
 
-  const sendQuotationToCustomer = (quotationId) => {
-    alert(`Quotation ${quotationId} has been sent to the customer!`);
-    // Here you can implement the API call or email sending logic
+  const sendQuotationToCustomer = (quotation) => {
+    setSelectedQuotation(quotation);
+    setShowCustomerEmail(true);
   };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '800px', margin: 'auto' }}>
-      <h2>Quotations</h2>
-      <nav style={{ marginBottom: '20px' }}>
-        <button onClick={() => navigate('/inventory')} style={{ marginRight: '10px' }}>
-          Inventory
+    <div className="quotation-container">
+      {isLoading && <LoadingSpinner />}
+      <div className="quotation-content">
+        <h2 className="page-title">Quotations</h2>
+        
+        <nav className="navigation-bar">
+          <button onClick={() => navigate('/inventory')} className="nav-button">
+            Inventory
+          </button>
+          <button onClick={() => navigate('/quotations')} className="nav-button active">
+            Quotation
+          </button>
+        </nav>
+
+        <button onClick={() => navigate('/new-quotation')} className="new-quotation-button">
+          New Quotation
         </button>
-        <button onClick={() => navigate('/quotations')}>Quotation</button>
-      </nav>
-      <button onClick={() => navigate('/new-quotation')} style={{ marginBottom: '20px' }}>
-        New Quotation
-      </button>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        {quotations.map((quotation) => (
-          <li
-            key={quotation.id}
-            style={{
-              padding: '10px',
-              border: '1px solid #ccc',
-              marginBottom: '10px',
-              cursor: 'pointer',
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-            }}
-          >
-            <div onClick={() => navigate(`/quotation/${quotation.id}`)} style={{ flex: 1 }}>
-              <span>
-                <strong>{quotation.company_name}</strong> ({quotation.order_date})
-              </span>
-              <span style={{ marginLeft: '10px' }}>
-                {quotation.items?.every((item) => item.price && item.price > 0) ? '✔' : '✖'}
-              </span>
-            </div>
-            {quotation.items?.every((item) => item.price && item.price > 0) && (
-              <button
-                onClick={() => sendQuotationToCustomer(quotation.id)}
-                style={{ marginLeft: '10px', padding: '5px 10px' }}
+
+        <ul className="quotation-list">
+          {quotations.map((quotation) => (
+            <li key={quotation.id} className="quotation-item">
+              <div 
+                onClick={() => navigate(`/quotation/${quotation.id}`)} 
+                className="quotation-details"
               >
-                Send to Customer
-              </button>
-            )}
-          </li>
-        ))}
-      </ul>
+                <div className="company-info">
+                  <span className="company-name">{quotation.company_name}</span>
+                  <span className="order-date">({quotation.order_date})</span>
+                </div>
+                <span className={`status-indicator ${
+                  quotation.items?.every((item) => item.price && item.price > 0) 
+                    ? 'complete' 
+                    : 'incomplete'
+                }`}>
+                  {quotation.items?.every((item) => item.price && item.price > 0) ? '✔' : '✖'}
+                </span>
+              </div>
+              
+              {quotation.items?.every((item) => item.price && item.price > 0) && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation(); // Prevent navigation when clicking the button
+                    sendQuotationToCustomer(quotation);
+                  }}
+                  className="send-button"
+                >
+                  Send to Customer
+                </button>
+              )}
+            </li>
+          ))}
+        </ul>
+        {showCustomerEmail && selectedQuotation && (
+        <EmailCustomer
+          quotation={selectedQuotation}
+          onClose={() => setShowCustomerEmail(false)}
+          onEmailSent={() => {
+            setShowCustomerEmail(false);
+            // Optionally update the quotation status or refresh the list
+          }}
+        />
+      )}
+      </div>
     </div>
   );
 }

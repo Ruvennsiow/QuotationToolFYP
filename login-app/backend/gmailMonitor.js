@@ -1,3 +1,4 @@
+const BASE_URL = require('./config');
 const fs = require('fs');
 const { google } = require('googleapis');
 const { parseQuotation, isQuotationRequest } = require('./Chatgpt'); // Import ChatGPT functions
@@ -127,7 +128,7 @@ async function fetchEmailContent(gmail, messageId) {
 // Save quotation to the database
 async function saveQuotationToDatabase(sender, subject, parsedQuotation) {
   try {
-    const response = await axios.post('https://quotationtoolfyp.onrender.com/quotations/from-email', {
+    const response = await axios.post(`${BASE_URL}/quotations/from-email`, {
       sender,
       subject,
       parsedQuotation,
