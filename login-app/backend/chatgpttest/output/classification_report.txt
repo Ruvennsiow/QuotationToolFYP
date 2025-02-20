@@ -1,0 +1,21 @@
+
+Classification Report Summary
+---------------------------
+Total Samples: 105
+Accuracy: 98.10%
+Precision: 0.96%
+Recall: 1.00%
+
+Confusion Matrix:
+- True Positives: 50
+- True Negatives: 53
+- False Positives: 2
+- False Negatives: 0
+
+Performance Metrics:
+- Average Response Time: 749.94ms
+- Fastest Response: 432ms
+- Slowest Response: 21949ms
+
+Generated on: 2/5/2025, 4:06:21 AM
+    

@@ -1,0 +1,25 @@
+
+  Classification Errors Report
+  --------------------------
+  Total Errors: 2
+  False Negatives: 0
+  False Positives: 2
+  
+  Detailed Error Log:
+  
+  Error 1:
+  Type: False Positive
+  Expected: no
+  Actual: yes
+  Email: "The client said, 'Quote me happy!' during the call. See notes."
+  -------------------
+
+  Error 2:
+  Type: False Positive
+  Expected: no
+  Actual: yes
+  Email: "The client said, 'Can you quote me on this?' but it was rhetorical."
+  -------------------
+  
+  Generated on: 2/5/2025, 4:06:20 AM
+  

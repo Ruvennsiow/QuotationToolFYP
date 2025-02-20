@@ -1,0 +1,106 @@
+id,email_body,expected_result
+1,"Please provide a quote for 100 stainless steel bolts (M8 size). Delivery needed by August 15th. - Alex",yes
+2,"Your invoice #INV-5678 is now overdue. Kindly process payment today. - Finance Team",no
+3,"Can you send pricing for 50 office desks with cable management? Thanks, Sarah",yes
+4,"Team lunch tomorrow at 1 PM in the cafeteria. Please RSVP. - HR",no
+5,"Need best price for 200 LED floodlights (IP65 rating). Deadline: EOD Friday. - James",yes
+6,"Your software license expires in 7 days. Renew here: [link]. - Support",no
+7,"Requesting formal quotation for 10 industrial air compressors. - Procurement",yes
+8,"Meeting rescheduled to Wednesday at 3 PM. Agenda attached. - Mark",no
+9,"Quote required: 500 meters of 4mm electrical wiring. Terms? - Rachel",yes
+10,"Password reset requested for your account. Confirm here: [link]. - IT",no
+11,"Please advise pricing for 20 conference room projectors. - Linda",yes
+12,"Happy birthday! Enjoy your day off. - Management",no
+13,"Urgent: Need quote for 5,000 custom branded pens. Artwork attached. - Tom",yes
+14,"Your package has been delivered. Tracking: DHL87654321. - Logistics",no
+15,"RFQ: 100 safety helmets with visors. Specifications attached. - David",yes
+16,"Company picnic this Saturday! Sign up by Thursday. - Events Team",no
+17,"Could you quote 50 ergonomic chairs with lumbar support? - Grace",yes
+18,"Server maintenance tonight from 10 PM to 2 AM. - Tech Dept",no
+19,"Request for bulk pricing on A4 printer paper (5,000 reams). - Sam",yes
+20,"Your vacation request for July 20-25 has been approved. - HR",no
+21,"Need pricing ASAP for 200 high-pressure water pumps. - Engineering",yes
+22,"New employee handbook attached. Review by Friday. - Admin",no
+23,"Formal quotation request: 10,000 plastic food containers. - Emma",yes
+24,"Fire drill scheduled for tomorrow at 11 AM. - Facilities",no
+25,"Please send quote for 50 commercial-grade microwaves. - Ben",yes
+26,"Your parking permit renewal is due next week. - Security",no
+27,"Price check: 100 anti-static wrist straps. MOQ? - Procurement",yes
+28,"CEO all-hands meeting today at 4 PM. Mandatory attendance. - Comms",no
+29,"Need quotation for 200kg of ABS plastic pellets. - Manufacturing",yes
+30,"Office closed on Monday for public holiday. - Management",no
+31,"Urgent quote needed: 50 first aid kits (OSHA compliant). - Safety Team",yes
+32,"Update your emergency contact details here: [link]. - HR",no
+33,"Can you quote 10,000 custom-printed cardboard boxes? - Marketing",yes
+34,"WiFi password changed to 'Company2024'. - IT Dept",no
+35,"The client said, 'Quote me happy!' during the call. See notes.",no
+36,"Requesting price for 20 pallets of warehouse shelving. - Logistics",yes
+37,"Your subscription to CloudService Pro renews next week. - Billing",no
+38,"Need best rate for 100 graphic design laptops (RTX 4060). - IT",yes
+39,"Performance review meetings start next Monday. - HR",no
+40,"Please quote 500kg of aluminum alloy sheets (2mm thick). - John",yes
+41,"Parking lot repaving begins tomorrow. Use alternate entrance. - Facilities",no
+42,"RFQ: 200 office plants (low maintenance varieties). - Admin",yes
+43,"Phishing alert: Report suspicious emails to IT immediately. - Security",no
+44,"Budget required for 50 standing desks with monitors. - Finance",yes
+45,"Coffee machine in break room out of service. Use Floor 3. - Admin",no
+46,"Need urgent pricing for 10,000 biodegradable cups. - Events",yes
+47,"New cybersecurity training module assigned. Complete by EOW. - IT",no
+48,"Quotation needed: 5,000 branded USB drives (32GB). - Marketing",yes
+49,"Elevator maintenance ongoing. Use stairs where possible. - Facilities",no
+50,"Can you provide a quote for 200 safety goggles? - Warehouse",yes
+51,"Team building workshop postponed to next month. - HR",no
+52,"Price inquiry: 100 industrial fans (240V). Lead time? - Sam",yes
+53,"Update: New printer setup in Room 205. - IT Support",no
+54,"Request formal quote for 50 office soundproof booths. - Design",yes
+55,"Reminder: Submit timesheets by Friday 5 PM. - Payroll",no
+56,"Need bulk pricing for 1,000 HDMI cables (6ft). - Procurement",yes
+57,"Fire extinguisher inspection scheduled for tomorrow. - Safety",no
+58,"Quote request: 200 anti-fatigue floor mats. - Operations",yes
+59,"Lunch delivery service trial starts today. Menu attached. - Admin",no
+60,"Please provide rates for 500kg of PLA filament (3D printing). - R&D",yes
+61,"New recycling bins installed on all floors. Guidelines attached. - Green Team",no
+62,"Urgent: Quote needed for 20 conference call systems. - IT",yes
+63,"Staff ID photos will be taken in the lobby today. - HR",no
+64,"Can you send a quote for 100 office chairs with armrests? - Lucy",yes
+65,"Water cooler filter replacement today. Temporary units in place. - Facilities",no
+66,"Need pricing for 50 wireless presentation remotes. - Sales",yes
+67,"Mandatory diversity training assigned in your portal. - HR",no
+68,"The report quoted industry averages, but we need actual numbers.",no
+69,"Our CEO quoted your work in the press release draft. Review attached.",no
+70,"Your quoted prices from Q1 are outdated – need 2024 figures.",yes
+71,"Requesting quote for 200 office keyboards (wireless). - IT Dept",yes
+72,"Annual leave balances will reset on January 1. - HR",no
+73,"Need pricing for 10,000 compostable food containers. - Catering",yes
+74,"New project management tool rollout begins next week. - IT",no
+75,"Please quote 50 standing desk converters. Delivery to HQ. - Sam",yes
+76,"Bike rack installation completed near north entrance. - Facilities",no
+77,"RFQ: 100 ergonomic mouse pads with wrist support. - Admin",yes
+78,"Stairwell lighting upgrade ongoing. Use temporary lights. - Safety",no
+79,"Urgent: Quote for 500 fire-resistant document boxes. - Legal",yes
+80,"New cafeteria menu starts Monday. Dietary options marked. - Admin",no
+81,"Need best price for 200 noise-canceling headphones. - IT",yes
+82,"Office temperature settings adjusted per feedback. - Facilities",no
+83,"Quotation required: 50 office water coolers (hot/cold). - Procurement",yes
+84,"Charity fun run registration now open. Sign up here. - Events",no
+85,"Price check: 100 adjustable monitor arms (dual screen). - Design",yes
+86,"New ID badge scanners activated today. Tap to enter. - Security",no
+87,"Please provide quote for 20 meeting room webcams (4K). - IT",yes
+88,"Reminder: Clean desk policy enforced starting Monday. - Management",no
+89,"Need bulk pricing for 5,000 lanyards with badge holders. - HR",yes
+90,"Coffee supplier changed – free tasting in break room. - Admin",no
+91,"Quote request: 200 desk lamps with USB ports. - Facilities",yes
+92,"New parental leave policy document attached. - HR",no
+93,"Urgent: Pricing needed for 10,000 custom mailer boxes. - Shipping",yes
+94,"Air conditioning maintenance scheduled for Friday. - Facilities",no
+95,"Can you quote 50 industrial label printers? - Warehouse",yes
+96,"Friday casual dress day approved for summer months. - HR",no
+97,"Requesting formal quotation for 100 office toolkits. - Maintenance",yes
+98,"New smoking area designated behind Building B. - Facilities",no
+99,"Need best rate for 200 office footrests (adjustable). - Health",yes
+100,"Monthly fire alarm test today at 2 PM. - Safety Team",no
+101,"The client said, 'Can you quote me on this?' but it was rhetorical.",no
+102,"Your quote from last week was perfect – proceed with order.",no
+103,"We quoted Shakespeare in the proposal – see page 5.",no
+104,"Need to revise the quoted timeline in Section 3.",no
+105,"Can you requote the project with faster shipping?",yes

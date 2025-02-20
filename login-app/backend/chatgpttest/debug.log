@@ -1,0 +1,1669 @@
+[
+  {
+    "email": "Please quote 100 laptops. Delivery needed by Friday.",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 2468
+  },
+  {
+    "email": "Please provide a quote for 100 stainless steel bolts (M8 size). Delivery needed by August 15th. - Alex",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1732
+  },
+  {
+    "email": "Your invoice #INV-5678 is now overdue. Kindly process payment today. - Finance Team",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 897
+  },
+  {
+    "email": "Can you send pricing for 50 office desks with cable management? Thanks, Sarah",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 2236
+  },
+  {
+    "email": "Team lunch tomorrow at 1 PM in the cafeteria. Please RSVP. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1486
+  },
+  {
+    "email": "Need best price for 200 LED floodlights (IP65 rating). Deadline: EOD Friday. - James",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1052
+  },
+  {
+    "email": "Your software license expires in 7 days. Renew here: [link]. - Support",
+    "responses": [
+      "yes",
+      "yes",
+      "no"
+    ],
+    "final": "yes",
+    "time": 2565
+  },
+  {
+    "email": "Requesting formal quotation for 10 industrial air compressors. - Procurement",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 2663
+  },
+  {
+    "email": "Meeting rescheduled to Wednesday at 3 PM. Agenda attached. - Mark",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1810
+  },
+  {
+    "email": "Quote required: 500 meters of 4mm electrical wiring. Terms? - Rachel",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1010
+  },
+  {
+    "email": "Password reset requested for your account. Confirm here: [link]. - IT",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1012
+  },
+  {
+    "email": "Please advise pricing for 20 conference room projectors. - Linda",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 826
+  },
+  {
+    "email": "Happy birthday! Enjoy your day off. - Management",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1200
+  },
+  {
+    "email": "Urgent: Need quote for 5,000 custom branded pens. Artwork attached. - Tom",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 973
+  },
+  {
+    "email": "Your package has been delivered. Tracking: DHL87654321. - Logistics",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 755
+  },
+  {
+    "email": "RFQ: 100 safety helmets with visors. Specifications attached. - David",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1056
+  },
+  {
+    "email": "Company picnic this Saturday! Sign up by Thursday. - Events Team",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 961
+  },
+  {
+    "email": "Could you quote 50 ergonomic chairs with lumbar support? - Grace",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1052
+  },
+  {
+    "email": "Server maintenance tonight from 10 PM to 2 AM. - Tech Dept",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 952
+  },
+  {
+    "email": "Request for bulk pricing on A4 printer paper (5,000 reams). - Sam",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 983
+  },
+  {
+    "email": "Your vacation request for July 20-25 has been approved. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1302
+  },
+  {
+    "email": "Need pricing ASAP for 200 high-pressure water pumps. - Engineering",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 697
+  },
+  {
+    "email": "New employee handbook attached. Review by Friday. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1707
+  },
+  {
+    "email": "Formal quotation request: 10,000 plastic food containers. - Emma",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1528
+  },
+  {
+    "email": "Fire drill scheduled for tomorrow at 11 AM. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1073
+  },
+  {
+    "email": "Please send quote for 50 commercial-grade microwaves. - Ben",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1119
+  },
+  {
+    "email": "Your parking permit renewal is due next week. - Security",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1251
+  },
+  {
+    "email": "Price check: 100 anti-static wrist straps. MOQ? - Procurement",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 628
+  },
+  {
+    "email": "CEO all-hands meeting today at 4 PM. Mandatory attendance. - Comms",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 969
+  },
+  {
+    "email": "Need quotation for 200kg of ABS plastic pellets. - Manufacturing",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1211
+  },
+  {
+    "email": "Office closed on Monday for public holiday. - Management",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 774
+  },
+  {
+    "email": "Urgent quote needed: 50 first aid kits (OSHA compliant). - Safety Team",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1639
+  },
+  {
+    "email": "Update your emergency contact details here: [link]. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1747
+  },
+  {
+    "email": "Can you quote 10,000 custom-printed cardboard boxes? - Marketing",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 946
+  },
+  {
+    "email": "WiFi password changed to 'Company2024'. - IT Dept",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1358
+  },
+  {
+    "email": "The client said, 'Quote me happy!' during the call. See notes.",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1639
+  },
+  {
+    "email": "Requesting price for 20 pallets of warehouse shelving. - Logistics",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1105
+  },
+  {
+    "email": "Your subscription to CloudService Pro renews next week. - Billing",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 925
+  },
+  {
+    "email": "Need best rate for 100 graphic design laptops (RTX 4060). - IT",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 908
+  },
+  {
+    "email": "Performance review meetings start next Monday. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1627
+  },
+  {
+    "email": "Please quote 500kg of aluminum alloy sheets (2mm thick). - John",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1887
+  },
+  {
+    "email": "Parking lot repaving begins tomorrow. Use alternate entrance. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 801
+  },
+  {
+    "email": "RFQ: 200 office plants (low maintenance varieties). - Admin",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1129
+  },
+  {
+    "email": "Phishing alert: Report suspicious emails to IT immediately. - Security",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1413
+  },
+  {
+    "email": "Budget required for 50 standing desks with monitors. - Finance",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1536
+  },
+  {
+    "email": "Coffee machine in break room out of service. Use Floor 3. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1029
+  },
+  {
+    "email": "Need urgent pricing for 10,000 biodegradable cups. - Events",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1033
+  },
+  {
+    "email": "New cybersecurity training module assigned. Complete by EOW. - IT",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1097
+  },
+  {
+    "email": "Quotation needed: 5,000 branded USB drives (32GB). - Marketing",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 907
+  },
+  {
+    "email": "Elevator maintenance ongoing. Use stairs where possible. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1477
+  },
+  {
+    "email": "Can you provide a quote for 200 safety goggles? - Warehouse",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1820
+  },
+  {
+    "email": "Team building workshop postponed to next month. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 674
+  },
+  {
+    "email": "Price inquiry: 100 industrial fans (240V). Lead time? - Sam",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1201
+  },
+  {
+    "email": "Update: New printer setup in Room 205. - IT Support",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 900
+  },
+  {
+    "email": "Request formal quote for 50 office soundproof booths. - Design",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1068
+  },
+  {
+    "email": "Reminder: Submit timesheets by Friday 5 PM. - Payroll",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1398
+  },
+  {
+    "email": "Need bulk pricing for 1,000 HDMI cables (6ft). - Procurement",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1818
+  },
+  {
+    "email": "Fire extinguisher inspection scheduled for tomorrow. - Safety",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 685
+  },
+  {
+    "email": "Quote request: 200 anti-fatigue floor mats. - Operations",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1215
+  },
+  {
+    "email": "Lunch delivery service trial starts today. Menu attached. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 2323
+  },
+  {
+    "email": "Please provide rates for 500kg of PLA filament (3D printing). - R&D",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1501
+  },
+  {
+    "email": "New recycling bins installed on all floors. Guidelines attached. - Green Team",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1079
+  },
+  {
+    "email": "Urgent: Quote needed for 20 conference call systems. - IT",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 980
+  },
+  {
+    "email": "Staff ID photos will be taken in the lobby today. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1058
+  },
+  {
+    "email": "Can you send a quote for 100 office chairs with armrests? - Lucy",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1310
+  },
+  {
+    "email": "Water cooler filter replacement today. Temporary units in place. - Facilities",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 935
+  },
+  {
+    "email": "Need pricing for 50 wireless presentation remotes. - Sales",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 629
+  },
+  {
+    "email": "Mandatory diversity training assigned in your portal. - HR",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 3332
+  },
+  {
+    "email": "The report quoted industry averages, but we need actual numbers.",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 2630
+  },
+  {
+    "email": "Our CEO quoted your work in the press release draft. Review attached.",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1509
+  },
+  {
+    "email": "Your quoted prices from Q1 are outdated – need 2024 figures.",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1800
+  },
+  {
+    "email": "Requesting quote for 200 office keyboards (wireless). - IT Dept",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 2007
+  },
+  {
+    "email": "Annual leave balances will reset on January 1. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 518
+  },
+  {
+    "email": "Need pricing for 10,000 compostable food containers. - Catering",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1140
+  },
+  {
+    "email": "New project management tool rollout begins next week. - IT",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 944
+  },
+  {
+    "email": "Please quote 50 standing desk converters. Delivery to HQ. - Sam",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 948
+  },
+  {
+    "email": "Bike rack installation completed near north entrance. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1386
+  },
+  {
+    "email": "RFQ: 100 ergonomic mouse pads with wrist support. - Admin",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 638
+  },
+  {
+    "email": "Stairwell lighting upgrade ongoing. Use temporary lights. - Safety",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1416
+  },
+  {
+    "email": "Urgent: Quote for 500 fire-resistant document boxes. - Legal",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 4888
+  },
+  {
+    "email": "New cafeteria menu starts Monday. Dietary options marked. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 2023
+  },
+  {
+    "email": "Need best price for 200 noise-canceling headphones. - IT",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1502
+  },
+  {
+    "email": "Office temperature settings adjusted per feedback. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1621
+  },
+  {
+    "email": "Quotation required: 50 office water coolers (hot/cold). - Procurement",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 2774
+  },
+  {
+    "email": "Charity fun run registration now open. Sign up here. - Events",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1666
+  },
+  {
+    "email": "Price check: 100 adjustable monitor arms (dual screen). - Design",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 883
+  },
+  {
+    "email": "New ID badge scanners activated today. Tap to enter. - Security",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1228
+  },
+  {
+    "email": "Please provide quote for 20 meeting room webcams (4K). - IT",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 859
+  },
+  {
+    "email": "Reminder: Clean desk policy enforced starting Monday. - Management",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 903
+  },
+  {
+    "email": "Need bulk pricing for 5,000 lanyards with badge holders. - HR",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1373
+  },
+  {
+    "email": "Coffee supplier changed – free tasting in break room. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 702
+  },
+  {
+    "email": "Quote request: 200 desk lamps with USB ports. - Facilities",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1151
+  },
+  {
+    "email": "New parental leave policy document attached. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1582
+  },
+  {
+    "email": "Urgent: Pricing needed for 10,000 custom mailer boxes. - Shipping",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1595
+  },
+  {
+    "email": "Air conditioning maintenance scheduled for Friday. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 941
+  },
+  {
+    "email": "Can you quote 50 industrial label printers? - Warehouse",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1168
+  },
+  {
+    "email": "Friday casual dress day approved for summer months. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 895
+  },
+  {
+    "email": "Requesting formal quotation for 100 office toolkits. - Maintenance",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 1055
+  },
+  {
+    "email": "New smoking area designated behind Building B. - Facilities",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 952
+  },
+  {
+    "email": "Need best rate for 200 office footrests (adjustable). - Health",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "final": "no",
+    "time": 947
+  },
+  {
+    "email": "Monthly fire alarm test today at 2 PM. - Safety Team",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1194
+  },
+  {
+    "email": "The client said, 'Can you quote me on this?' but it was rhetorical.",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1485
+  },
+  {
+    "email": "Your quote from last week was perfect – proceed with order.",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1749
+  },
+  {
+    "email": "We quoted Shakespeare in the proposal – see page 5.",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 977
+  },
+  {
+    "email": "Need to revise the quoted timeline in Section 3.",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 1001
+  },
+  {
+    "email": "Can you requote the project with faster shipping?",
+    "responses": [
+      "yes",
+      "no",
+      "no"
+    ],
+    "final": "no",
+    "time": 817
+  }
+][
+  {
+    "body": "Please quote 100 laptops. Delivery needed by Friday.",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 1497
+  },
+  {
+    "body": "We discussed pricing last week, need update",
+    "responses": [
+      "no",
+      "yes",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -0.8,
+    "elapsed": 1863
+  },
+  {
+    "body": "Please provide a quote for 100 stainless steel bolts (M8 size). Delivery needed by August 15th. - Alex",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 621
+  },
+  {
+    "body": "Your invoice #INV-5678 is now overdue. Kindly process payment today. - Finance Team",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 498
+  },
+  {
+    "body": "Can you send pricing for 50 office desks with cable management? Thanks, Sarah",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 1137
+  },
+  {
+    "body": "Team lunch tomorrow at 1 PM in the cafeteria. Please RSVP. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 524
+  },
+  {
+    "body": "Need best price for 200 LED floodlights (IP65 rating). Deadline: EOD Friday. - James",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 593
+  },
+  {
+    "body": "Your software license expires in 7 days. Renew here: [link]. - Support",
+    "responses": [
+      "no",
+      "yes",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -0.8,
+    "elapsed": 570
+  },
+  {
+    "body": "Requesting formal quotation for 10 industrial air compressors. - Procurement",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 553
+  },
+  {
+    "body": "Meeting rescheduled to Wednesday at 3 PM. Agenda attached. - Mark",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 572
+  }
+][
+  {
+    "body": "Quote required: 500 meters of 4mm electrical wiring. Terms? - Rachel",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 514
+  },
+  {
+    "body": "Password reset requested for your account. Confirm here: [link]. - IT",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 568
+  },
+  {
+    "body": "Please advise pricing for 20 conference room projectors. - Linda",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 581
+  },
+  {
+    "body": "Happy birthday! Enjoy your day off. - Management",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 1042
+  },
+  {
+    "body": "Urgent: Need quote for 5,000 custom branded pens. Artwork attached. - Tom",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 600
+  },
+  {
+    "body": "Your package has been delivered. Tracking: DHL87654321. - Logistics",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 1127
+  },
+  {
+    "body": "RFQ: 100 safety helmets with visors. Specifications attached. - David",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 1211
+  },
+  {
+    "body": "Company picnic this Saturday! Sign up by Thursday. - Events Team",
+    "responses": [
+      "no",
+      "no",
+      "yes"
+    ],
+    "finalDecision": "no",
+    "voteSum": -0.8,
+    "elapsed": 4324
+  },
+  {
+    "body": "Could you quote 50 ergonomic chairs with lumbar support? - Grace",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 559
+  },
+  {
+    "body": "Server maintenance tonight from 10 PM to 2 AM. - Tech Dept",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 1897
+  }
+][
+  {
+    "body": "Request for bulk pricing on A4 printer paper (5,000 reams). - Sam",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 1330
+  },
+  {
+    "body": "Your vacation request for July 20-25 has been approved. - HR",
+    "responses": [
+      "no",
+      "no",
+      "no"
+    ],
+    "finalDecision": "no",
+    "voteSum": -3,
+    "elapsed": 675
+  },
+  {
+    "body": "Need pricing ASAP for 200 high-pressure water pumps. - Engineering",
+    "responses": [
+      "yes",
+      "yes",
+      "yes"
+    ],
+    "finalDecision": "yes",
+    "voteSum": 3.5999999999999996,
+    "elapsed": 704
+  },
+  {
+    "body": "New employee handbook attached. Review by Friday. - Admin",
+    "responses": [
+      "no",
+      "no",
+      "yes"
+    ],
+    "finalDecision": "no",
+    "voteSum": -0.8,
+    "elapsed": 610
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Formal quotation request: 10,000 plastic food containers. - Emma"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Fire drill scheduled for tomorrow at 11 AM. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Please send quote for 50 commercial-grade microwaves. - Ben"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Your parking permit renewal is due next week. - Security"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Price check: 100 anti-static wrist straps. MOQ? - Procurement"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "CEO all-hands meeting today at 4 PM. Mandatory attendance. - Comms"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Need quotation for 200kg of ABS plastic pellets. - Manufacturing"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Office closed on Monday for public holiday. - Management"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Urgent quote needed: 50 first aid kits (OSHA compliant). - Safety Team"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Update your emergency contact details here: [link]. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Can you quote 10,000 custom-printed cardboard boxes? - Marketing"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "WiFi password changed to 'Company2024'. - IT Dept"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "The client said, 'Quote me happy!' during the call. See notes."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Requesting price for 20 pallets of warehouse shelving. - Logistics"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Your subscription to CloudService Pro renews next week. - Billing"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need best rate for 100 graphic design laptops (RTX 4060). - IT"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Performance review meetings start next Monday. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Please quote 500kg of aluminum alloy sheets (2mm thick). - John"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Parking lot repaving begins tomorrow. Use alternate entrance. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "RFQ: 200 office plants (low maintenance varieties). - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Phishing alert: Report suspicious emails to IT immediately. - Security"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Budget required for 50 standing desks with monitors. - Finance"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Coffee machine in break room out of service. Use Floor 3. - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need urgent pricing for 10,000 biodegradable cups. - Events"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New cybersecurity training module assigned. Complete by EOW. - IT"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Quotation needed: 5,000 branded USB drives (32GB). - Marketing"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Elevator maintenance ongoing. Use stairs where possible. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Can you provide a quote for 200 safety goggles? - Warehouse"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Team building workshop postponed to next month. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Price inquiry: 100 industrial fans (240V). Lead time? - Sam"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Update: New printer setup in Room 205. - IT Support"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Request formal quote for 50 office soundproof booths. - Design"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Reminder: Submit timesheets by Friday 5 PM. - Payroll"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need bulk pricing for 1,000 HDMI cables (6ft). - Procurement"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Fire extinguisher inspection scheduled for tomorrow. - Safety"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Quote request: 200 anti-fatigue floor mats. - Operations"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Lunch delivery service trial starts today. Menu attached. - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Please provide rates for 500kg of PLA filament (3D printing). - R&D"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New recycling bins installed on all floors. Guidelines attached. - Green Team"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Urgent: Quote needed for 20 conference call systems. - IT"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Staff ID photos will be taken in the lobby today. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Can you send a quote for 100 office chairs with armrests? - Lucy"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Water cooler filter replacement today. Temporary units in place. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need pricing for 50 wireless presentation remotes. - Sales"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Mandatory diversity training assigned in your portal. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "The report quoted industry averages, but we need actual numbers."
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Our CEO quoted your work in the press release draft. Review attached."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Your quoted prices from Q1 are outdated – need 2024 figures."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Requesting quote for 200 office keyboards (wireless). - IT Dept"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Annual leave balances will reset on January 1. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need pricing for 10,000 compostable food containers. - Catering"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New project management tool rollout begins next week. - IT"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Please quote 50 standing desk converters. Delivery to HQ. - Sam"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Bike rack installation completed near north entrance. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "RFQ: 100 ergonomic mouse pads with wrist support. - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Stairwell lighting upgrade ongoing. Use temporary lights. - Safety"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Urgent: Quote for 500 fire-resistant document boxes. - Legal"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New cafeteria menu starts Monday. Dietary options marked. - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need best price for 200 noise-canceling headphones. - IT"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Office temperature settings adjusted per feedback. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Quotation required: 50 office water coolers (hot/cold). - Procurement"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Charity fun run registration now open. Sign up here. - Events"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Price check: 100 adjustable monitor arms (dual screen). - Design"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New ID badge scanners activated today. Tap to enter. - Security"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Please provide quote for 20 meeting room webcams (4K). - IT"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Reminder: Clean desk policy enforced starting Monday. - Management"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Need bulk pricing for 5,000 lanyards with badge holders. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Coffee supplier changed – free tasting in break room. - Admin"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Quote request: 200 desk lamps with USB ports. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New parental leave policy document attached. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Urgent: Pricing needed for 10,000 custom mailer boxes. - Shipping"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Air conditioning maintenance scheduled for Friday. - Facilities"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Can you quote 50 industrial label printers? - Warehouse"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Friday casual dress day approved for summer months. - HR"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Requesting formal quotation for 100 office toolkits. - Maintenance"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "New smoking area designated behind Building B. - Facilities"
+  }
+][
+  {
+    "error": "delay is not defined",
+    "body": "Need best rate for 200 office footrests (adjustable). - Health"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Monthly fire alarm test today at 2 PM. - Safety Team"
+  },
+  {
+    "error": "delay is not defined",
+    "body": "The client said, 'Can you quote me on this?' but it was rhetorical."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Your quote from last week was perfect – proceed with order."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "We quoted Shakespeare in the proposal – see page 5."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Need to revise the quoted timeline in Section 3."
+  },
+  {
+    "error": "delay is not defined",
+    "body": "Can you requote the project with faster shipping?"
+  }
+]

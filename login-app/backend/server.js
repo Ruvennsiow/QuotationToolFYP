@@ -4,7 +4,7 @@ const cors = require('cors');
 const pool = require('./db');
 const sendEmailRouter = require('./SendEmail'); // Import SendEmail.js
 const app = express();
-const PORT = 5000;
+const PORT = 8080;
 
 app.use(bodyParser.json());
 app.use(cors());

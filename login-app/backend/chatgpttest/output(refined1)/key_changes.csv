@@ -1,0 +1,50 @@
+// Improved Prompt Template
+
+const prompt = `Analyze this email strictly as either quotation request (yes) or not (no). 
+Rules:
+1. Consider ONLY direct requests for pricing/quotations
+2. Ignore mentions of existing quotes or price discussions
+3. Ignore shipping notifications, invoices, or general inquiries
+
+Examples of YES:
+- "Please provide your best price for 100 units"
+- "Kindly send quotation for office chairs"
+- "Need formal quote for construction materials"
+
+Examples of NO:
+- "Your quoted price from last week..."
+- "Invoice #123 attached for payment"
+- "Discuss pricing in tomorrow's meeting"
+
+Email: "${body}"
+Answer ONLY 'yes' or 'no':`;
+
+// Model Configuration
+// Add to your API request:
+{
+  temperature: 0, // More deterministic responses
+  max_tokens: 1, // Force single-token response
+  logit_bias: { 
+    "yes": 5, 
+    "no": 5 
+  } // Boost these token probabilities
+}
+
+B. Response Validation
+Add strict validation:
+let response = result.data.choices[0].message.content.toLowerCase().trim();
+response = response.replace(/[^a-z]/g, ''); // Remove non-alphabet chars
+
+if (!['yes', 'no'].includes(response)) {
+  console.log(`Invalid response: ${response} for email ID ${row.id}`);
+  return 'error';
+}
+
+C. Data Verification
+Check your test data:
+# Quick check for label distribution
+awk -F',' 'NR>1 {print $NF}' sampledata.csv | sort | uniq -c
+
+D. Model Selection
+Try GPT-3.5-turbo instead of GPT-4o:
+model: 'gpt-3.5-turbo', // Often better for simple classification
