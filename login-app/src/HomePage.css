@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Base Container */
+.home-container {
+  min-height: 100vh;
+  background: #1E1E1E;
+  position: relative;
+  overflow: hidden;
+  color: #E0E0E0;
+}
+
+/* Minecraft Overlay */
+.minecraft-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(30, 30, 30, 0.97), rgba(30, 30, 30, 0.97)),
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAAGFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVfJ92AAAACHRSTlMzMzMzMzMzM85JBgAAAAF0Uk5TAEDm2GYAAAAbSURBVDjLY2AYBaNgFIyCUTAKRsEoGAVDFQAABpgAAUQKH7cAAAAASUVORK5CYII=');
+  background-repeat: repeat;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Typography */
+.pixel-text {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+}
+
+.pixel-text-subtle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+  color: #A0A0A0;
+}
+
+/* Navigation */
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid #404040;
+  position: relative;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+.nav-brand {
+  font-size: 1.2rem;
+  color: #55FF55;
+}
+
+/* Buttons */
+.pixel-button {
+  padding: 0.8rem 2rem;
+  background: #404040;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 2px solid #808080;
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.pixel-button:hover {
+  background: #505050;
+  border-color: #55FF55;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 #2D2D2D;
+}
+
+.pixel-button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #55FF55;
+}
+
+.hero-section h2 {
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.minecraft-card {
+  background: #2D2D2D;
+  padding: 2rem;
+  border: 2px solid #404040;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.minecraft-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 48%, #404040 49%, #404040 51%, transparent 52%);
+  background-size: 10px 10px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.animated-icon {
+  font-size: 2rem;
+  color: #55FF55;
+  margin-bottom: 1.5rem;
+  animation: hover 2s ease-in-out infinite;
+}
+
+@keyframes hover {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Content Sections */
+.content-section {
+  padding: 6rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  color: #55FF55;
+  text-align: center;
+}
+
+/* Features Container */
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-detail {
+  background: #2D2D2D;
+  padding: 2.5rem;
+  border: 2px solid #404040;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-detail:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #55FF55;
+  margin-bottom: 1.5rem;
+}
+
+/* Video Container */
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
+  background: #2D2D2D;
+  border: 2px solid #404040;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.demo-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Contact Section */
+.contact-info {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact-card {
+  background: #2D2D2D;
+  padding: 3rem;
+  border: 2px solid #404040;
+  display: inline-block;
+  min-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #55FF55;
+  box-shadow: 0 0 20px rgba(85, 255, 85, 0.3);
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+
+.contact-card h3 {
+  color: #55FF55;
+  margin-bottom: 1.5rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+}
+
+.contact-card p {
+  margin: 1rem 0;
+  color: #E0E0E0;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-card p:hover {
+  color: #55FF55;
+}
+
+.contact-card i {
+  margin-right: 1rem;
+  color: #55FF55;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .features-container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-section h2 {
+    font-size: 0.8rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-brand {
+    font-size: 1rem;
+  }
+  
+  .pixel-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.7rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .contact-card {
+    padding: 2rem;
+    min-width: 280px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .content-section {
+    padding: 4rem 1rem;
+  }
+  
+  .contact-card {
+    padding: 1.5rem;
+    min-width: 240px;
+  }
+}

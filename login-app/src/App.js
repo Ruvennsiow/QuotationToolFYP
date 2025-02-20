@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
 import MainQuotationPage from './MainQuotationPage';
 import NewQuotationPage from './NewQuotationPage';
 import QuotationDetailsPage from './QuotationDetailsPage';
@@ -10,7 +11,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/inventory" element={<InventoryPage />} />
         <Route path="/quotations" element={<MainQuotationPage />} />
         <Route path="/new-quotation" element={<NewQuotationPage />} />

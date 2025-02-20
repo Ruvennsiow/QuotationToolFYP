@@ -2,12 +2,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
-
+import LoadingSpinner from './components/LoadingSpinner';
 
 function LoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
   const BASE_URL = require('./config');
   const handleLogin = async (e) => {
@@ -15,6 +16,7 @@ function LoginPage() {
     setError('');
 
     try {
+      setIsLoading(true);
       const response = await fetch(`${BASE_URL}/login`, {
         method: 'POST',
         headers: {
@@ -37,11 +39,14 @@ function LoginPage() {
     } catch (err) {
       console.error('Error:', err);
       setError('Failed to connect to the server. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
   return (
     <div className="login-container">
+      {isLoading && <LoadingSpinner />}
       <div className="login-box">
         <h2 className="login-title">Login</h2>
         {error && <p className="error-message">{error}</p>}
