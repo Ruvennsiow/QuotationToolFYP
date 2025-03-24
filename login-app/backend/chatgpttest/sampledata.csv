@@ -104,3 +104,1902 @@ id,email_body,expected_result
 103,"We quoted Shakespeare in the proposal – see page 5.",no
 104,"Need to revise the quoted timeline in Section 3.",no
 105,"Can you requote the project with faster shipping?",yes
+106,"Need pricing for 50 units of Model X-200",yes
+107,"Following up on our meeting last week",no
+108,"Request for quote: Industrial pumps for new facility",yes
+109,"Holiday schedule for December",no
+110,"Urgent: Please send updated pricing for our order",yes
+111,"Invoice #45982 - Payment confirmation",no
+112,"Looking for best price on bulk order of resistors",yes
+113,"Job application - Senior Engineer position",no
+114,"Quotation needed for upcoming government project",yes
+115,"Team lunch next Friday",no
+116,"Can you match competitor pricing for these items?",yes
+117,"System maintenance scheduled for this weekend",no
+118,"Requesting formal quote for client presentation tomorrow",yes
+119,"Updated contact information",no
+120,"Price inquiry for replacement parts",yes
+121,"Newsletter subscription confirmation",no
+122,"Need cost estimate for 200 units by EOD",yes
+123,"Invitation: Annual industry conference",no
+124,"RFQ: 15 industrial sensors with rush delivery",yes
+125,"Thank you for your excellent service",no
+126,"Seeking price list for Q4 2023",yes
+127,"Meeting minutes from yesterday's call",no
+128,"Quotation request for office renovation supplies",yes
+129,"Out of office notification: June 15-22",no
+130,"Need pricing on bulk order of microcontrollers",yes
+131,"Your subscription has been renewed",no
+132,"RFQ: 500 units of thermal paper for POS systems",yes
+133,"Job interview scheduling",no
+134,"Requesting cost breakdown for project materials",yes
+135,"Company picnic - RSVP required",no
+136,"Price check on replacement parts for Model T450",yes
+137,"System update completed successfully",no
+138,"Formal quote needed for budget approval",yes
+139,"Reminder: Complete annual security training",no
+140,"Pricing inquiry for custom manufacturing run",yes
+141,"New employee orientation details",no
+142,"Request for updated quotation with expedited shipping",yes
+143,"Maintenance schedule for July",no
+144,"Need cost estimate for client proposal",yes
+145,"Holiday gift exchange sign-up",no
+146,"Quote request: 1000 custom PCBs with rush service",yes
+147,"Password reset confirmation",no
+148,"Seeking competitive pricing for annual contract",yes
+149,"Team building event next month",no
+150,"Urgent: Need price for emergency replacement parts",yes
+151,"Updated employee handbook attached",no
+152,"RFQ for upcoming government contract bid",yes
+153,"Fire drill scheduled for Friday",no
+154,"Requesting quote for 25 industrial sensors",yes
+155,"Congratulations on your work anniversary",no
+156,"Price inquiry for bulk order with long-term contract",yes
+157,"Software license expiration notice",no
+158,"Need formal quotation for board presentation",yes
+159,"Office closure due to weather",no
+160,"Requesting updated pricing on previous order #45678",yes
+161,"Welcome to the team!",no
+162,"Quote needed: 200 custom enclosures with logo",yes
+163,"Reminder: Quarterly tax filing due",no
+164,"Price request for rush manufacturing order",yes
+165,"Company newsletter - June edition",no
+166,"Seeking quotation for annual maintenance contract",yes
+167,"Your feedback is important to us",no
+168,"Request for pricing on volume discount options",yes
+169,"Parking garage maintenance notice",no
+170,"Need quote for replacement components ASAP",yes
+171,"Benefits enrollment period now open",no
+172,"RFQ: Industrial cleaning supplies for new facility",yes
+173,"IT security alert - phishing attempts",no
+174,"Requesting cost estimate for project expansion",yes
+175,"Happy birthday from the team!",no
+176,"Price check on upgraded materials for current order",yes
+177,"Scheduled server maintenance tonight",no
+178,"Formal quotation needed for capital expenditure approval",yes
+179,"Employee survey - your input matters",no
+180,"Seeking competitive bid for annual supply contract",yes
+181,"Reminder: Submit expense reports by Friday",no
+182,"Quote request for custom manufacturing run",yes
+183,"Office renovation updates",no
+184,"Need pricing for extended warranty options",yes
+185,"Upcoming training opportunities",no
+186,"Request for quote: Emergency backup systems",yes
+187,"Changes to company travel policy",no
+188,"Pricing inquiry for bulk purchase with phased delivery",yes
+189,"Health insurance premium adjustment notice",no
+190,"RFQ: Laboratory equipment for new research facility",yes
+191,"Volunteer opportunity: Community cleanup day",no
+192,"Need cost breakdown for client-billable materials",yes
+193,"Reminder: Change your password regularly",no
+194,"Requesting updated quotation with current market prices",yes
+195,"Company directory has been updated",no
+196,"Price request for custom configuration of standard products",yes
+197,"Scheduled network outage this weekend",no
+198,"Formal quote needed for investor presentation",yes
+199,"Reminder: Complete your timesheet",no
+200,"Seeking best price for rush order of components",yes
+201,"New parking procedures effective next month",no
+202,"Quote needed for specialized manufacturing services",yes
+203,"Employee discount program updates",no
+204,"Requesting pricing for extended maintenance agreement",yes
+205,"Charity fundraiser next week",no
+206,"RFQ: Industrial safety equipment for new facility",yes
+207,"Software update available for download",no
+208,"Need price estimate for scaled production run",yes
+209,"Office supplies inventory check",no
+210,"Quotation request for custom fabrication services",yes
+211,"Upcoming holiday schedule",no
+212,"Price inquiry for alternative materials options",yes
+213,"Team photo day next Tuesday",no
+214,"Request for updated pricing on annual contract renewal",yes
+215,"Building access card replacement procedure",no
+216,"Need formal quote for budget planning purposes",yes
+217,"Congratulations on your recent achievement",no
+218,"Seeking competitive pricing for large-scale deployment",yes
+219,"Reminder: Clean out refrigerator on Friday",no
+220,"RFQ: Specialized components for prototype development",yes
+221,"Company social media policy updates",no
+222,"Requesting detailed quotation with technical specifications",yes
+223,"Fire extinguisher inspection notice",no
+224,"Price check on expedited manufacturing options",yes
+225,"Wellness program enrollment now open",no
+226,"FYI: Updated pricing structure effective next month",yes
+227,"Quick question about yesterday's presentation",no
+228,"Can you provide a ballpark figure for this project?",yes
+229,"Shared Google Drive folder with you",no
+230,"Not sure if you quote these, but need pricing on specialized components",yes
+231,"Just checking in - how are things going?",no
+232,"Wondering if you could send over some numbers for budgeting purposes",yes
+233,"Your Amazon order has shipped",no
+234,"Any chance you could let me know what these might cost?",yes
+235,"Please review attached contract revisions",no
+236,"Thinking about placing an order - what would it cost for about 500 units?",yes
+237,"Lunch and Learn session next Wednesday",no
+238,"Re: Previous conversation about pricing options",yes
+239,"Printer on 3rd floor needs toner",no
+240,"Just wanted to see what the damage would be for these parts",yes
+241,"Updated org chart for your reference",no
+242,"Hypothetically speaking, if we were to order 1000 units...",yes
+243,"Don't forget to submit your vacation requests",no
+244,"If you were to give me a quote today, what would it look like?",yes
+245,"Reminder: Sign up for health benefits",no
+246,"I'm putting together some numbers and need your input on pricing",yes
+247,"Parking lot will be repaved this weekend",no
+248,"Not an urgent request, but could use pricing when convenient",yes
+249,"FYI - New security badges required",no
+250,"Just exploring options - what would these components run us?",yes
+251,"Mandatory compliance training due Friday",no
+252,"Curious what the cost might be for this specification",yes
+253,"Air conditioning maintenance scheduled",no
+254,"Would appreciate some pricing guidance when you have a moment",yes
+255,"Please complete the attached survey",no
+256,"Trying to compare vendors - could you provide your rates?",yes
+257,"Office will close early for holiday weekend",no
+258,"Need to present some options to my boss - can you help with pricing?",yes
+259,"Your password will expire in 3 days",no
+260,"Just wanted to run some numbers by you before formal RFQ",yes
+261,"Reminder: Clean out your refrigerator items",no
+262,"Hoping you might give me a rough estimate for planning purposes",yes
+263,"Updated emergency contact procedures",no
+264,"What would be the financial impact of switching to your product?",yes
+265,"Company softball team sign-ups",no
+266,"Trying to get a sense of what this might cost us",yes
+267,"Elevator maintenance scheduled for Tuesday",no
+268,"Would you mind sending over some pricing information?",yes
+269,"Blood drive next week - volunteers needed",no
+270,"Need to understand cost implications before proceeding",yes
+271,"Please update your contact information",no
+272,"Hoping to get some numbers to take to my committee",yes
+273,"Reminder: Turn off lights when leaving",no
+274,"What kind of investment would we be looking at for this project?",yes
+275,"New coffee machine in break room",no
+276,"Could you ballpark what these specifications might cost?",yes
+277,"Updated holiday schedule attached",no
+278,"Trying to get budget approval - need some figures from you",yes
+279,"Office supplies inventory check",no
+280,"Would appreciate some cost guidance for this project",yes
+281,"Reminder: Submit timesheet by Friday",no
+282,"Looking for some rough numbers for these components",yes
+283,"Building security update - please read",no
+284,"Need to understand the financial commitment before proceeding",yes
+285,"Team lunch order - please respond",no
+286,"Could you help me understand what this might cost?",yes
+287,"Scheduled IT maintenance this weekend",no
+288,"Hoping to get a sense of pricing before formal request",yes
+289,"Updated parking permit procedures",no
+290,"What would the financial picture look like for this order?",yes
+291,"Please complete harassment prevention training",no
+292,"Trying to get a handle on costs for upcoming project",yes
+293,"Office temperature adjustment policy",no
+294,"Would you be able to provide some pricing guidance?",yes
+295,"Reminder: Return borrowed equipment",no
+296,"Need to understand cost structure before moving forward",yes
+297,"Updated email signature requirements",no
+298,"Looking for some numbers to take to management",yes
+299,"Fire drill scheduled for Thursday",no
+300,"Could you give me a sense of what we're looking at cost-wise?",yes
+301,"Please update your photo for company directory",no
+302,"Hoping to get some pricing information for comparison",yes
+303,"Reminder: Lock your computer when away",no
+304,"What would be the investment required for this solution?",yes
+305,"Office plant watering schedule",no
+306,"Need to understand financial implications of this change",yes
+307,"Updated visitor policy - please review",no
+308,"Could you provide some cost scenarios for this project?",yes
+309,"Team building event - RSVP required",no
+310,"Looking for some pricing guidance before formal quote",yes
+311,"Reminder: Submit expense reports",no
+312,"What kind of numbers should I expect for this order?",yes
+313,"New recycling procedures in office",no
+314,"Hoping to get a rough idea of costs involved",yes
+315,"Please complete your annual review",no
+316,"Need some pricing information to evaluate options",yes
+317,"Office furniture rearrangement notice",no
+318,"Could you help me understand the cost structure?",yes
+319,"Updated emergency evacuation routes",no
+320,"Looking for some ballpark figures for budgeting",yes
+321,"Reminder: Company photo day tomorrow",no
+322,"What would the financial commitment look like?",yes
+323,"New vending machine options - please vote",no
+324,"Need to get a sense of pricing for planning purposes",yes
+325,"Please update your emergency contacts",no
+326,"Hoping to understand the cost implications",yes
+327,"Office noise level reminder",no
+328,"Could you provide some pricing scenarios?",yes
+329,"Updated dress code policy",no
+330,"What kind of investment would this project require?",yes
+331,"Reminder: Return library books",no
+332,"Need to get a handle on potential costs",yes
+333,"New office seating chart",no
+334,"Looking for some rough pricing for comparison",yes
+335,"Please complete cybersecurity training",no
+336,"Hoping to understand what kind of budget we'd need",yes
+337,"Office kitchen cleaning rotation",no
+338,"Could you give me an idea of the cost range?",yes
+339,"Updated printer access codes",no
+340,"What would the numbers look like for this configuration?",yes
+341,"Reminder: Staff meeting tomorrow",no
+342,"Need some pricing guidance for decision-making",yes
+343,"New coffee options in break room",no
+344,"Hoping to get a sense of the financial picture",yes
+345,"Please update your software by Friday",no
+346,"Could you help me understand what we'd be looking at cost-wise?",yes
+347,"Office supply cabinet reorganization",no
+348,"What kind of pricing should we anticipate?",yes
+349,"Reminder: Submit vacation requests",no
+350,"Need to get a rough idea of the investment required",yes
+351,"New parking validation procedure",no
+352,"Hoping to understand the financial requirements",yes
+353,"Please complete satisfaction survey",no
+354,"Could you provide some cost estimates for planning?",yes
+355,"Updated conference room booking system",no
+356,"What would the price point be for this solution?",yes
+357,"Reminder: Clean your microwave messes",no
+358,"Need to get a sense of the financial commitment",yes
+359,"New phone system training",no
+360,"Hoping to understand what kind of budget to allocate",yes
+361,"Please update your voicemail greeting",no
+362,"Could you give me a rough idea of pricing?",yes
+363,"Office chair ergonomic adjustments",no
+364,"What would the cost structure look like for this?",yes
+365,"Reminder: Return borrowed tools",no
+366,"Need to understand financial implications before proceeding",yes
+367,"New water cooler installed",no
+368,"Hoping to get some numbers for comparison purposes",yes
+369,"Please sign the birthday card for John",no
+370,"Could you provide some pricing guidance for budgeting?",yes
+371,"Updated building access hours",no
+372,"What kind of investment would we be looking at?",yes
+373,"Reminder: Daylight saving time this weekend",no
+374,"Need to get a handle on potential costs for this project",yes
+375,"New team communication platform",no
+376,"Hoping to understand the price range for these specifications",yes
+377,"Please clean out your workspace Friday",no
+378,"Could you help me understand what this might run us?",yes
+379,"Updated shipping procedures",no
+380,"What would the financial picture look like?",yes
+381,"Reminder: Return security badges when leaving",no
+382,"Need some rough numbers for planning purposes",yes
+383,"New cafeteria menu options",no
+384,"Hoping to get a sense of what we'd be looking at cost-wise",yes
+385,"Please update your contact preferences",no
+386,"Could you provide some pricing scenarios for consideration?",yes
+387,"Office heating system maintenance",no
+388,"What kind of budget should we allocate for this?",yes
+389,"Reminder: Flu shots available next week",no
+390,"Need to understand the potential investment required",yes
+391,"New office layout plans",no
+392,"Hoping to get some ballpark figures for these items",yes
+393,"Please complete diversity training",no
+394,"Could you give me an idea of what this might cost?",yes
+395,"Updated restroom cleaning schedule",no
+396,"What would the numbers look like for this project?",yes
+397,"Reminder: Backup your files regularly",no
+398,"Need to get a sense of pricing for budget approval",yes
+399,"New employee introduction",no
+400,"Hoping to understand the cost structure before proceeding",yes
+401,"Please update your profile picture",no
+402,"Could you provide some financial guidance on this?",yes
+403,"Office air quality testing scheduled",no
+404,"What kind of price range should we expect?",yes
+405,"Reminder: Return borrowed equipment",no
+406,"Need to get a rough idea of costs involved",yes
+407,"New printer installation guide",no
+408,"Hoping to understand what the financial commitment might be",yes
+409,"Please sign up for volunteer day",no
+410,"Could you help me understand the pricing options?",yes
+411,"Updated meeting room technology",no
+412,"What would the cost implications be for this change?",yes
+413,"Reminder: Submit health insurance forms",no
+414,"Need to get a handle on what this might cost us",yes
+415,"New security procedures effective Monday",no
+416,"Hoping to get some pricing information for planning",yes
+417,"Please update your dietary preferences",no
+418,"Could you give me a sense of the investment required?",yes
+419,"Office lighting adjustment schedule",no
+420,"What kind of numbers are we looking at for this order?",yes
+421,"Reminder: Company anniversary celebration",no
+422,"Need to understand potential costs before proceeding",yes
+423,"New recycling guidelines",no
+424,"Hoping to get a rough estimate for budgeting purposes",yes
+425,"Please complete your self-assessment",no
+426,"Pricing matrix needed for upcoming client meeting",yes
+427,"Facilities update: New security system",no
+428,"Can your team work up some numbers for this project?",yes
+429,"Reminder: Update your beneficiary information",no
+430,"Need to understand cost implications of switching suppliers",yes
+431,"Company-wide survey: Employee satisfaction",no
+432,"What's your best price on these components?",yes
+433,"Upcoming network maintenance window",no
+434,"Financial projection request for Q3 planning",yes
+435,"Reminder: Return borrowed equipment",no
+436,"Seeking cost analysis for proposed system upgrade",yes
+437,"New employee welcome lunch next week",no
+438,"Budget numbers needed for these line items",yes
+439,"Scheduled power outage this weekend",no
+440,"Cost comparison request between options A and B",yes
+441,"Updated company handbook available online",no
+442,"Financial breakdown needed for stakeholder presentation",yes
+443,"Reminder: Submit your health screening results",no
+444,"What would these specs cost to implement?",yes
+445,"Office closure for upcoming holiday",no
+446,"Seeking financial data points for board meeting",yes
+447,"New procedure for visitor check-in",no
+448,"Need to understand the economics of this solution",yes
+449,"Team-building retreat information",no
+450,"Cost structure analysis request for new project",yes
+451,"Reminder: Update your W-4 information",no
+452,"Financial implications of proposed timeline change",yes
+453,"New cafeteria hours starting next month",no
+454,"Budget impact assessment needed for proposal",yes
+455,"Scheduled maintenance of HVAC system",no
+456,"What's the damage going to be for this order?",yes
+457,"Updated emergency contact procedures",no
+458,"Financial evaluation needed for make-vs-buy decision",yes
+459,"Reminder: Complete mandatory training",no
+460,"Cost-benefit analysis request for automation project",yes
+461,"New bike rack installed in parking garage",no
+462,"Financial modeling request for capacity expansion",yes
+463,"Upcoming fire alarm testing",no
+464,"What's the investment level for implementing this solution?",yes
+465,"Updated travel reimbursement policy",no
+466,"Need financial justification for capital expenditure",yes
+467,"Reminder: Submit your vacation requests",no
+468,"Cost assessment needed for regulatory compliance",yes
+469,"New coffee service in break room",no
+470,"Financial scenario planning for potential acquisition",yes
+471,"Scheduled IT system backup tonight",no
+472,"What's the price tag on implementing these changes?",yes
+473,"Updated parking permit procedures",no
+474,"Financial impact statement needed for proposed changes",yes
+475,"Reminder: Clean out refrigerator Friday",no
+476,"Cost structure evaluation for new service offering",yes
+477,"Office furniture rearrangement next weekend",no
+478,"Financial analysis needed for contract negotiation",yes
+479,"New procedure for conference room booking",no
+480,"What's the cost outlook for this implementation?",yes
+481,"Reminder: Submit your timesheet",no
+482,"Financial assessment needed for risk management",yes
+483,"Updated recycling guidelines",no
+484,"Cost projection needed for five-year planning",yes
+485,"New employee orientation schedule",no
+486,"Financial evaluation of vendor proposals requested",yes
+487,"Scheduled maintenance of elevators",no
+488,"What's the budget impact of this decision?",yes
+489,"Reminder: Update your direct deposit information",no
+490,"Cost-effectiveness analysis needed for technology upgrade",yes
+491,"New procedure for package delivery",no
+492,"Financial modeling request for market expansion",yes
+493,"Office temperature adjustment schedule",no
+494,"What's the ROI calculation for this investment?",yes
+495,"Reminder: Complete your performance review",no
+496,"Cost breakdown needed for client billing",yes
+497,"Updated emergency evacuation routes",no
+498,"Financial justification needed for headcount increase",yes
+499,"New vending machine options",no
+500,"What's the TCO analysis for this solution?",yes
+501,"Reminder: Submit your expense reports",no
+502,"Cost allocation analysis for shared services",yes
+503,"Office painting scheduled for weekend",no
+504,"Financial forecast needed for budget planning",yes
+505,"New procedure for visitor parking",no
+506,"What's the unit economics of this product line?",yes
+507,"Reminder: Update your password",no
+508,"Cost variance analysis needed for project overrun",yes
+509,"Updated dress code policy",no
+510,"Financial sensitivity analysis for pricing changes",yes
+511,"Scheduled maintenance of security cameras",no
+512,"What's the cost structure of this service model?",yes
+513,"Reminder: Complete your health assessment",no
+514,"Cost optimization study for operational efficiency",yes
+515,"New procedure for after-hours access",no
+516,"Financial benchmark comparison with industry standards",yes
+517,"Office holiday party planning committee",no
+518,"What's the cost-benefit ratio of this initiative?",yes
+519,"Reminder: Submit your tax withholding forms",no
+520,"Cost impact assessment of regulatory changes",yes
+521,"Updated procedure for equipment checkout",no
+522,"Financial scenario modeling for market downturn",yes
+523,"New water cooler installed in break room",no
+524,"What's the margin analysis for this product mix?",yes
+525,"Reminder: Complete cybersecurity training",no
+526,"Cost reduction opportunities in supply chain",yes
+527,"Office seating chart update",no
+528,"Financial valuation needed for intellectual property",yes
+529,"Scheduled maintenance of fire extinguishers",no
+530,"What's the cost trajectory over the next three years?",yes
+531,"Reminder: Update your emergency contacts",no
+532,"Cost driver analysis for manufacturing process",yes
+533,"New procedure for conference call setup",no
+534,"Financial modeling for capacity utilization",yes
+535,"Office supply inventory update",no
+536,"What's the economic value added by this initiative?",yes
+537,"Reminder: Submit your health insurance enrollment",no
+538,"Cost of quality analysis for process improvement",yes
+539,"Updated procedure for visitor badges",no
+540,"Financial assessment of make-vs-buy alternatives",yes
+541,"New coffee machine instructions",no
+542,"What's the cost-to-serve analysis for this customer segment?",yes
+543,"Reminder: Complete your diversity training",no
+544,"Cost allocation methodology for shared resources",yes
+545,"Office furniture cleaning scheduled",no
+546,"Financial impact of proposed policy changes",yes
+547,"New procedure for mail distribution",no
+548,"What's the profitability analysis of this service line?",yes
+549,"Reminder: Submit your 401k changes",no
+550,"Cost baseline establishment for new project",yes
+551,"Updated procedure for printer access",no
+552,"Financial modeling for capacity constraints",yes
+553,"Office plant watering schedule",no
+554,"What's the cost implication of this design change?",yes
+555,"Reminder: Complete your annual certification",no
+556,"Cost-volume-profit analysis for new product",yes
+557,"New procedure for meeting room setup",no
+558,"Financial assessment of outsourcing options",yes
+559,"Scheduled maintenance of air conditioning",no
+560,"What's the budget impact of this schedule change?",yes
+561,"Reminder: Update your contact information",no
+562,"Cost efficiency analysis of current processes",yes
+563,"Updated procedure for building access",no
+564,"Financial modeling for demand fluctuations",yes
+565,"Office kitchen cleaning schedule",no
+566,"What's the economic order quantity for these items?",yes
+567,"Reminder: Complete your skills assessment",no
+568,"Cost breakdown structure for project planning",yes
+569,"New procedure for equipment maintenance",no
+570,"Financial analysis of lease vs. buy options",yes
+571,"Scheduled testing of emergency lights",no
+572,"What's the cost per unit at different volumes?",yes
+573,"Reminder: Submit your flexible spending claims",no
+574,"Cost center allocation for shared expenses",yes
+575,"Updated procedure for visitor wifi access",no
+576,"Financial modeling for seasonal demand patterns",yes
+577,"Office recycling program update",no
+578,"What's the contribution margin of this product line?",yes
+579,"Reminder: Complete your safety training",no
+580,"Cost-benefit analysis of automation options",yes
+581,"New procedure for shipping and receiving",no
+582,"Financial assessment of technology alternatives",yes
+583,"Scheduled maintenance of plumbing system",no
+584,"What's the breakeven analysis for this investment?",yes
+585,"Reminder: Update your photo ID",no
+586,"Cost variance explanation for budget overrun",yes
+587,"Updated procedure for conference room technology",no
+588,"Financial modeling for capacity expansion",yes
+589,"Office cleaning schedule changes",no
+590,"What's the ROI calculation for this equipment?",yes
+591,"Reminder: Complete your ethics training",no
+592,"Cost allocation for interdepartmental services",yes
+593,"New procedure for visitor parking validation",no
+594,"Financial analysis of pricing strategy options",yes
+595,"Scheduled maintenance of electrical systems",no
+596,"What's the total cost of ownership for this system?",yes
+597,"Reminder: Submit your commuter benefit changes",no
+598,"Cost structure analysis for new business model",yes
+599,"Updated procedure for package handling",no
+600,"Financial modeling for market expansion scenarios",yes
+601,"Office furniture inventory check",no
+602,"What's the unit cost at different production levels?",yes
+603,"Reminder: Complete your compliance training",no
+604,"Cost impact assessment of supply chain disruption",yes
+605,"New procedure for equipment calibration",no
+606,"Financial analysis of customer acquisition channels",yes
+607,"Scheduled maintenance of ventilation system",no
+608,"What's the cost-effectiveness of this marketing approach?",yes
+609,"Reminder: Update your skills profile",no
+610,"Cost allocation methodology for overhead expenses",yes
+611,"Updated procedure for visitor escort requirements",no
+612,"Financial modeling for capacity utilization scenarios",yes
+613,"Office supply ordering procedure update",no
+614,"What's the margin structure for this service offering?",yes
+615,"Reminder: Complete your security clearance renewal",no
+616,"Cost baseline for performance measurement",yes
+617,"New procedure for equipment disposal",no
+618,"Financial assessment of strategic alternatives",yes
+619,"Scheduled maintenance of security system",no
+620,"What's the cost-benefit analysis of this upgrade?",yes
+621,"Reminder: Submit your tuition reimbursement forms",no
+622,"Cost driver analysis for overhead allocation",yes
+623,"Updated procedure for visitor management system",no
+624,"Financial modeling for demand sensitivity",yes
+625,"Office ergonomic assessment schedule",no
+626,"Need comprehensive pricing for Johnson Manufacturing project - 50 units with custom specifications",yes
+627,"Weekly team status update - Projects in progress and upcoming deadlines",no
+628,"Request for detailed cost breakdown on the industrial cooling system installation we discussed yesterday",yes
+629,"HR announcement: Changes to health insurance coverage effective January 1st",no
+630,"Seeking competitive quotation for annual maintenance contract renewal (Ref: MAINT-2023-456)",yes
+631,"Reminder: Mandatory cybersecurity training must be completed by end of week",no
+632,"Can you provide updated pricing for our standard order plus the new components we discussed at the trade show?",yes
+633,"Facilities update: Parking garage maintenance scheduled for this weekend - please remove vehicles",no
+634,"Formal request for proposal: Enterprise-wide software implementation with 3-year support contract",yes
+635,"Company newsletter: October 2023 - Employee achievements and upcoming events",no
+636,"Need urgent price confirmation for client meeting tomorrow - specifically for the custom configuration of Model TX500",yes
+637,"IT Department: Scheduled system maintenance will require network downtime on Saturday from 10pm-2am",no
+638,"Following up on our conversation - could you send over the numbers we discussed for the municipal project?",yes
+639,"Invitation: Annual company holiday party - December 15th at Grand Hyatt Hotel",no
+640,"RFQ #2023-089: Seeking detailed quotation for laboratory equipment for our R&D expansion",yes
+641,"Important: Changes to expense reimbursement policy effective next quarter",no
+642,"What would be your best price if we increased our order quantity from 200 to 350 units with quarterly delivery schedule?",yes
+643,"Reminder: Please complete your annual performance self-assessment by Friday",no
+644,"Need comprehensive cost analysis for upgrading our manufacturing line with your automated solution",yes
+645,"Building management: Fire alarm testing scheduled for Wednesday morning",no
+646,"Requesting detailed pricing options for both the standard and premium maintenance packages we discussed",yes
+647,"Company announcement: Organizational restructuring in Sales and Marketing departments",no
+648,"Could you provide a breakdown of costs for implementing your solution across our three facilities in Texas?",yes
+649,"Upcoming webinar invitation: 'Maximizing Productivity in Remote Work Environments'",no
+650,"Need formal quotation with detailed specifications for board approval on capital expenditure project #CE-2023-112",yes
+651,"IT Security Alert: Recent increase in phishing attempts targeting our organization",no
+652,"Seeking competitive pricing for bulk order of components with phased delivery over next 12 months",yes
+653,"Human Resources: Reminder to complete mandatory diversity and inclusion training",no
+654,"Request for comprehensive cost estimate including installation, training, and 3-year maintenance for new production line",yes
+655,"Facilities update: New visitor check-in procedures effective next Monday",no
+656,"Need to understand total cost of ownership for your enterprise solution vs. current system for financial justification",yes
+657,"Reminder: Quarterly town hall meeting this Friday at 2pm in the main auditorium",no
+658,"Requesting detailed quotation for custom manufacturing run of specialized components per attached specifications",yes
+659,"Company announcement: Annual employee satisfaction survey now available - please participate",no
+660,"What would the pricing structure look like if we committed to a 3-year contract with minimum annual purchases?",yes
+661,"Important update: Changes to company travel policy and reimbursement procedures",no
+662,"Need comprehensive pricing proposal for retrofitting our Dallas facility with your energy-efficient lighting solution",yes
+663,"Reminder: End of fiscal year approaching - please submit all outstanding expense reports",no
+664,"Seeking detailed cost breakdown for implementing your inventory management system across our distribution centers",yes
+665,"IT Department: New mobile device management policy - action required by all employees",no
+666,"Request for updated pricing on maintenance contract renewal with expanded coverage options",yes
+667,"Company wellness program: Sign up for biometric screening appointments next week",no
+668,"Need formal quotation for client project - custom fabrication with expedited delivery timeline",yes
+669,"Facilities management: Updates to conference room reservation system and policies",no
+670,"Could you provide comprehensive pricing for both purchase and lease options for the equipment we discussed?",yes
+671,"HR announcement: Changes to retirement plan investment options - informational sessions available",no
+672,"Requesting detailed cost analysis for upgrading our entire fleet to your new model with maintenance package",yes
+673,"Safety committee update: Results from recent workplace safety audit and action items",no
+674,"Need formal quotation with detailed specifications for upcoming government contract bid (Reference: GOV-BID-2023-78)",yes
+675,"IT update: New password requirements and multi-factor authentication rollout schedule",no
+676,"Seeking best and final pricing offer for large-scale deployment across all our North American locations",yes
+677,"Company announcement: Annual charitable giving campaign kicks off next week",no
+678,"Request for comprehensive pricing proposal including implementation timeline and resource requirements",yes
+679,"Facilities update: Renovation schedule for east wing offices - temporary relocations required",no
+680,"Need detailed cost breakdown for manufacturing 10,000 units with custom branding as discussed with your sales team",yes
+681,"HR reminder: Open enrollment period for benefits begins next Monday - important changes this year",no
+682,"Requesting formal quotation for specialized equipment with installation and operator training included",yes
+683,"Company update: Quarterly financial results and business outlook presentation",no
+684,"Could you provide a comprehensive cost analysis for transitioning from our current vendor to your solution?",yes
+685,"IT security reminder: Importance of securing sensitive customer information and company data",no
+686,"Need detailed pricing options for different service level agreements for the enterprise software package",yes
+687,"Facilities announcement: New recycling program implementation and guidelines",no
+688,"Requesting formal quotation for annual supply contract with monthly delivery schedule and volume pricing tiers",yes
+689,"HR update: Changes to employee recognition program and nomination process",no
+690,"Need comprehensive cost projection for scaling your solution as our business grows over next 36 months",yes
+691,"Company announcement: Updates to corporate social responsibility initiatives and sustainability goals",no
+692,"Seeking detailed pricing proposal with ROI analysis for automation project at our Cincinnati facility",yes
+693,"IT department: Upcoming software upgrades and potential impact on business operations",no
+694,"Request for detailed quotation including customization options and implementation services for CRM solution",yes
+695,"Safety reminder: Proper procedures for handling hazardous materials in the workplace",no
+696,"Need comprehensive pricing structure for tiered support services with response time guarantees",yes
+697,"Company update: Strategic partnership announcement and implications for our business",no
+698,"Requesting formal quotation for custom development project with milestone-based payment schedule",yes
+699,"Facilities management: Updates to building access procedures after hours and weekends",no
+700,"Could you provide detailed pricing for both on-premise and cloud-based deployment options for your solution?",yes
+701,"HR announcement: Employee assistance program enhancements and confidential resources available",no
+702,"Need comprehensive cost analysis comparing preventive maintenance contract vs. time and materials approach",yes
+703,"Company newsletter: Spotlight on innovation and recent patent achievements",no
+704,"Requesting detailed quotation for equipment upgrade with trade-in value for existing machinery",yes
+705,"IT security: Mandatory password reset required due to potential security incident",no
+706,"Seeking best pricing for enterprise-wide license agreement with unlimited user access",yes
+707,"Facilities update: Changes to heating and cooling schedules to improve energy efficiency",no
+708,"Need formal quotation with detailed specifications for inclusion in our capital expenditure proposal",yes
+709,"HR reminder: Performance review discussions scheduled for next month - preparation materials attached",no
+710,"Request for comprehensive pricing proposal including training, implementation, and knowledge transfer",yes
+711,"Company announcement: Executive leadership changes effective next quarter",no
+712,"Could you provide detailed cost breakdown for the custom integration work we discussed last week?",yes
+713,"Safety committee: Upcoming emergency response drill schedule and participation requirements",no
+714,"Need formal quotation for specialized consulting services for our digital transformation initiative",yes
+715,"IT department: New mobile application available for accessing company resources remotely",no
+716,"Requesting detailed pricing options for different configuration scenarios of your manufacturing solution",yes
+717,"Company update: Annual customer satisfaction survey results and action plan",no
+718,"Need comprehensive cost analysis for upgrading vs. replacing aging equipment in our production facility",yes
+719,"Facilities announcement: New food service vendor in company cafeteria starting next month",no
+720,"Seeking detailed quotation for custom software development project with phased implementation approach",yes
+721,"HR update: Changes to professional development funding and approval process",no
+722,"Request for formal pricing proposal for nationwide rollout of your retail display solution",yes
+723,"Company announcement: Upcoming media coverage and communication guidelines",no
+724,"Need detailed cost breakdown for implementing your quality management system across our manufacturing plants",yes
+725,"IT security reminder: Guidelines for secure remote work and VPN usage",no
+726,"Requesting comprehensive pricing for both purchase and ongoing maintenance of laboratory equipment",yes
+727,"Facilities update: Improvements to campus outdoor spaces and recreational areas",no
+728,"Could you provide a detailed quotation for the turnkey solution we discussed at the industry conference?",yes
+729,"HR announcement: Updates to parental leave policy and family support resources",no
+730,"Need formal pricing proposal with volume discount tiers for our anticipated annual consumption",yes
+731,"Company update: Recent industry awards and recognition for our products and services",no
+732,"Requesting detailed cost analysis for implementing your environmental monitoring system at our facilities",yes
+733,"Safety reminder: Proper ergonomic setup for workstations to prevent injuries",no
+734,"Need comprehensive quotation for equipment, installation, training, and extended warranty options",yes
+735,"IT department: New collaboration tools being deployed to improve remote team productivity",no
+736,"Seeking detailed pricing for custom manufacturing with specialized materials and finishing requirements",yes
+737,"Company announcement: Upcoming community volunteer opportunities and team participation",no
+738,"Request for formal quotation with detailed specifications for inclusion in government contract proposal",yes
+739,"Facilities update: Changes to shipping and receiving procedures and hours of operation",no
+740,"Need comprehensive cost breakdown for implementing your solution across our European operations",yes
+741,"HR reminder: Deadline approaching for submitting tuition reimbursement requests for current semester",no
+742,"Could you provide detailed pricing options for different service and support levels for your product?",yes
+743,"Company newsletter: Employee spotlights and recent team achievements",no
+744,"Requesting formal quotation for annual maintenance contract with guaranteed response times",yes
+745,"IT security: Important information about recent software vulnerabilities and required patches",no
+746,"Need detailed pricing proposal for custom configuration of your system for our unique requirements",yes
+747,"Facilities announcement: New electric vehicle charging stations available in company parking garage",no
+748,"Seeking comprehensive cost analysis for transitioning to your managed services solution",yes
+749,"HR update: Changes to employee referral program and increased bonuses",no
+750,"Request for detailed quotation including implementation timeline and resource requirements for ERP project",yes
+751,"Company announcement: Upcoming trade show participation and customer engagement opportunities",no
+752,"Need formal pricing for both standard and expedited delivery options for our quarterly supply order",yes
+753,"Safety committee: Results of recent workplace safety survey and improvement initiatives",no
+754,"Requesting comprehensive quotation for custom development project with detailed milestone schedule",yes
+755,"IT department: New data classification guidelines and handling procedures for sensitive information",no
+756,"Could you provide detailed pricing for scaling your solution as we expand to new markets?",yes
+757,"Facilities update: Renovation schedule for main lobby and reception area - temporary arrangements",no
+758,"Need formal quotation with detailed specifications for specialized equipment for our research laboratory",yes
+759,"HR announcement: Enhanced employee discount program with new participating vendors",no
+760,"Requesting comprehensive pricing proposal with ROI analysis for warehouse automation project",yes
+761,"Company update: Quarterly business review and strategic priorities for coming fiscal year",no
+762,"Need detailed cost breakdown for implementing your compliance management solution enterprise-wide",yes
+763,"IT security reminder: Best practices for creating strong passwords and securing accounts",no
+764,"Seeking formal quotation for custom manufacturing with quality assurance and testing protocols",yes
+765,"Facilities announcement: Updates to conference room technology and usage guidelines",no
+766,"Request for comprehensive pricing including training, implementation, and ongoing support services",yes
+767,"HR update: New professional development opportunities and internal training resources",no
+768,"Need detailed quotation for equipment lease options with maintenance and upgrade provisions",yes
+769,"Company announcement: Recent media coverage and public relations opportunities",no
+770,"Could you provide a comprehensive cost analysis for your preventive maintenance program?",yes
+771,"Safety reminder: Procedures for reporting workplace hazards and safety concerns",no
+772,"Requesting formal pricing proposal for nationwide service coverage with guaranteed response times",yes
+773,"IT department: Upcoming changes to file sharing and collaboration platform",no
+774,"Need detailed quotation for custom solution based on specifications discussed during site visit",yes
+775,"Facilities update: Changes to visitor management system and security procedures",no
+776,"Seeking comprehensive pricing for enterprise software licenses with implementation services",yes
+777,"HR announcement: Updates to remote work policy and equipment stipend program",no
+778,"Request for detailed cost breakdown for phased implementation of your solution across our business units",yes
+779,"Company newsletter: Upcoming events and important dates for your calendar",no
+780,"Need formal quotation with detailed specifications for specialized manufacturing equipment",yes
+781,"IT security: Mandatory security awareness training schedule and completion requirements",no
+782,"Requesting comprehensive pricing proposal for upgrading our entire fleet to your latest model",yes
+783,"Facilities announcement: New amenities available in employee break areas",no
+784,"Could you provide detailed pricing options for different levels of technical support coverage?",yes
+785,"HR update: Changes to performance evaluation criteria and process for coming year",no
+786,"Need formal quotation for custom development of integration between your system and our existing platform",yes
+787,"Company announcement: Strategic acquisition completed and integration plans",no
+788,"Requesting detailed cost analysis for implementing your quality control system in our manufacturing process",yes
+789,"Safety committee: Updated emergency evacuation procedures and assembly point locations",no
+790,"Need comprehensive pricing for both on-premise and cloud deployment options with migration services",yes
+791,"IT department: New mobile device policy and security requirements for company data access",no
+792,"Seeking detailed quotation for annual maintenance contract with preventive service schedule",yes
+793,"Facilities update: Improvements to building HVAC system and expected energy savings",no
+794,"Request for formal pricing proposal with volume discounts for anticipated three-year consumption",yes
+795,"HR announcement: Enhanced wellness program benefits and participation incentives",no
+796,"Need detailed cost breakdown for implementing your solution with customizations for our industry",yes
+797,"Company update: Annual planning process kickoff and departmental budget submissions",no
+798,"Requesting comprehensive quotation for equipment, installation, training, and extended warranty",yes
+799,"IT security reminder: Recognizing and reporting suspicious emails and phishing attempts",no
+800,"Could you provide detailed pricing for scaling your solution as our user base grows?",yes
+801,"Facilities announcement: New sustainable practices implementation and waste reduction goals",no
+802,"Need formal quotation with detailed specifications for inclusion in our budget planning process",yes
+803,"HR update: Changes to employee recognition program and nomination criteria",no
+804,"Requesting comprehensive pricing proposal including implementation services and knowledge transfer",yes
+805,"Company announcement: Upcoming customer appreciation events and participation opportunities",no
+806,"Need detailed cost analysis comparing your solution to our current process with ROI projections",yes
+807,"Safety reminder: Proper handling procedures for sensitive materials and equipment",no
+808,"Seeking formal quotation for custom manufacturing with quality assurance and certification requirements",yes
+809,"IT department: New software deployment schedule and training resources available",no
+810,"Request for detailed pricing options for different service level agreements and response times",yes
+811,"Facilities update: Changes to office layout and workspace allocation process",no
+812,"Need comprehensive quotation for nationwide implementation of your retail solution across our locations",yes
+813,"HR announcement: Updates to continuing education benefits and approval process",no
+814,"Could you provide a detailed cost breakdown for the enterprise-wide deployment we discussed?",yes
+815,"Company newsletter: Recent achievements and recognition in our industry",no
+816,"Requesting formal pricing proposal with detailed implementation timeline and resource requirements",yes
+817,"IT security: Important updates to data protection policies and procedures",no
+818,"Need detailed quotation for custom solution addressing the specific challenges we discussed last week",yes
+819,"Facilities announcement: New security measures being implemented at all building entrances",no
+820,"Seeking comprehensive pricing for both equipment purchase and ongoing maintenance services",yes
+821,"HR update: Changes to employee assistance program and available resources",no
+822,"Request for detailed cost analysis for upgrading our existing systems to your latest technology",yes
+823,"Company announcement: Quarterly business performance and market outlook",no
+824,"Need formal quotation with detailed specifications for specialized equipment for our production facility",yes
+825,"Safety committee: Results of recent safety audit and required corrective actions",no
+826,"Request for comprehensive pricing: Warehouse management system implementation with phased rollout approach",yes
+827,"Executive team announcement: Quarterly business review meeting rescheduled to October 15th",no
+828,"Need detailed cost proposal for retrofitting our manufacturing line with your automated quality control system",yes
+829,"HR Policy Update: Important changes to employee travel and expense reimbursement procedures",no
+830,"Seeking formal quotation for custom fabrication project (Client: Westlake Industries - Project #WL-2023-475)",yes
+831,"IT Security Alert: Critical software vulnerability requires immediate patching of all systems",no
+832,"Could you provide a detailed breakdown of costs for implementing your solution at our three regional distribution centers?",yes
+833,"Facilities Management: Updated cleaning protocols and sanitation standards for all office locations",no
+834,"RFQ #23-789: Formal request for quotation for annual supply contract with quarterly delivery schedule",yes
+835,"Company Announcement: Annual employee appreciation event details and registration information",no
+836,"Need comprehensive pricing proposal for upgrading our entire fleet to meet new emissions standards",yes
+837,"Reminder: Mandatory compliance training must be completed by all employees before month-end",no
+838,"Requesting detailed quotation for custom manufacturing run with specialized materials and testing requirements",yes
+839,"Health & Safety: Updated workplace protocols and personal protective equipment requirements",no
+840,"What would the investment look like for implementing your enterprise solution across our global operations?",yes
+841,"Marketing Department: Brand guidelines update and new digital asset management system access",no
+842,"Need formal quotation with detailed specifications for capital expenditure approval (Project ID: CAP-2023-112)",yes
+843,"Company Newsletter: Employee spotlights and upcoming community engagement opportunities",no
+844,"Requesting comprehensive cost analysis comparing cloud-based vs. on-premises deployment options",yes
+845,"Facilities Update: Parking garage maintenance schedule and temporary alternative arrangements",no
+846,"Could you provide detailed pricing for both standard and premium support options for your software solution?",yes
+847,"HR Announcement: Changes to performance review process and updated evaluation criteria",no
+848,"Need detailed quotation for custom integration between your platform and our existing ERP system",yes
+849,"IT Department: Scheduled system maintenance and potential service interruptions this weekend",no
+850,"Seeking formal pricing proposal for nationwide service contract with guaranteed response times",yes
+851,"Legal Department: Updated confidentiality agreements require signature from all employees",no
+852,"Request for detailed cost breakdown for implementing your inventory management solution at our Dallas facility",yes
+853,"Company Announcement: Recent industry recognition and award for product excellence",no
+854,"Need comprehensive quotation including equipment, installation, training, and extended warranty options",yes
+855,"Safety Committee: Upcoming emergency response drill schedule and participation requirements",no
+856,"Requesting detailed pricing options for different tiers of your managed services offering",yes
+857,"Facilities Management: New visitor check-in procedures effective next Monday at all locations",no
+858,"Could you provide a formal quotation for the custom configuration we discussed during the site visit?",yes
+859,"HR Reminder: Open enrollment period for benefits begins next week - important changes this year",no
+860,"Need detailed cost analysis for upgrading our quality control process with your automated solution",yes
+861,"Executive Communication: Strategic priorities for upcoming fiscal year and organizational focus",no
+862,"Requesting comprehensive pricing proposal with ROI analysis for warehouse automation project",yes
+863,"IT Security: New guidelines for secure remote access and protection of company information",no
+864,"Formal RFQ: Detailed quotation needed for specialized equipment for our research laboratory",yes
+865,"Company Update: Quarterly business performance and market outlook presentation",no
+866,"Need detailed pricing structure for enterprise-wide software deployment with user-based licensing",yes
+867,"Facilities Announcement: Renovation schedule for main conference center - alternative meeting spaces",no
+868,"Seeking comprehensive cost breakdown for implementing your solution across our manufacturing plants",yes
+869,"HR Update: Enhanced professional development program and educational reimbursement options",no
+870,"Request for formal quotation with detailed specifications for inclusion in government contract bid",yes
+871,"Safety Reminder: Proper procedures for handling and disposing of hazardous materials",no
+872,"Could you provide detailed pricing options for both purchase and leasing of the equipment we discussed?",yes
+873,"Company Announcement: Upcoming trade show participation and customer engagement strategy",no
+874,"Need comprehensive cost analysis for transitioning from current vendor to your maintenance program",yes
+875,"IT Department: New collaboration tools being deployed to improve team productivity",no
+876,"Requesting detailed quotation for custom development project with milestone-based delivery schedule",yes
+877,"Facilities Update: Changes to building access procedures and security badge requirements",no
+878,"Formal request for pricing proposal: Enterprise resource planning system implementation",yes
+879,"HR Announcement: Updates to parental leave policy and family support resources",no
+880,"Need detailed cost breakdown for implementing your compliance management solution enterprise-wide",yes
+881,"Company Newsletter: Recent achievements and upcoming organizational changes",no
+882,"Seeking comprehensive quotation for equipment upgrade with trade-in consideration for existing machinery",yes
+883,"Safety Committee: Results of recent workplace safety audit and required corrective actions",no
+884,"Request for detailed pricing for scaling your solution as our business expands to new markets",yes
+885,"IT Security Reminder: Best practices for creating strong passwords and securing accounts",no
+886,"Could you provide a formal quotation for annual maintenance contract with preventive service schedule?",yes
+887,"Executive Announcement: Organizational restructuring effective next quarter",no
+888,"Need comprehensive pricing proposal including implementation timeline and resource requirements",yes
+889,"Facilities Management: Updates to conference room technology and reservation system",no
+890,"Requesting detailed cost analysis for implementing your quality management system across our operations",yes
+891,"HR Update: Changes to remote work policy and equipment stipend program",no
+892,"Formal RFQ: Detailed quotation needed for specialized manufacturing equipment with custom specifications",yes
+893,"Company Announcement: Annual charitable giving campaign kickoff and matching program details",no
+894,"Need detailed pricing options for different service level agreements for the enterprise software package",yes
+895,"Safety Reminder: Ergonomic workstation setup guidelines to prevent injuries",no
+896,"Seeking comprehensive cost projection for scaling your solution as our user base grows over next 36 months",yes
+897,"IT Department: Important updates to data protection policies and compliance requirements",no
+898,"Request for formal quotation with detailed specifications for inclusion in our capital expenditure proposal",yes
+899,"Facilities Announcement: New sustainable practices implementation and waste reduction goals",no
+900,"Could you provide detailed pricing for both on-premise and cloud-based deployment options?",yes
+901,"HR Reminder: Performance review discussions scheduled for next month - preparation materials attached",no
+902,"Need comprehensive cost analysis comparing preventive maintenance contract vs. time and materials approach",yes
+903,"Company Update: Strategic partnership announcement and implications for our business",no
+904,"Requesting detailed quotation for custom solution addressing the specific challenges we discussed last week",yes
+905,"IT Security Alert: Recent increase in phishing attempts targeting our organization",no
+906,"Formal request for pricing: Nationwide rollout of your retail display solution across our 200+ locations",yes
+907,"Executive Communication: Annual planning process kickoff and departmental budget submissions",no
+908,"Need detailed cost breakdown for implementing your environmental monitoring system at our facilities",yes
+909,"Facilities Update: Improvements to campus outdoor spaces and recreational areas",no
+910,"Seeking comprehensive quotation for custom software development project with phased implementation approach",yes
+911,"HR Announcement: Enhanced employee wellness program and participation incentives",no
+912,"Request for detailed pricing options for different configuration scenarios of your manufacturing solution",yes
+913,"Safety Committee: Updated emergency evacuation procedures and assembly point locations",no
+914,"Could you provide a formal quotation for the turnkey solution we discussed at the industry conference?",yes
+915,"Company Newsletter: Spotlight on innovation and recent patent achievements",no
+916,"Need comprehensive pricing for both equipment purchase and ongoing maintenance services",yes
+917,"IT Department: New mobile device policy and security requirements for company data access",no
+918,"Requesting detailed cost analysis for upgrading vs. replacing aging equipment in our production facility",yes
+919,"Facilities Announcement: New food service vendor in company cafeteria starting next month",no
+920,"Formal RFQ: Detailed quotation needed for specialized consulting services for our digital transformation initiative",yes
+921,"HR Update: Changes to employee recognition program and nomination criteria",no
+922,"Need detailed pricing proposal with volume discount tiers for our anticipated annual consumption",yes
+923,"Company Announcement: Upcoming customer appreciation events and participation opportunities",no
+924,"Seeking comprehensive cost analysis for implementing your solution with customizations for our industry",yes
+925,"Safety Reminder: Procedures for reporting workplace hazards and safety concerns",no
+926,"Request for detailed quotation including implementation services and knowledge transfer for new system",yes
+927,"IT Security: Mandatory security awareness training schedule and completion requirements",no
+928,"Could you provide a comprehensive pricing proposal for upgrading our entire fleet to your latest model?",yes
+929,"Executive Announcement: Strategic acquisition completed and integration plans",no
+930,"Need formal quotation for custom development of integration between your system and our existing platform",yes
+931,"Facilities Update: Changes to shipping and receiving procedures and hours of operation",no
+932,"Requesting detailed cost breakdown for phased implementation of your solution across our business units",yes
+933,"HR Announcement: Updates to continuing education benefits and approval process",no
+934,"Formal request for pricing: Enterprise-wide license agreement with unlimited user access",yes
+935,"Company Update: Recent media coverage and public relations opportunities",no
+936,"Need comprehensive quotation for equipment, installation, training, and extended warranty",yes
+937,"Safety Committee: New safety protocols for handling specialized equipment in production areas",no
+938,"Seeking detailed pricing for custom manufacturing with quality assurance and certification requirements",yes
+939,"IT Department: Upcoming changes to file sharing and collaboration platform",no
+940,"Request for formal pricing proposal with detailed implementation timeline and resource requirements",yes
+941,"Facilities Announcement: New security measures being implemented at all building entrances",no
+942,"Could you provide detailed cost analysis for your preventive maintenance program across our facilities?",yes
+943,"HR Update: Changes to employee assistance program and available resources",no
+944,"Need formal quotation with detailed specifications for specialized equipment for our research laboratory",yes
+945,"Company Announcement: Quarterly business performance and market outlook",no
+946,"Requesting comprehensive pricing proposal for upgrading our quality control systems to meet new regulations",yes
+947,"IT Security: Important updates to data protection policies and procedures",no
+948,"Formal RFQ: Detailed quotation needed for custom solution based on specifications discussed during site visit",yes
+949,"Executive Communication: Strategic priorities and organizational goals for coming fiscal year",no
+950,"Need detailed pricing options for different levels of technical support coverage for your software",yes
+951,"Facilities Update: Renovation schedule for main lobby and reception area - temporary arrangements",no
+952,"Seeking comprehensive cost breakdown for implementing your solution across our European operations",yes
+953,"HR Announcement: Enhanced employee discount program with new participating vendors",no
+954,"Request for detailed quotation for annual maintenance contract with guaranteed response times",yes
+955,"Safety Reminder: Proper handling procedures for sensitive materials and equipment",no
+956,"Could you provide formal pricing for both standard and expedited delivery options for our quarterly supply order?",yes
+957,"Company Newsletter: Employee spotlights and recent team achievements",no
+958,"Need comprehensive pricing proposal with ROI analysis for automation project at our Cincinnati facility",yes
+959,"IT Department: New data classification guidelines and handling procedures for sensitive information",no
+960,"Requesting detailed quotation for custom manufacturing with specialized materials and finishing requirements",yes
+961,"Facilities Announcement: New electric vehicle charging stations available in company parking garage",no
+962,"Formal request for pricing: Comprehensive cost analysis for transitioning to your managed services solution",yes
+963,"HR Update: Changes to performance evaluation criteria and process for coming year",no
+964,"Need detailed cost breakdown for implementing your compliance management solution enterprise-wide",yes
+965,"Executive Announcement: Upcoming media coverage and communication guidelines",no
+966,"Seeking formal quotation for nationwide service coverage with guaranteed response times",yes
+967,"Safety Committee: Results of recent safety audit and required corrective actions",no
+968,"Request for comprehensive pricing including training, implementation, and ongoing support services",yes
+969,"IT Security Reminder: Recognizing and reporting suspicious emails and phishing attempts",no
+970,"Could you provide detailed pricing for scaling your solution as we expand to new markets?",yes
+971,"Facilities Update: Changes to office layout and workspace allocation process",no
+972,"Need formal quotation with detailed specifications for inclusion in our budget planning process",yes
+973,"HR Announcement: New professional development opportunities and internal training resources",no
+974,"Requesting comprehensive pricing proposal for nationwide implementation of your retail solution",yes
+975,"Company Update: Annual planning process and departmental budget submissions",no
+976,"Formal RFQ: Detailed cost analysis comparing your solution to our current process with ROI projections",yes
+977,"Safety Reminder: Updated guidelines for workplace accident reporting and investigation",no
+978,"Need comprehensive quotation for enterprise software licenses with implementation services",yes
+979,"IT Department: New software deployment schedule and training resources available",no
+980,"Seeking detailed pricing options for different service level agreements and response times",yes
+981,"Executive Communication: Company performance review and strategic direction update",no
+982,"Request for formal quotation for custom solution addressing the specific challenges we discussed last month",yes
+983,"Facilities Announcement: Improvements to building HVAC system and expected energy savings",no
+984,"Could you provide a detailed cost breakdown for the enterprise-wide deployment we discussed at the conference?",yes
+985,"HR Update: Changes to employee referral program and increased bonuses",no
+986,"Need comprehensive pricing for both on-premise and cloud deployment options with migration services",yes
+987,"Company Announcement: Upcoming community volunteer opportunities and team participation",no
+988,"Requesting detailed quotation for equipment lease options with maintenance and upgrade provisions",yes
+989,"Safety Committee: Upcoming safety certification training schedule and registration information",no
+990,"Formal request for pricing: Custom development project with milestone-based payment schedule",yes
+991,"IT Security: Critical system updates required to address recently identified vulnerabilities",no
+992,"Need detailed cost analysis for implementing your quality control system in our manufacturing process",yes
+993,"Facilities Update: Changes to visitor management system and security procedures",no
+994,"Seeking comprehensive pricing proposal with volume discounts for anticipated three-year consumption",yes
+995,"Executive Announcement: Leadership changes effective next quarter",no
+996,"Request for detailed quotation including customization options and implementation services for CRM solution",yes
+997,"HR Reminder: Deadline approaching for submitting tuition reimbursement requests for current semester",no
+998,"Could you provide comprehensive pricing for your preventive maintenance program with guaranteed uptime?",yes
+999,"Company Newsletter: Upcoming events and important dates for your calendar",no
+1000,"Need formal quotation with detailed specifications for specialized manufacturing equipment for expansion project",yes
+1001,"Safety Announcement: New safety equipment distribution and training requirements",no
+1002,"Requesting detailed cost breakdown for implementing your solution with customizations for our industry",yes
+1003,"IT Department: Updates to acceptable use policy for company technology resources",no
+1004,"Formal RFQ: Comprehensive quotation for equipment, installation, training, and extended warranty",yes
+1005,"Facilities Management: New sustainable practices implementation and waste reduction goals",no
+1006,"Need detailed pricing for scaling your solution as our user base grows over the next 24 months",yes
+1007,"HR Announcement: Updates to employee health and wellness program offerings",no
+1008,"Seeking formal quotation with detailed specifications for inclusion in our capital expenditure proposal",yes
+1009,"Executive Communication: Quarterly business review and strategic priorities discussion",no
+1010,"Request for comprehensive pricing proposal including implementation services and knowledge transfer",yes
+1011,"Safety Reminder: Proper procedures for handling hazardous materials in the workplace",no
+1012,"Could you provide detailed cost analysis comparing your solution to alternatives we're considering?",yes
+1013,"Company Announcement: Recent industry awards and recognition for our products",no
+1014,"Need formal quotation for custom manufacturing with quality assurance and testing protocols",yes
+1015,"IT Security: New guidelines for secure remote work and protection of company information",no
+1016,"Requesting detailed pricing options for different configuration scenarios based on our discussion",yes
+1017,"Facilities Update: Renovation schedule for employee break areas and recreational spaces",no
+1018,"Formal request for pricing: Nationwide implementation of your solution across our regional offices",yes
+1019,"HR Update: Changes to professional development funding and approval process",no
+1020,"Need comprehensive quotation for upgrading our existing systems to your latest technology",yes
+1021,"Executive Announcement: Strategic partnership formation and business implications",no
+1022,"Seeking detailed cost breakdown for phased implementation across our manufacturing facilities",yes
+1023,"Safety Committee: Updated emergency response procedures and team assignments",no
+1024,"Request for formal pricing proposal with detailed implementation timeline and resource requirements",yes
+1025,"IT Department: New collaboration tools being deployed to improve team productivity",no
+1026,"Request for detailed pricing: Manufacturing equipment upgrade with installation and operator training",yes
+1027,"Executive Team Update: Q4 strategic initiatives and departmental alignment expectations",no
+1028,"Need comprehensive quotation for enterprise-wide software deployment with phased implementation plan",yes
+1029,"HR Advisory: Important changes to employee health benefits effective January 1st",no
+1030,"Seeking formal cost proposal for retrofitting our Chicago facility with your energy-efficient solution",yes
+1031,"IT Security Alert: Mandatory password reset required for all network users by Friday",no
+1032,"Could you provide detailed pricing for both standard and premium support tiers for your platform?",yes
+1033,"Facilities Management: Updated cleaning protocols and sanitation standards for all locations",no
+1034,"RFQ #2023-456: Formal request for quotation for specialized laboratory equipment per attached specs",yes
+1035,"Company Announcement: Annual employee recognition awards ceremony next month",no
+1036,"Need comprehensive cost analysis for upgrading our fleet to meet new regulatory requirements",yes
+1037,"Legal Department: Updated terms of service for vendor relationships require acknowledgment",no
+1038,"Requesting detailed quotation for custom manufacturing run with expedited delivery timeline",yes
+1039,"Safety Committee: Quarterly workplace safety assessment findings and recommendations",no
+1040,"What would the investment look like for implementing your solution across our distribution network?",yes
+1041,"Marketing Department: Updated brand guidelines and digital asset management system",no
+1042,"Need formal quotation with detailed specifications for capital expenditure approval (Project: EXP-2023-089)",yes
+1043,"Company Newsletter: Employee spotlights and upcoming community engagement opportunities",no
+1044,"Requesting comprehensive cost breakdown comparing cloud-based vs. on-premises deployment options",yes
+1045,"Facilities Update: Parking garage maintenance schedule and temporary alternative arrangements",no
+1046,"Could you provide detailed pricing for your managed services offering with various SLA options?",yes
+1047,"HR Announcement: Changes to performance review process and updated evaluation criteria",no
+1048,"Need detailed quotation for custom integration between your platform and our existing systems",yes
+1049,"IT Department: Scheduled system maintenance and potential service interruptions this weekend",no
+1050,"Seeking formal pricing proposal for nationwide service contract with guaranteed response times",yes
+1051,"Legal Department: Updated confidentiality agreements require signature from all employees",no
+1052,"Request for detailed cost breakdown for implementing your inventory management solution at our facilities",yes
+1053,"Company Announcement: Recent industry recognition and award for product excellence",no
+1054,"Need comprehensive quotation including equipment, installation, training, and extended warranty options",yes
+1055,"Safety Committee: Upcoming emergency response drill schedule and participation requirements",no
+1056,"Requesting detailed pricing options for different tiers of your professional services offering",yes
+1057,"Facilities Management: New visitor check-in procedures effective next Monday at all locations",no
+1058,"Could you provide a formal quotation for the custom configuration we discussed during the site visit?",yes
+1059,"HR Reminder: Open enrollment period for benefits begins next week - important changes this year",no
+1060,"Need detailed cost analysis for upgrading our quality control process with your automated solution",yes
+1061,"Executive Communication: Strategic priorities for upcoming fiscal year and organizational focus",no
+1062,"Requesting comprehensive pricing proposal with ROI analysis for warehouse automation project",yes
+1063,"IT Security: New guidelines for secure remote access and protection of company information",no
+1064,"Formal RFQ: Detailed quotation needed for specialized equipment for our research laboratory",yes
+1065,"Company Update: Quarterly business performance and market outlook presentation",no
+1066,"Need detailed pricing structure for enterprise-wide software deployment with user-based licensing",yes
+1067,"Facilities Announcement: Renovation schedule for main conference center - alternative meeting spaces",no
+1068,"Seeking comprehensive cost breakdown for implementing your solution across our manufacturing plants",yes
+1069,"HR Update: Enhanced professional development program and educational reimbursement options",no
+1070,"Request for formal quotation with detailed specifications for inclusion in government contract bid",yes
+1071,"Safety Reminder: Proper procedures for handling and disposing of hazardous materials",no
+1072,"Could you provide detailed pricing options for both purchase and leasing of the equipment we discussed?",yes
+1073,"Company Announcement: Upcoming trade show participation and customer engagement strategy",no
+1074,"Need comprehensive cost analysis for transitioning from current vendor to your maintenance program",yes
+1075,"IT Department: New collaboration tools being deployed to improve team productivity",no
+1076,"Requesting detailed quotation for custom development project with milestone-based delivery schedule",yes
+1077,"Facilities Update: Changes to building access procedures and security badge requirements",no
+1078,"Formal request for pricing proposal: Enterprise resource planning system implementation",yes
+1079,"HR Announcement: Updates to parental leave policy and family support resources",no
+1080,"Need detailed cost breakdown for implementing your compliance management solution enterprise-wide",yes
+1081,"Company Newsletter: Recent achievements and upcoming organizational changes",no
+1082,"Seeking comprehensive quotation for equipment upgrade with trade-in consideration for existing machinery",yes
+1083,"Safety Committee: Results of recent workplace safety audit and required corrective actions",no
+1084,"Request for detailed pricing for scaling your solution as our business expands to new markets",yes
+1085,"IT Security Reminder: Best practices for creating strong passwords and securing accounts",no
+1086,"Could you provide a formal quotation for annual maintenance contract with preventive service schedule?",yes
+1087,"Executive Announcement: Organizational restructuring effective next quarter",no
+1088,"Need comprehensive pricing proposal including implementation timeline and resource requirements",yes
+1089,"Facilities Management: Updates to conference room technology and reservation system",no
+1090,"Requesting detailed cost analysis for implementing your quality management system across our operations",yes
+1091,"HR Update: Changes to remote work policy and equipment stipend program",no
+1092,"Formal RFQ: Detailed quotation needed for specialized manufacturing equipment with custom specifications",yes
+1093,"Company Announcement: Annual charitable giving campaign kickoff and matching program details",no
+1094,"Need detailed pricing options for different service level agreements for the enterprise software package",yes
+1095,"Safety Reminder: Ergonomic workstation setup guidelines to prevent injuries",no
+1096,"Seeking comprehensive cost projection for scaling your solution as our user base grows over next 36 months",yes
+1097,"IT Department: Important updates to data protection policies and compliance requirements",no
+1098,"Request for formal quotation with detailed specifications for inclusion in our capital expenditure proposal",yes
+1099,"Facilities Announcement: New sustainable practices implementation and waste reduction goals",no
+1100,"Could you provide detailed pricing for both on-premise and cloud-based deployment options?",yes
+1101,"HR Reminder: Performance review discussions scheduled for next month - preparation materials attached",no
+1102,"Need comprehensive cost analysis comparing preventive maintenance contract vs. time and materials approach",yes
+1103,"Company Update: Strategic partnership announcement and implications for our business",no
+1104,"Requesting detailed quotation for custom solution addressing the specific challenges we discussed last week",yes
+1105,"IT Security Alert: Recent increase in phishing attempts targeting our organization",no
+1106,"Formal request for pricing: Nationwide rollout of your retail display solution across our 200+ locations",yes
+1107,"Executive Communication: Annual planning process kickoff and departmental budget submissions",no
+1108,"Need detailed cost breakdown for implementing your environmental monitoring system at our facilities",yes
+1109,"Facilities Update: Improvements to campus outdoor spaces and recreational areas",no
+1110,"Seeking comprehensive quotation for custom software development project with phased implementation approach",yes
+1111,"HR Announcement: Enhanced employee wellness program and participation incentives",no
+1112,"Request for detailed pricing options for different configuration scenarios of your manufacturing solution",yes
+1113,"Safety Committee: Updated emergency evacuation procedures and assembly point locations",no
+1114,"Could you provide a formal quotation for the turnkey solution we discussed at the industry conference?",yes
+1115,"Company Newsletter: Spotlight on innovation and recent patent achievements",no
+1116,"Need comprehensive pricing for both equipment purchase and ongoing maintenance services",yes
+1117,"IT Department: New mobile device policy and security requirements for company data access",no
+1118,"Requesting detailed cost analysis for upgrading vs. replacing aging equipment in our production facility",yes
+1119,"Facilities Announcement: New food service vendor in company cafeteria starting next month",no
+1120,"Formal RFQ: Detailed quotation needed for specialized consulting services for our digital transformation initiative",yes
+1121,"HR Update: Changes to employee recognition program and nomination criteria",no
+1122,"Need detailed pricing proposal with volume discount tiers for our anticipated annual consumption",yes
+1123,"Company Announcement: Upcoming customer appreciation events and participation opportunities",no
+1124,"Seeking comprehensive cost analysis for implementing your solution with customizations for our industry",yes
+1125,"Safety Reminder: Procedures for reporting workplace hazards and safety concerns",no
+1126,"Request for detailed quotation including implementation services and knowledge transfer for new system",yes
+1127,"IT Security: Mandatory security awareness training schedule and completion requirements",no
+1128,"Could you provide a comprehensive pricing proposal for upgrading our entire fleet to your latest model?",yes
+1129,"Executive Announcement: Strategic acquisition completed and integration plans",no
+1130,"Need formal quotation for custom development of integration between your system and our existing platform",yes
+1131,"Facilities Update: Changes to shipping and receiving procedures and hours of operation",no
+1132,"Requesting detailed cost breakdown for phased implementation of your solution across our business units",yes
+1133,"HR Announcement: Updates to continuing education benefits and approval process",no
+1134,"Formal request for pricing: Enterprise-wide license agreement with unlimited user access",yes
+1135,"Company Update: Recent media coverage and public relations opportunities",no
+1136,"Need comprehensive quotation for equipment, installation, training, and extended warranty",yes
+1137,"Safety Committee: New safety protocols for handling specialized equipment in production areas",no
+1138,"Seeking detailed pricing for custom manufacturing with quality assurance and certification requirements",yes
+1139,"IT Department: Upcoming changes to file sharing and collaboration platform",no
+1140,"Request for formal pricing proposal with detailed implementation timeline and resource requirements",yes
+1141,"Facilities Announcement: New security measures being implemented at all building entrances",no
+1142,"Could you provide detailed cost analysis for your preventive maintenance program across our facilities?",yes
+1143,"HR Update: Changes to employee assistance program and available resources",no
+1144,"Need formal quotation with detailed specifications for specialized equipment for our research laboratory",yes
+1145,"Company Announcement: Quarterly business performance and market outlook",no
+1146,"Requesting comprehensive pricing proposal for upgrading our quality control systems to meet new regulations",yes
+1147,"IT Security: Important updates to data protection policies and procedures",no
+1148,"Formal RFQ: Detailed quotation needed for custom solution based on specifications discussed during site visit",yes
+1149,"Executive Communication: Strategic priorities and organizational goals for coming fiscal year",no
+1150,"Need detailed pricing options for different levels of technical support coverage for your software",yes
+1151,"Facilities Update: Renovation schedule for main lobby and reception area - temporary arrangements",no
+1152,"Seeking comprehensive cost breakdown for implementing your solution across our European operations",yes
+1153,"HR Announcement: Enhanced employee discount program with new participating vendors",no
+1154,"Request for detailed quotation for annual maintenance contract with guaranteed response times",yes
+1155,"Safety Reminder: Proper handling procedures for sensitive materials and equipment",no
+1156,"Could you provide formal pricing for both standard and expedited delivery options for our quarterly supply order?",yes
+1157,"Company Newsletter: Employee spotlights and recent team achievements",no
+1158,"Need comprehensive pricing proposal with ROI analysis for automation project at our Cincinnati facility",yes
+1159,"IT Department: New data classification guidelines and handling procedures for sensitive information",no
+1160,"Requesting detailed quotation for custom manufacturing with specialized materials and finishing requirements",yes
+1161,"Facilities Announcement: New electric vehicle charging stations available in company parking garage",no
+1162,"Formal request for pricing: Comprehensive cost analysis for transitioning to your managed services solution",yes
+1163,"HR Update: Changes to performance evaluation criteria and process for coming year",no
+1164,"Need detailed cost breakdown for implementing your compliance management solution enterprise-wide",yes
+1165,"Executive Announcement: Upcoming media coverage and communication guidelines",no
+1166,"Seeking formal quotation for nationwide service coverage with guaranteed response times",yes
+1167,"Safety Committee: Results of recent safety audit and required corrective actions",no
+1168,"Request for comprehensive pricing including training, implementation, and ongoing support services",yes
+1169,"IT Security Reminder: Recognizing and reporting suspicious emails and phishing attempts",no
+1170,"Could you provide detailed pricing for scaling your solution as we expand to new markets?",yes
+1171,"Facilities Update: Changes to office layout and workspace allocation process",no
+1172,"Need formal quotation with detailed specifications for inclusion in our budget planning process",yes
+1173,"HR Announcement: New professional development opportunities and internal training resources",no
+1174,"Requesting comprehensive pricing proposal for nationwide implementation of your retail solution",yes
+1175,"Company Update: Annual planning process and departmental budget submissions",no
+1176,"Formal RFQ: Detailed cost analysis comparing your solution to our current process with ROI projections",yes
+1177,"Safety Reminder: Updated guidelines for workplace accident reporting and investigation",no
+1178,"Need comprehensive quotation for enterprise software licenses with implementation services",yes
+1179,"IT Department: New software deployment schedule and training resources available",no
+1180,"Seeking detailed pricing options for different service level agreements and response times",yes
+1181,"Executive Communication: Company performance review and strategic direction update",no
+1182,"Request for formal quotation for custom solution addressing the specific challenges we discussed last month",yes
+1183,"Facilities Announcement: Improvements to building HVAC system and expected energy savings",no
+1184,"Could you provide a detailed cost breakdown for the enterprise-wide deployment we discussed at the conference?",yes
+1185,"HR Update: Changes to employee referral program and increased bonuses",no
+1186,"Need comprehensive pricing for both on-premise and cloud deployment options with migration services",yes
+1187,"Company Announcement: Upcoming community volunteer opportunities and team participation",no
+1188,"Requesting detailed quotation for equipment lease options with maintenance and upgrade provisions",yes
+1189,"Safety Committee: Upcoming safety certification training schedule and registration information",no
+1190,"Formal request for pricing: Custom development project with milestone-based payment schedule",yes
+1191,"IT Security: Critical system updates required to address recently identified vulnerabilities",no
+1192,"Need detailed cost analysis for implementing your quality control system in our manufacturing process",yes
+1193,"Facilities Update: Changes to visitor management system and security procedures",no
+1194,"Seeking comprehensive pricing proposal with volume discounts for anticipated three-year consumption",yes
+1195,"Executive Announcement: Leadership changes effective next quarter",no
+1196,"Request for detailed quotation including customization options and implementation services for CRM solution",yes
+1197,"HR Reminder: Deadline approaching for submitting tuition reimbursement requests for current semester",no
+1198,"Could you provide comprehensive pricing for your preventive maintenance program with guaranteed uptime?",yes
+1199,"Company Newsletter: Upcoming events and important dates for your calendar",no
+1200,"Need formal quotation with detailed specifications for specialized manufacturing equipment for expansion project",yes
+1201,"Safety Announcement: New safety equipment distribution and training requirements",no
+1202,"Requesting detailed cost breakdown for implementing your solution with customizations for our industry",yes
+1203,"IT Department: Updates to acceptable use policy for company technology resources",no
+1204,"Formal RFQ: Comprehensive quotation for equipment, installation, training, and extended warranty",yes
+1205,"Facilities Management: New sustainable practices implementation and waste reduction goals",no
+1206,"Need detailed pricing for scaling your solution as our user base grows over the next 24 months",yes
+1207,"HR Announcement: Updates to employee health and wellness program offerings",no
+1208,"Seeking formal quotation with detailed specifications for inclusion in our capital expenditure proposal",yes
+1209,"Executive Communication: Quarterly business review and strategic priorities discussion",no
+1210,"Request for comprehensive pricing proposal including implementation services and knowledge transfer",yes
+1211,"Safety Reminder: Proper procedures for handling hazardous materials in the workplace",no
+1212,"Could you provide detailed cost analysis comparing your solution to alternatives we're considering?",yes
+1213,"Company Announcement: Recent industry awards and recognition for our products",no
+1214,"Need formal quotation for custom manufacturing with quality assurance and testing protocols",yes
+1215,"IT Security: New guidelines for secure remote work and protection of company information",no
+1216,"Requesting detailed pricing options for different configuration scenarios based on our discussion",yes
+1217,"Facilities Update: Renovation schedule for employee break areas and recreational spaces",no
+1218,"Formal request for pricing: Nationwide implementation of your solution across our regional offices",yes
+1219,"HR Update: Changes to professional development funding and approval process",no
+1220,"Need comprehensive quotation for upgrading our existing systems to your latest technology",yes
+1221,"Executive Announcement: Strategic partnership formation and business implications",no
+1222,"Seeking detailed cost breakdown for phased implementation across our manufacturing facilities",yes
+1223,"Safety Committee: Updated emergency response procedures and team assignments",no
+1224,"Request for formal pricing proposal with detailed implementation timeline and resource requirements",yes
+1225,"IT Department: New collaboration tools being deployed to improve team productivity",no
+1226,"Could you provide a detailed quotation for the custom solution we discussed at last week's meeting?",yes
+1227,"Facilities Management: Updated building maintenance schedule for Q4 2023",no
+1228,"Need comprehensive pricing for enterprise-wide deployment of your cybersecurity solution",yes
+1229,"HR Advisory: Important changes to retirement plan investment options effective next month",no
+1230,"Requesting formal cost proposal for upgrading our production line with your automated equipment",yes
+1231,"Company Announcement: Annual holiday schedule and year-end closure information",no
+1232,"Seeking detailed quotation for custom development project with specific technical requirements",yes
+1233,"Safety Committee: Results of annual fire safety inspection and required improvements",no
+1234,"What would the financial investment be for implementing your solution across all our locations?",yes
+1235,"IT Security: Mandatory multi-factor authentication rollout schedule and instructions",no
+1236,"Need formal quotation with detailed specifications for specialized laboratory equipment (Project: LAB-2023-112)",yes
+1237,"Executive Communication: Year-end business review and upcoming strategic initiatives",no
+1238,"Request for comprehensive pricing proposal including implementation, training, and support services",yes
+1239,"Facilities Update: New waste management procedures and recycling program enhancements",no
+1240,"Could you provide detailed pricing options for your managed services with different SLA tiers?",yes
+1241,"HR Announcement: Changes to employee benefits package for upcoming calendar year",no
+1242,"Seeking formal quotation for custom manufacturing with specialized materials and quality requirements",yes
+1243,"Company Newsletter: Department spotlights and recent project successes",no
+1244,"Need detailed cost analysis for upgrading our existing infrastructure to support your solution",yes
+1245,"IT Department: Scheduled system upgrades and potential service impacts next weekend",no
+1246,"Requesting comprehensive pricing for nationwide service contract with 24/7 support options",yes
+1247,"Safety Reminder: Updated procedures for reporting workplace incidents and near-misses",no
+1248,"Formal RFQ: Detailed quotation needed for specialized equipment for our expansion project",yes
+1249,"Facilities Announcement: Building access system upgrade and new badge issuance process",no
+1250,"Need detailed pricing structure for enterprise software licenses with various user tiers",yes
+1251,"HR Update: Enhanced professional development program and educational assistance options",no
+1252,"Could you provide a formal quotation for the custom configuration discussed during your site visit?",yes
+1253,"Executive Announcement: Organizational changes and new reporting structure effective next month",no
+1254,"Requesting detailed cost breakdown for implementing your solution across our distribution centers",yes
+1255,"Company Update: Quarterly business performance and market position analysis",no
+1256,"Need comprehensive quotation for equipment, installation, training, and extended warranty options",yes
+1257,"IT Security Alert: Important information about recent software vulnerabilities and required patches",no
+1258,"Seeking detailed pricing options for different implementation approaches for your platform",yes
+1259,"Facilities Management: Updates to conference room technology and reservation procedures",no
+1260,"Formal request for pricing proposal: Enterprise resource planning system with custom modules",yes
+1261,"Safety Committee: Upcoming workplace safety training schedule and certification requirements",no
+1262,"Need detailed cost analysis for transitioning from our current vendor to your maintenance program",yes
+1263,"HR Reminder: Open enrollment period for benefits begins next week - important changes this year",no
+1264,"Requesting comprehensive quotation for custom development project with phased delivery approach",yes
+1265,"Company Announcement: Annual employee recognition program nominations now open",no
+1266,"Could you provide detailed pricing for both on-premise and cloud-based deployment scenarios?",yes
+1267,"IT Department: New data backup procedures and disaster recovery protocols",no
+1268,"Need formal quotation with detailed specifications for inclusion in government contract proposal",yes
+1269,"Executive Communication: Strategic priorities for upcoming fiscal year and budget planning",no
+1270,"Seeking comprehensive cost breakdown for implementing your quality management system",yes
+1271,"Facilities Update: Renovation schedule for main entrance and lobby - temporary access routes",no
+1272,"Request for detailed pricing options for different service level agreements for your platform",yes
+1273,"Safety Reminder: Proper procedures for handling and storing hazardous materials",no
+1274,"Formal RFQ: Detailed quotation needed for specialized manufacturing equipment with custom features",yes
+1275,"HR Announcement: Updates to parental leave policy and family support resources",no
+1276,"Need comprehensive pricing proposal with ROI analysis for warehouse automation project",yes
+1277,"Company Newsletter: Recent achievements and upcoming organizational events",no
+1278,"Requesting detailed cost analysis for upgrading vs. replacing aging equipment in our facilities",yes
+1279,"IT Security: New guidelines for secure remote access and protection of sensitive information",no
+1280,"Could you provide a formal quotation for annual maintenance contract with preventive service schedule?",yes
+1281,"Executive Announcement: Strategic acquisition completed and integration timeline",no
+1282,"Need detailed pricing for scaling your solution as our business expands to new markets",yes
+1283,"Facilities Management: New visitor check-in procedures effective next month at all locations",no
+1284,"Seeking comprehensive quotation for custom software development with specific business requirements",yes
+1285,"Safety Committee: Results of recent workplace safety audit and required corrective actions",no
+1286,"Request for detailed cost breakdown for phased implementation of your solution across our operations",yes
+1287,"HR Update: Changes to remote work policy and equipment stipend program",no
+1288,"Formal request for pricing: Enterprise-wide license agreement with unlimited user access",yes
+1289,"Company Announcement: Upcoming trade show participation and customer engagement strategy",no
+1290,"Need comprehensive pricing for both equipment purchase and ongoing maintenance services",yes
+1291,"IT Department: Upcoming changes to network infrastructure and potential service impacts",no
+1292,"Requesting detailed quotation for custom integration between your platform and our existing systems",yes
+1293,"Facilities Announcement: New sustainable practices implementation and energy conservation goals",no
+1294,"Could you provide detailed cost analysis for your preventive maintenance program across our facilities?",yes
+1295,"Executive Communication: Annual planning process kickoff and departmental budget submissions",no
+1296,"Need formal quotation with detailed specifications for specialized equipment for our research laboratory",yes
+1297,"Safety Reminder: Ergonomic workstation setup guidelines to prevent injuries",no
+1298,"Seeking comprehensive pricing proposal for upgrading our quality control systems to meet new regulations",yes
+1299,"HR Announcement: Enhanced employee wellness program and participation incentives",no
+1300,"Request for detailed quotation including implementation services and knowledge transfer for new system",yes
+1301,"Company Update: Strategic partnership announcement and implications for our business",no
+1302,"Need detailed pricing options for different configuration scenarios of your manufacturing solution",yes
+1303,"IT Security: Mandatory security awareness training schedule and completion requirements",no
+1304,"Formal RFQ: Comprehensive cost projection for scaling your solution as our user base grows",yes
+1305,"Facilities Update: Changes to building access procedures and security badge requirements",no
+1306,"Could you provide a formal quotation for the turnkey solution we discussed at the industry conference?",yes
+1307,"HR Reminder: Performance review discussions scheduled for next month - preparation materials attached",no
+1308,"Requesting detailed cost breakdown for implementing your environmental monitoring system at our facilities",yes
+1309,"Executive Announcement: Leadership changes effective next quarter",no
+1310,"Need comprehensive quotation for equipment upgrade with trade-in consideration for existing machinery",yes
+1311,"Company Newsletter: Spotlight on innovation and recent patent achievements",no
+1312,"Seeking detailed pricing for custom manufacturing with quality assurance and certification requirements",yes
+1313,"Safety Committee: Updated emergency evacuation procedures and assembly point locations",no
+1314,"Request for formal pricing proposal with detailed implementation timeline and resource requirements",yes
+1315,"IT Department: New mobile device policy and security requirements for company data access",no
+1316,"Need detailed cost analysis for implementing your compliance management solution enterprise-wide",yes
+1317,"Facilities Announcement: New food service vendor in company cafeteria starting next month",no
+1318,"Could you provide comprehensive pricing for your managed services offering with various SLA options?",yes
+1319,"HR Update: Changes to employee recognition program and nomination criteria",no
+1320,"Formal request for pricing: Detailed quotation needed for specialized consulting services",yes
+1321,"Company Announcement: Upcoming customer appreciation events and participation opportunities",no
+1322,"Requesting comprehensive cost analysis for implementing your solution with customizations for our industry",yes
+1323,"Executive Communication: Quarterly business review and strategic priorities discussion",no
+1324,"Need formal quotation for custom development of integration between your system and our existing platform",yes
+1325,"Safety Reminder: Procedures for reporting workplace hazards and safety concerns",no
+1326,"Hey, can you shoot over a quick price estimate for those components we talked about?",yes
+1327,"Reminder: Team lunch tomorrow at Mezzaluna - 12:30pm sharp!",no
+1328,"Need formal quotation for Johnson project - board meeting next Tuesday",yes
+1329,"Just checking in - how was your vacation last week?",no
+1330,"Ballpark figure needed ASAP for client meeting this afternoon",yes
+1331,"FWD: Parking garage access codes updated for security",no
+1332,"What would it cost to get about 50 of those sensors we saw at the expo?",yes
+1333,"Happy Birthday from the Marketing Team! 🎂",no
+1334,"Quick question about pricing for rush order - customer needs by Friday",yes
+1335,"Can someone please fix the printer on the 3rd floor? It's jammed again.",no
+1336,"RFQ #23-456: Detailed quotation needed for capital expenditure approval",yes
+1337,"Don't forget to submit your timesheet before leaving today",no
+1338,"Wondering what kind of numbers we're looking at for that custom work?",yes
+1339,"FYI - New coffee machine instructions in break room",no
+1340,"Urgent: Need pricing for client presentation tomorrow morning",yes
+1341,"Anyone interested in fantasy football league this year?",no
+1342,"Could you run some numbers for me on that equipment upgrade we discussed?",yes
+1343,"Heads up - fire drill scheduled for Thursday at 10am",no
+1344,"Just wanted to see what the damage might be for those replacement parts",yes
+1345,"Please clean out refrigerator items before weekend - maintenance scheduled",no
+1346,"Formal request for comprehensive pricing proposal - Project Falcon",yes
+1347,"Congrats to Sarah on her 10-year work anniversary! 🎉",no
+1348,"Need rough estimate for budget planning - nothing formal yet",yes
+1349,"Has anyone seen my blue coffee mug? Missing from kitchen since yesterday.",no
+1350,"What's your best price on bulk order of those components?",yes
+1351,"Reminder: Please complete mandatory security training by Friday",no
+1352,"Just wondering what it might cost to implement that solution we discussed",yes
+1353,"Office closing early (3pm) due to expected snowstorm",no
+1354,"Can you give me a ballpark on what these specs would run us?",yes
+1355,"Anyone have a phone charger I can borrow? Left mine at home.",no
+1356,"Need detailed cost breakdown for client proposal due next week",yes
+1357,"FYI: Updated holiday schedule attached - please review",no
+1358,"Hoping to get some pricing info before our budget meeting tomorrow",yes
+1359,"Leftover birthday cake in conference room B - help yourself!",no
+1360,"What would the financial impact be if we doubled our usual order?",yes
+1361,"Reminder: Turn off lights when leaving conference rooms",no
+1362,"Just need a rough idea of what this project might cost us",yes
+1363,"Anyone interested in carpooling from the north side?",no
+1364,"RFQ: Formal pricing needed for government contract submission",yes
+1365,"Building maintenance: Water will be shut off Saturday 8am-noon",no
+1366,"Can you help me understand what kind of investment we're looking at?",yes
+1367,"Lost and found: Black umbrella in main lobby",no
+1368,"Need to know approximate cost for these components by EOD",yes
+1369,"Please welcome our new team member, Alex Johnson!",no
+1370,"Just trying to get a sense of what these might cost before I talk to my boss",yes
+1371,"Reminder: Clean up after yourself in the kitchen area",no
+1372,"Could you send over some numbers for that custom work we talked about?",yes
+1373,"FYI - Elevator maintenance scheduled for this weekend",no
+1374,"What's the price tag on implementing that solution we discussed?",yes
+1375,"Office supplies inventory - please submit your requirements",no
+1376,"Need pricing info ASAP for budget approval meeting",yes
+1377,"Anyone have recommendations for lunch spots near new office?",no
+1378,"Just checking what the cost would be for expedited delivery",yes
+1379,"Reminder: Update your emergency contact information",no
+1380,"Can you give me a rough estimate for planning purposes?",yes
+1381,"FWD: Interesting article about industry trends",no
+1382,"Need to understand financial implications of switching to your service",yes
+1383,"Office temperature issues - facilities team is investigating",no
+1384,"What kind of pricing are we looking at for this quantity?",yes
+1385,"Team photo scheduled for next Wednesday - wear company shirts",no
+1386,"Just need some ballpark figures to take to my committee",yes
+1387,"Has anyone seen the first aid kit from conference room C?",no
+1388,"Formal RFQ: Detailed quotation needed for board presentation",yes
+1389,"Reminder: Submit your vacation requests for summer",no
+1390,"Can you help me understand what this might cost us?",yes
+1391,"FYI - New security badges will be issued next month",no
+1392,"Need pricing options for different service level tiers",yes
+1393,"Anyone interested in joining the company softball team?",no
+1394,"What would the numbers look like if we went with the premium option?",yes
+1395,"Reminder: Quarterly town hall meeting this Friday",no
+1396,"Just trying to get a handle on potential costs for this project",yes
+1397,"Building access: Card readers being upgraded this weekend",no
+1398,"Need rough pricing for budget planning purposes - nothing formal yet",yes
+1399,"Free donuts in break room - courtesy of sales team",no
+1400,"Can you provide cost estimate for the specs we sent over?",yes
+1401,"Please remember to log your customer interactions in CRM",no
+1402,"Just wondering what kind of investment we're looking at here",yes
+1403,"FYI - New vending machine options in south building",no
+1404,"Need to understand pricing structure before moving forward",yes
+1405,"Anyone have a spare HDMI adapter I can borrow for presentation?",no
+1406,"What's the damage going to be for this custom order?",yes
+1407,"Reminder: Update your photo for new company directory",no
+1408,"Could you shoot me over some rough numbers when you get a chance?",yes
+1409,"Office closure: Memorial Day weekend schedule",no
+1410,"Need pricing details for client meeting tomorrow afternoon",yes
+1411,"Anyone interested in lunch order from Chipotle today?",no
+1412,"Just trying to get a sense of what this might run us",yes
+1413,"FYI - Air conditioning maintenance scheduled for Friday",no
+1414,"What would be your best price if we increased our order quantity?",yes
+1415,"Reminder: Return borrowed equipment to IT department",no
+1416,"Need to know approximate cost for budgeting purposes",yes
+1417,"Lost and found: Car keys with blue keychain",no
+1418,"Can you give me a rough idea of pricing for these components?",yes
+1419,"Please clean your dishes - kitchen situation getting out of hand",no
+1420,"Formal request for detailed quotation - Project Horizon",yes
+1421,"FWD: Interesting webinar opportunity next week",no
+1422,"Just need a ballpark figure for these specifications",yes
+1423,"Reminder: Complete your health insurance enrollment by Friday",no
+1424,"What kind of cost are we looking at for this implementation?",yes
+1425,"New coffee selection in break room - please vote for your favorite",no
+1426,"Need pricing info for potential order - customer asking",yes
+1427,"Anyone have a spare phone charger I can borrow today?",no
+1428,"Could you help me understand the financial commitment here?",yes
+1429,"FYI - Updated parking permit procedures effective next month",no
+1430,"Just trying to get some numbers together for my boss",yes
+1431,"Reminder: Department photo scheduled for tomorrow at 2pm",no
+1432,"Need to know what kind of investment we're looking at",yes
+1433,"Free pizza in conference room A - help yourself!",no
+1434,"Can you provide a cost breakdown for the different options?",yes
+1435,"Building security: New visitor check-in process starts Monday",no
+1436,"What would it cost to get this done by end of month?",yes
+1437,"Anyone interested in after-work happy hour this Thursday?",no
+1438,"Need rough estimate for these components - planning phase",yes
+1439,"Reminder: Submit receipts for expense reimbursement by Friday",no
+1440,"Just wondering what the price point would be for this quantity",yes
+1441,"FYI - New recycling guidelines posted in break rooms",no
+1442,"Could you send over pricing details when you get a chance?",yes
+1443,"Office furniture rearrangement scheduled for this weekend",no
+1444,"Need to understand cost implications before proceeding further",yes
+1445,"Anyone have recommendations for team building activities?",no
+1446,"What's the ballpark figure for implementing this solution?",yes
+1447,"Reminder: Change your network password this week",no
+1448,"Just need some rough numbers for planning purposes",yes
+1449,"Lost and found: Reading glasses in main conference room",no
+1450,"Formal RFQ: Detailed pricing needed for capital expenditure",yes
+1451,"Please remember to lock your computer when away from desk",no
+1452,"Can you give me an idea of what this might cost us?",yes
+1453,"FYI - Printer maintenance scheduled for tomorrow morning",no
+1454,"Need pricing options for different service packages",yes
+1455,"Anyone interested in contributing to retirement gift for Susan?",no
+1456,"What would the financial picture look like for this project?",yes
+1457,"Reminder: Clean out your items from refrigerator today",no
+1458,"Just trying to get a sense of the investment required",yes
+1459,"Building maintenance: Lighting upgrades this weekend",no
+1460,"Need approximate costs for these specifications by Thursday",yes
+1461,"Free health screenings next week - sign up at HR",no
+1462,"Could you provide some pricing guidance when convenient?",yes
+1463,"FWD: Important industry regulation changes",no
+1464,"What kind of numbers are we looking at for this order?",yes
+1465,"Reminder: Submit your timesheet before leaving today",no
+1466,"Need to understand potential costs for budget planning",yes
+1467,"Anyone have a spare notebook I can borrow for meeting?",no
+1468,"Just looking for rough pricing to take to my committee",yes
+1469,"FYI - Updated emergency evacuation procedures attached",no
+1470,"Can you help me understand what this implementation might cost?",yes
+1471,"Office supplies order going in today - last chance for requests",no
+1472,"Need formal quotation for client proposal due next week",yes
+1473,"Reminder: Department lunch scheduled for Friday at noon",no
+1474,"What would be the financial impact of this upgrade?",yes
+1475,"Lost and found: Blue water bottle left in meeting room",no
+1476,"Just need a rough estimate for these components",yes
+1477,"FYI - New coffee machine installed in break room",no
+1478,"Could you provide pricing details for the options we discussed?",yes
+1479,"Anyone interested in joining the wellness challenge?",no
+1480,"Need to know approximate cost for these specifications",yes
+1481,"Reminder: Complete mandatory compliance training by Friday",no
+1482,"What kind of investment would we be looking at here?",yes
+1483,"Building access: Weekend work requires security notification",no
+1484,"Just trying to get a handle on what this might cost",yes
+1485,"FWD: Interesting customer success story you might appreciate",no
+1486,"Need pricing information for potential order - nothing firm yet",yes
+1487,"Please clean up conference room after your meetings",no
+1488,"Can you give me a ballpark figure for these requirements?",yes
+1489,"Reminder: Update your contact information in directory",no
+1490,"What would the numbers look like for this configuration?",yes
+1491,"Anyone have recommendations for team lunch options?",no
+1492,"Need rough cost estimate for planning meeting tomorrow",yes
+1493,"FYI - Parking garage cleaning scheduled for Saturday",no
+1494,"Just wondering what kind of price we're looking at",yes
+1495,"Office closure: Independence Day weekend schedule",no
+1496,"Could you provide some pricing scenarios for consideration?",yes
+1497,"Reminder: Return borrowed equipment to IT department",no
+1498,"Need to understand financial commitment before proceeding",yes
+1499,"Lost and found: Black pen with company logo",no
+1500,"What's the rough cost for implementing this solution?",yes
+1501,"FWD: Interesting webinar on industry trends next week",no
+1502,"Just need some ballpark numbers for my presentation",yes
+1503,"Building maintenance: HVAC system testing this weekend",no
+1504,"Need pricing details for potential client opportunity",yes
+1505,"Anyone interested in company book club? First meeting next week!",no
+1506,"Can you help me understand what this might run us?",yes
+1507,"Reminder: Submit your health insurance enrollment forms",no
+1508,"What kind of cost structure are we looking at?",yes
+1509,"FYI - New security procedures for visitors effective Monday",no
+1510,"Need rough estimate for these components by EOD if possible",yes
+1511,"Please remember to turn off lights when leaving conference rooms",no
+1512,"Just trying to get a sense of pricing for budget planning",yes
+1513,"Office move: Updated timeline and packing instructions",no
+1514,"Could you provide a cost breakdown for the different options?",yes
+1515,"Anyone have a spare laptop charger I can borrow today?",no
+1516,"Need formal quotation for board presentation next week",yes
+1517,"Reminder: Team building event scheduled for next Friday",no
+1518,"What would it cost to implement the solution we discussed?",yes
+1519,"FWD: Important industry certification information",no
+1520,"Just need a rough idea of what these might cost us",yes
+1521,"Building security: New badge access procedures start Monday",no
+1522,"Need pricing information for potential order - customer asking",yes
+1523,"Free flu shots available next Tuesday in conference room C",no
+1524,"Can you give me an estimate for these specifications?",yes
+1525,"Reminder: Complete your self-assessment by Friday",no
+1526,"What kind of investment are we looking at for this project?",yes
+1527,"FYI - Updated holiday schedule for upcoming year",no
+1528,"Need to understand pricing options before client meeting",yes
+1529,"Anyone interested in volunteering for community service day?",no
+1530,"Just wondering what the financial picture might look like",yes
+1531,"Office supplies: New ordering procedure effective next month",no
+1532,"Could you provide some rough numbers for planning purposes?",yes
+1533,"Reminder: Department photo rescheduled for Thursday at 2pm",no
+1534,"Need pricing details for potential upgrade - exploring options",yes
+1535,"Lost and found: Umbrella left in main lobby yesterday",no
+1536,"What would be your best price for this quantity?",yes
+1537,"FWD: Interesting article about industry innovations",no
+1538,"Just need a ballpark figure to take to my manager",yes
+1539,"Building maintenance: Window cleaning scheduled for Friday",no
+1540,"Need to know approximate cost for these requirements",yes
+1541,"Anyone have recommendations for client gift ideas?",no
+1542,"Can you help me understand the pricing structure?",yes
+1543,"Reminder: Submit your vacation requests for holiday season",no
+1544,"What kind of numbers are we looking at for this implementation?",yes
+1545,"FYI - New vending machine options in break room",no
+1546,"Need rough estimate for budget planning meeting",yes
+1547,"Please remember to lock conference rooms after use",no
+1548,"Just trying to get a sense of what this might cost us",yes
+1549,"Office event: Company picnic details and RSVP information",no
+1550,"Could you provide pricing information for the options discussed?",yes
+1551,"Reminder: Update your emergency contact information",no
+1552,"Need to understand financial implications before proceeding",yes
+1553,"Anyone interested in lunch order from new Thai place?",no
+1554,"What would the cost be for expedited delivery option?",yes
+1555,"FYI - Updated parking permit procedures attached",no
+1556,"Just need some rough pricing for planning purposes",yes
+1557,"Building access: Weekend work requires security notification",no
+1558,"Need formal quotation for client proposal - deadline Friday",yes
+1559,"Free donuts in break room - courtesy of marketing team",no
+1560,"Can you give me a ballpark figure for these components?",yes
+1561,"Reminder: Complete mandatory security awareness training",no
+1562,"What kind of investment would this implementation require?",yes
+1563,"Lost and found: Car keys with remote found in parking lot",no
+1564,"Need pricing options for different service levels",yes
+1565,"FWD: Interesting customer success story you might appreciate",no
+1566,"Just wondering what the damage might be for this order",yes
+1567,"Office closure: Labor Day weekend schedule",no
+1568,"Could you provide some cost estimates when you get a chance?",yes
+1569,"Anyone have a spare phone charger I can borrow for meeting?",no
+1570,"Need to know approximate pricing for budget planning",yes
+1571,"Reminder: Department lunch scheduled for tomorrow",no
+1572,"What would the numbers look like for this project scope?",yes
+1573,"FYI - New coffee selection in break room - please vote",no
+1574,"Just need a rough idea of costs for my presentation",yes
+1575,"Building maintenance: Elevator testing this weekend",no
+1576,"Need pricing details for potential client opportunity",yes
+1577,"Please clean up after yourself in kitchen and break areas",no
+1578,"Can you help me understand what this solution might cost?",yes
+1579,"Reminder: Submit your timesheet before end of day",no
+1580,"What kind of price point are we looking at here?",yes
+1581,"FWD: Important industry regulation update",no
+1582,"Need rough estimate for these specifications by tomorrow",yes
+1583,"Office move: Updated timeline and packing instructions",no
+1584,"Just trying to get a sense of the financial commitment",yes
+1585,"Anyone interested in fantasy football league this season?",no
+1586,"Could you provide a cost breakdown for the different packages?",yes
+1587,"Reminder: Clean out refrigerator items before weekend",no
+1588,"Need formal quotation for capital expenditure approval",yes
+1589,"Building security: New visitor check-in process starts Monday",no
+1590,"What would it cost to get this implemented by year-end?",yes
+1591,"FYI - Updated emergency contact procedures",no
+1592,"Just need some ballpark figures for planning meeting",yes
+1593,"Lost and found: Glasses case found in conference room B",no
+1594,"Need to understand pricing structure before next steps",yes
+1595,"Anyone have recommendations for team lunch options?",no
+1596,"Can you give me an idea of what these might run us?",yes
+1597,"Reminder: Department photo scheduled for tomorrow at 10am",no
+1598,"What kind of investment are we looking at for this upgrade?",yes
+1599,"FWD: Interesting webinar opportunity next week",no
+1600,"Need pricing information for potential order - customer inquiry",yes
+1601,"Office supplies: New ordering procedure effective next month",no
+1602,"Just wondering what the cost might be for rush delivery",yes
+1603,"Building maintenance: Plumbing work scheduled for weekend",no
+1604,"Could you provide some rough numbers for these specifications?",yes
+1605,"Reminder: Submit health insurance enrollment forms by Friday",no
+1606,"Need to know approximate cost for these components",yes
+1607,"Free pizza in break room - leftovers from client meeting",no
+1608,"What would the financial picture look like for this project?",yes
+1609,"FYI - New recycling guidelines posted in break rooms",no
+1610,"Just need a ballpark figure for budget planning purposes",yes
+1611,"Anyone have a spare notebook I can borrow for meeting?",no
+1612,"Need pricing details for the options we discussed yesterday",yes
+1613,"Office event: Holiday party details and RSVP information",no
+1614,"Can you help me understand what this implementation might cost?",yes
+1615,"Reminder: Return borrowed equipment to IT department",no
+1616,"What kind of numbers are we looking at for this order?",yes
+1617,"Building access: Card readers being upgraded this weekend",no
+1618,"Need rough estimate for these requirements - planning phase",yes
+1619,"Please remember to clean up conference rooms after meetings",no
+1620,"Just trying to get a sense of what this might cost us",yes
+1621,"FWD: Important industry certification information",no
+1622,"Could you provide pricing options for the different tiers?",yes
+1623,"Reminder: Complete your self-assessment by Friday",no
+1624,"Need to understand financial implications before proceeding",yes
+1625,"Lost and found: Water bottle left in main conference room",no
+1626,"Quick question - what would those parts cost if we ordered 200 instead of 100?",yes
+1627,"Reminder: Team building event this Friday - bring comfortable shoes",no
+1628,"Need pricing breakdown for Henderson project components ASAP",yes
+1629,"Can someone please water the office plants while I'm on vacation?",no
+1630,"Just wondering what kind of hit our budget would take for these upgrades",yes
+1631,"FYI - Parking validation system will be down tomorrow morning",no
+1632,"Could you ballpark what it would cost to add those features we discussed?",yes
+1633,"Anyone interested in contributing to Maria's baby shower gift?",no
+1634,"Need rough numbers for the CFO meeting tomorrow - nothing fancy",yes
+1635,"Heads up - building fire alarm test scheduled for Wednesday at 10am",no
+1636,"What's your best price on those industrial sensors we saw at the trade show?",yes
+1637,"Please remember to submit your timesheet before leaving today",no
+1638,"Just need a quick price check on replacement parts for Unit B",yes
+1639,"Free leftover sandwiches in kitchen from client meeting",no
+1640,"Formal quotation request: Project Evergreen components (ref #EG-2023-78)",yes
+1641,"Has anyone seen my blue water bottle? Left it somewhere yesterday.",no
+1642,"Can you give me an idea what implementing this solution might run us?",yes
+1643,"Office closure notification: Memorial Day weekend schedule",no
+1644,"Need to understand cost implications before presenting to management",yes
+1645,"Reminder: Please clean microwave after use - getting complaints",no
+1646,"What would the damage be if we went with the premium package?",yes
+1647,"Anyone have a spare iPhone charger I can borrow for the afternoon?",no
+1648,"RFQ: Formal pricing needed for capital expenditure approval",yes
+1649,"FYI - New coffee machine instructions posted in break room",no
+1650,"Just trying to get a sense of what these components might cost",yes
+1651,"Building maintenance: Water shutdown scheduled for Saturday",no
+1652,"Need pricing options for both standard and rush delivery",yes
+1653,"Happy hour this Thursday at Riverside Grill - all welcome!",no
+1654,"Could you send over some rough numbers for budgeting purposes?",yes
+1655,"Reminder: Update your direct deposit information by Friday",no
+1656,"What kind of investment are we looking at for this equipment?",yes
+1657,"Lost and found: Black umbrella in conference room C",no
+1658,"Need cost estimate for client proposal due next week",yes
+1659,"Please remember to lock doors when leaving after hours",no
+1660,"Just wondering what the price point would be for this quantity",yes
+1661,"FYI - Updated holiday schedule posted on intranet",no
+1662,"Can you help me understand the financial commitment here?",yes
+1663,"Office supplies inventory - please submit your requirements",no
+1664,"Need ballpark figure for these specs by end of day if possible",yes
+1665,"Anyone interested in joining the company softball team?",no
+1666,"What would it cost to expedite delivery on this order?",yes
+1667,"Reminder: Mandatory safety training this Wednesday at 2pm",no
+1668,"Just need some rough pricing to take to my committee",yes
+1669,"Building access: Card readers being upgraded this weekend",no
+1670,"Formal request for detailed quotation - Project Falcon",yes
+1671,"Free donuts in break room - courtesy of sales team",no
+1672,"Could you provide cost estimates for the different options?",yes
+1673,"FWD: Interesting article about industry trends",no
+1674,"Need to know approximate cost for these components by Thursday",yes
+1675,"Please welcome our new team member, Alex Johnson!",no
+1676,"What would the numbers look like if we doubled our order?",yes
+1677,"Reminder: Clean up after yourself in the kitchen area",no
+1678,"Just trying to get a handle on potential costs for this project",yes
+1679,"Office temperature issues - facilities team is investigating",no
+1680,"Need pricing info ASAP for budget approval meeting",yes
+1681,"Anyone have recommendations for lunch spots near new office?",no
+1682,"Can you give me a rough estimate for planning purposes?",yes
+1683,"FYI - Elevator maintenance scheduled for this weekend",no
+1684,"What's the price tag on implementing that solution we discussed?",yes
+1685,"Team photo scheduled for next Wednesday - wear company shirts",no
+1686,"Need to understand financial implications of switching to your service",yes
+1687,"Has anyone seen the first aid kit from conference room C?",no
+1688,"Just need some ballpark figures to take to my manager",yes
+1689,"Reminder: Submit your vacation requests for summer",no
+1690,"Could you help me understand what this might cost us?",yes
+1691,"FYI - New security badges will be issued next month",no
+1692,"Need pricing options for different service level tiers",yes
+1693,"Anyone interested in carpooling from the west side?",no
+1694,"What would the numbers look like if we went with the premium option?",yes
+1695,"Reminder: Quarterly town hall meeting this Friday",no
+1696,"Just trying to get a sense of what this implementation might run us",yes
+1697,"Building management: Fire alarm testing scheduled for Wednesday",no
+1698,"Need rough pricing for budget planning purposes - nothing formal yet",yes
+1699,"Free flu shots available next Tuesday in conference room C",no
+1700,"Can you provide cost estimate for the specs we sent over?",yes
+1701,"Please remember to log your customer interactions in CRM",no
+1702,"Just wondering what kind of investment we're looking at here",yes
+1703,"FYI - New vending machine options in south building",no
+1704,"Need to understand pricing structure before moving forward",yes
+1705,"Anyone have a spare HDMI adapter I can borrow for presentation?",no
+1706,"What's the damage going to be for this custom order?",yes
+1707,"Reminder: Update your photo for new company directory",no
+1708,"Could you shoot me over some rough numbers when you get a chance?",yes
+1709,"Office closure: Independence Day weekend schedule",no
+1710,"Need pricing details for client meeting tomorrow afternoon",yes
+1711,"Anyone interested in lunch order from Chipotle today?",no
+1712,"Just trying to get a sense of what this might run us",yes
+1713,"FYI - Air conditioning maintenance scheduled for Friday",no
+1714,"What would be your best price if we increased our order quantity?",yes
+1715,"Reminder: Return borrowed equipment to IT department",no
+1716,"Need to know approximate cost for budgeting purposes",yes
+1717,"Lost and found: Car keys with blue keychain",no
+1718,"Can you give me a rough idea of pricing for these components?",yes
+1719,"Please clean your dishes - kitchen situation getting out of hand",no
+1720,"Formal request for detailed quotation - Project Horizon",yes
+1721,"FWD: Interesting webinar opportunity next week",no
+1722,"Just need a ballpark figure for these specifications",yes
+1723,"Reminder: Complete your health insurance enrollment by Friday",no
+1724,"What kind of cost are we looking at for this implementation?",yes
+1725,"New coffee selection in break room - please vote for your favorite",no
+1726,"Need pricing info for potential order - customer asking",yes
+1727,"Anyone have a spare phone charger I can borrow today?",no
+1728,"Could you help me understand the financial commitment here?",yes
+1729,"FYI - Updated parking permit procedures effective next month",no
+1730,"Just trying to get some numbers together for my boss",yes
+1731,"Reminder: Department photo scheduled for tomorrow at 2pm",no
+1732,"Need to know what kind of investment we're looking at",yes
+1733,"Free pizza in conference room A - help yourself!",no
+1734,"Can you provide a cost breakdown for the different options?",yes
+1735,"Building security: New visitor check-in process starts Monday",no
+1736,"What would it cost to get this done by end of month?",yes
+1737,"Anyone interested in after-work happy hour this Thursday?",no
+1738,"Need rough estimate for these components - planning phase",yes
+1739,"Reminder: Submit receipts for expense reimbursement by Friday",no
+1740,"Just wondering what the price point would be for this quantity",yes
+1741,"FYI - New recycling guidelines posted in break rooms",no
+1742,"Could you send over pricing details when you get a chance?",yes
+1743,"Office furniture rearrangement scheduled for this weekend",no
+1744,"Need to understand cost implications before proceeding further",yes
+1745,"Anyone have recommendations for team building activities?",no
+1746,"What's the ballpark figure for implementing this solution?",yes
+1747,"Reminder: Change your network password this week",no
+1748,"Just need some rough numbers for planning purposes",yes
+1749,"Lost and found: Reading glasses in main conference room",no
+1750,"Formal RFQ: Detailed pricing needed for capital expenditure",yes
+1751,"Please remember to lock your computer when away from desk",no
+1752,"Can you give me an idea of what this might cost us?",yes
+1753,"FYI - Printer maintenance scheduled for tomorrow morning",no
+1754,"Need pricing options for different service packages",yes
+1755,"Anyone interested in contributing to retirement gift for Susan?",no
+1756,"What would the financial picture look like for this project?",yes
+1757,"Reminder: Clean out your items from refrigerator today",no
+1758,"Just trying to get a sense of the investment required",yes
+1759,"Building maintenance: Lighting upgrades this weekend",no
+1760,"Need approximate costs for these specifications by Thursday",yes
+1761,"Free health screenings next week - sign up at HR",no
+1762,"Could you provide a rough estimate for these components?",yes
+1763,"FWD: Important information about parking garage construction",no
+1764,"What kind of price range are we looking at for this order?",yes
+1765,"Reminder: Team lunch reservation tomorrow at 12:30pm",no
+1766,"Need to understand financial commitment before proceeding",yes
+1767,"Office supplies: New ordering procedure effective next month",no
+1768,"Just wondering what these parts would cost in that quantity",yes
+1769,"Building security: Updated access procedures after hours",no
+1770,"Can you help me understand the pricing structure?",yes
+1771,"Anyone have a stapler I can borrow? Mine just broke.",no
+1772,"Need formal quotation for board presentation next week",yes
+1773,"FYI - Updated emergency evacuation procedures posted",no
+1774,"What would it cost to implement the solution we discussed?",yes
+1775,"Reminder: Submit your self-assessment by Friday",no
+1776,"Just need a rough idea of what these might cost us",yes
+1777,"Lost and found: Water bottle left in conference room B",no
+1778,"Need pricing information for potential order - customer asking",yes
+1779,"Please remember to turn off projectors after meetings",no
+1780,"Could you give me an estimate for these specifications?",yes
+1781,"Office event: Company picnic details and RSVP information",no
+1782,"What kind of investment are we looking at for this project?",yes
+1783,"FYI - Updated holiday schedule for upcoming year",no
+1784,"Need to understand pricing options before client meeting",yes
+1785,"Anyone interested in volunteering for community service day?",no
+1786,"Just wondering what the financial picture might look like",yes
+1787,"Building maintenance: Window cleaning scheduled for Friday",no
+1788,"Could you provide some rough numbers for planning purposes?",yes
+1789,"Reminder: Department photo rescheduled for Thursday at 2pm",no
+1790,"Need pricing details for potential upgrade - exploring options",yes
+1791,"Free donuts in break room - courtesy of marketing team",no
+1792,"What would be your best price for this quantity?",yes
+1793,"FWD: Interesting article about industry innovations",no
+1794,"Just need a ballpark figure to take to my manager",yes
+1795,"Office closure: Labor Day weekend schedule",no
+1796,"Need to know approximate cost for these requirements",yes
+1797,"Anyone have recommendations for client gift ideas?",no
+1798,"Can you help me understand the pricing structure?",yes
+1799,"Reminder: Submit your vacation requests for holiday season",no
+1800,"What kind of numbers are we looking at for this implementation?",yes
+1801,"FYI - New vending machine options in break room",no
+1802,"Need rough estimate for budget planning meeting",yes
+1803,"Please remember to lock conference rooms after use",no
+1804,"Just trying to get a sense of what this might cost us",yes
+1805,"Office event: Holiday party details and RSVP information",no
+1806,"Could you provide pricing information for the options discussed?",yes
+1807,"Reminder: Update your emergency contact information",no
+1808,"Need to understand financial implications before proceeding",yes
+1809,"Anyone interested in lunch order from new Thai place?",no
+1810,"What would the cost be for expedited delivery option?",yes
+1811,"FYI - Updated parking permit procedures attached",no
+1812,"Just need some rough pricing for planning purposes",yes
+1813,"Building access: Weekend work requires security notification",no
+1814,"Need formal quotation for client proposal - deadline Friday",yes
+1815,"Free coffee and donuts in lobby - client appreciation day",no
+1816,"Can you give me a ballpark figure for these components?",yes
+1817,"Reminder: Complete mandatory security awareness training",no
+1818,"What kind of investment would this implementation require?",yes
+1819,"Lost and found: Umbrella left in main lobby yesterday",no
+1820,"Need pricing options for different service levels",yes
+1821,"FWD: Interesting customer success story you might appreciate",no
+1822,"Just wondering what the damage might be for this order",yes
+1823,"Office supplies: New ordering procedure effective next month",no
+1824,"Could you provide some cost estimates when you get a chance?",yes
+1825,"Anyone have a spare phone charger I can borrow for meeting?",no
+1826,"Need to know approximate pricing for budget planning",yes
+1827,"Reminder: Department lunch scheduled for tomorrow",no
+1828,"What would the numbers look like for this project scope?",yes
+1829,"FYI - New coffee selection in break room - please vote",no
+1830,"Just need a rough idea of costs for my presentation",yes
+1831,"Building maintenance: Elevator testing this weekend",no
+1832,"Need pricing details for potential client opportunity",yes
+1833,"Please clean up after yourself in kitchen and break areas",no
+1834,"Can you help me understand what this solution might cost?",yes
+1835,"Reminder: Submit your timesheet before end of day",no
+1836,"What kind of price point are we looking at here?",yes
+1837,"FWD: Important industry regulation update",no
+1838,"Need rough estimate for these specifications by tomorrow",yes
+1839,"Office move: Updated timeline and packing instructions",no
+1840,"Just trying to get a sense of the financial commitment",yes
+1841,"Anyone interested in fantasy football league this season?",no
+1842,"Could you provide a cost breakdown for the different packages?",yes
+1843,"Reminder: Clean out refrigerator items before weekend",no
+1844,"Need formal quotation for capital expenditure approval",yes
+1845,"Building security: New visitor check-in process starts Monday",no
+1846,"What would it cost to get this implemented by year-end?",yes
+1847,"FYI - Updated emergency contact procedures",no
+1848,"Just need some ballpark figures for planning meeting",yes
+1849,"Lost and found: Glasses case found in conference room B",no
+1850,"Need to understand pricing structure before next steps",yes
+1851,"Anyone have recommendations for team lunch options?",no
+1852,"Can you give me an idea of what these might run us?",yes
+1853,"Reminder: Department photo scheduled for tomorrow at 10am",no
+1854,"What kind of investment are we looking at for this upgrade?",yes
+1855,"FWD: Interesting webinar opportunity next week",no
+1856,"Need pricing information for potential order - customer inquiry",yes
+1857,"Office supplies: New ordering procedure effective next month",no
+1858,"Just wondering what the cost might be for rush delivery",yes
+1859,"Building maintenance: Plumbing work scheduled for weekend",no
+1860,"Could you provide some rough numbers for these specifications?",yes
+1861,"Reminder: Submit health insurance enrollment forms by Friday",no
+1862,"Need to know approximate cost for these components",yes
+1863,"Free pizza in break room - leftovers from client meeting",no
+1864,"What would the financial picture look like for this project?",yes
+1865,"FYI - New recycling guidelines posted in break rooms",no
+1866,"Just need a ballpark figure for budget planning purposes",yes
+1867,"Anyone have a spare notebook I can borrow for meeting?",no
+1868,"Need pricing details for the options we discussed yesterday",yes
+1869,"Office event: Holiday party details and RSVP information",no
+1870,"Can you help me understand what this implementation might cost?",yes
+1871,"Reminder: Return borrowed equipment to IT department",no
+1872,"What kind of numbers are we looking at for this order?",yes
+1873,"Building access: Card readers being upgraded this weekend",no
+1874,"Need rough estimate for these requirements - planning phase",yes
+1875,"Please remember to clean up conference rooms after meetings",no
+1876,"Just trying to get a sense of what this might cost us",yes
+1877,"FWD: Important industry certification information",no
+1878,"Could you provide pricing options for the different tiers?",yes
+1879,"Reminder: Complete your self-assessment by Friday",no
+1880,"Need to understand financial implications before proceeding",yes
+1881,"Lost and found: Water bottle left in main conference room",no
+1882,"What would be your best price for this quantity?",yes
+1883,"Office closure: Thanksgiving holiday schedule",no
+1884,"Just need some rough numbers for my presentation tomorrow",yes
+1885,"FYI - Updated visitor parking information",no
+1886,"Can you give me a ballpark figure for these components?",yes
+1887,"Reminder: Team building event this Friday afternoon",no
+1888,"Need pricing details for potential client proposal",yes
+1889,"Anyone interested in secret Santa gift exchange?",no
+1890,"What kind of cost structure are we looking at?",yes
+1891,"Building maintenance: Heating system testing this weekend",no
+1892,"Could you provide an estimate for these specifications?",yes
+1893,"Free bagels in break room - courtesy of HR team",no
+1894,"Need to understand pricing options before moving forward",yes
+1895,"Reminder: Update your contact information in directory",no
+1896,"Just wondering what the investment might be for this project",yes
+1897,"FWD: Interesting case study you might find useful",no
+1898,"What would it cost to implement this solution by Q1?",yes
+1899,"Office event: Year-end celebration details and RSVP",no
+1900,"Need rough pricing for budget planning purposes",yes
+1901,"Please remember to submit expense reports by month-end",no
+1902,"Can you help me understand the financial commitment here?",yes
+1903,"Building security: Holiday schedule for access control",no
+1904,"Just trying to get a handle on what this might cost",yes
+1905,"Anyone have recommendations for client appreciation gifts?",no
+1906,"Need formal quotation for capital expenditure committee",yes
+1907,"Reminder: Complete required compliance training by Friday",no
+1908,"What kind of price point would we be looking at?",yes
+1909,"FYI - Updated emergency procedures posted on intranet",no
+1910,"Could you provide some ballpark figures for planning?",yes
+1911,"Office closure: Christmas and New Year schedule",no
+1912,"Need to know approximate cost for these specifications",yes
+1913,"Lost and found: Scarf left in conference room A",no
+1914,"Just wondering what the numbers might look like",yes
+1915,"Reminder: Department holiday lunch next Thursday",no
+1916,"What would the investment be for implementing this solution?",yes
+1917,"Building maintenance: Snow removal procedures for winter",no
+1918,"Need pricing information for budget planning meeting",yes
+1919,"Anyone interested in company ski trip in February?",no
+1920,"Can you give me a rough estimate for these components?",yes
+1921,"FYI - New printer installation in marketing department",no
+1922,"Just need to understand potential costs before proceeding",yes
+1923,"Reminder: Submit your timesheet before holiday break",no
+1924,"What kind of pricing structure would apply to this order?",yes
+1925,"Office supplies: Year-end inventory and ordering freeze",no
+1926,"Need pricing breakdown for Henderson project components ASAP",yes
+1927,"Reminder: Team building event this Friday - bring comfortable shoes",no
+1928,"Just wondering what kind of hit our budget would take for these upgrades",yes
+1929,"FYI - Parking validation system will be down tomorrow morning",no
+1930,"Could you ballpark what it would cost to add those features we discussed?",yes
+1931,"Anyone interested in contributing to Maria's retirement gift?",no
+1932,"Need rough numbers for the CFO meeting tomorrow - nothing fancy",yes
+1933,"Heads up - building fire alarm test scheduled for Wednesday at 10am",no
+1934,"What's your best price on those industrial sensors we saw at the trade show?",yes
+1935,"Please remember to submit your timesheet before leaving today",no
+1936,"Just need a quick price check on replacement parts for Unit B",yes
+1937,"Free leftover sandwiches in kitchen from client meeting",no
+1938,"Formal quotation request: Project Evergreen components (ref #EG-2023-78)",yes
+1939,"Has anyone seen my blue water bottle? Left it somewhere yesterday.",no
+1940,"Can you give me an idea what implementing this solution might run us?",yes
+1941,"Office closure notification: Presidents' Day weekend schedule",no
+1942,"Need to understand cost implications before presenting to management",yes
+1943,"Reminder: Please clean microwave after use - getting complaints",no
+1944,"What would the damage be if we went with the premium package?",yes
+1945,"Anyone have a spare iPhone charger I can borrow for the afternoon?",no
+1946,"RFQ: Formal pricing needed for capital expenditure approval",yes
+1947,"FYI - New coffee machine instructions posted in break room",no
+1948,"Just trying to get a sense of what these components might cost",yes
+1949,"Building maintenance: Water shutdown scheduled for Saturday",no
+1950,"Need pricing options for both standard and rush delivery",yes
+1951,"Happy hour this Thursday at Riverside Grill - all welcome!",no
+1952,"Could you send over some rough numbers for budgeting purposes?",yes
+1953,"Reminder: Update your direct deposit information by Friday",no
+1954,"What kind of investment are we looking at for this equipment?",yes
+1955,"Lost and found: Black umbrella in conference room C",no
+1956,"Need cost estimate for client proposal due next week",yes
+1957,"Please remember to lock doors when leaving after hours",no
+1958,"Just wondering what the price point would be for this quantity",yes
+1959,"FYI - Updated holiday schedule posted on intranet",no
+1960,"Can you help me understand the financial commitment here?",yes
+1961,"Office supplies inventory - please submit your requirements",no
+1962,"Need ballpark figure for these specs by end of day if possible",yes
+1963,"Anyone interested in joining the company softball team?",no
+1964,"What would it cost to expedite delivery on this order?",yes
+1965,"Reminder: Mandatory safety training this Wednesday at 2pm",no
+1966,"Just need some rough pricing to take to my committee",yes
+1967,"Building access: Card readers being upgraded this weekend",no
+1968,"Formal request for detailed quotation - Project Falcon",yes
+1969,"Free donuts in break room - courtesy of sales team",no
+1970,"Could you provide cost estimates for the different options?",yes
+1971,"FWD: Interesting article about industry trends",no
+1972,"Need to know approximate cost for these components by Thursday",yes
+1973,"Please welcome our new team member, Alex Johnson!",no
+1974,"What would the numbers look like if we doubled our order?",yes
+1975,"Reminder: Clean up after yourself in the kitchen area",no
+1976,"Just trying to get a handle on potential costs for this project",yes
+1977,"Office temperature issues - facilities team is investigating",no
+1978,"Need pricing info ASAP for budget approval meeting",yes
+1979,"Anyone have recommendations for lunch spots near new office?",no
+1980,"Can you give me a rough estimate for planning purposes?",yes
+1981,"FYI - Elevator maintenance scheduled for this weekend",no
+1982,"What's the price tag on implementing that solution we discussed?",yes
+1983,"Team photo scheduled for next Wednesday - wear company shirts",no
+1984,"Need to understand financial implications of switching to your service",yes
+1985,"Has anyone seen the first aid kit from conference room C?",no
+1986,"Just need some ballpark figures to take to my manager",yes
+1987,"Reminder: Submit your vacation requests for summer",no
+1988,"Could you help me understand what this might cost us?",yes
+1989,"FYI - New security badges will be issued next month",no
+1990,"Need pricing options for different service level tiers",yes
+1991,"Anyone interested in carpooling from the west side?",no
+1992,"What would the numbers look like if we went with the premium option?",yes
+1993,"Reminder: Quarterly town hall meeting this Friday",no
+1994,"Just trying to get a sense of what this implementation might run us",yes
+1995,"Building management: Fire alarm testing scheduled for Wednesday",no
+1996,"Need rough pricing for budget planning purposes - nothing formal yet",yes
+1997,"Free flu shots available next Tuesday in conference room C",no
+1998,"Can you provide cost estimate for the specs we sent over?",yes
+1999,"Please remember to log your customer interactions in CRM",no
+2000,"Just wondering what kind of investment we're looking at here",yes
+
+
+
+
