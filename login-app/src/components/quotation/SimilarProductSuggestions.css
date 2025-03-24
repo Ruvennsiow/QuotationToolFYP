@@ -1,0 +1,76 @@
+.similar-products-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .similar-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .similar-products-header h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .suggestions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestion-details {
+    flex: 1;
+  }
+  
+  .suggestion-details h5 {
+    margin: 0 0 5px 0;
+    color: #333;
+  }
+  
+  .suggestion-details p {
+    margin: 3px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .select-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .select-button:hover {
+    background-color: #45a049;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+  }
+  
+  .error {
+    color: #d9534f;
+  }

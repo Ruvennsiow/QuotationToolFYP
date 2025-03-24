@@ -1,0 +1,166 @@
+.quotation-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .quotation-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .info-label {
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .info-value {
+    font-size: 16px;
+  }
+  
+  .items-section {
+    margin-bottom: 30px;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .items-table th,
+  .items-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .items-table th {
+    background-color: #f4f4f4;
+    font-weight: 500;
+  }
+  
+  .items-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .total-row td {
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+  }
+  
+  .actions-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .actions-section button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .price-history-button,
+  .predict-price-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .price-history-button:hover,
+  .predict-price-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  @media (max-width: 768px) {
+    .quotation-info {
+      grid-template-columns: 1fr;
+    }
+    
+    .actions-section {
+      flex-direction: column;
+    }
+    
+    .actions-section button {
+      width: 100%;
+    }
+  }
+  .modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #f44336;
+  }
+  
+  .price-history-button,
+  .predict-price-button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+  }

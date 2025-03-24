@@ -1,272 +1,163 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
-const pool = require('./db');
-const sendEmailRouter = require('./SendEmail'); // Import SendEmail.js
-const app = express();
-const PORT = 8080;
+const path = require('path');
+const bodyParser = require('body-parser');
+const { startMonitoring } = require('./services/gmail-monitor'); // Import the correct function
+require('dotenv').config();
 
-app.use(bodyParser.json());
+const app = express();
+
+// Enable CORS for all routes
 app.use(cors());
 
-// Fetch inventory
-app.get('/inventory', async (req, res) => {
-  try {
-    const [rows] = await pool.query('SELECT * FROM inventory');
-    res.json(rows);
-  } catch (error) {
-    console.error('Error fetching inventory:', error);
-    res.status(500).send('Error fetching inventory');
-  }
-});
-// Login endpoint
-app.post('/login', async (req, res) => {
-  const { username, password } = req.body;
+// Parse JSON request bodies (with increased limit for larger payloads)
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
-  try {
-    const [rows] = await pool.query('SELECT * FROM login WHERE username = ? AND password = ?', [username, password]);
-    if (rows.length > 0) {
-      res.json({ success: true });
-    } else {
-      res.json({ success: false });
-    }
-  } catch (error) {
-    console.error('Error during login:', error);
-    res.status(500).send('Error during login');
-  }
-});
-// Fetch all quotations
-app.get('/quotations', async (req, res) => {
-  try {
-    const [rows] = await pool.query('SELECT * FROM quotations');
-    res.json(rows);
-  } catch (error) {
-    console.error('Error fetching quotations:', error);
-    res.status(500).send('Error fetching quotations');
-  }
-});
-// Fetch items for a specific quotation
-app.get('/quotations/:id/items', async (req, res) => {
-  const { id } = req.params;
+// Import ALL routes
+const authRoutes = require('./routes/auth-routes');
+const quotationRoutes = require('./routes/quotation-routes');
+const priceRoutes = require('./routes/price-routes');
+const inventoryRoutes = require('./routes/inventory-routes');
+const emailRoutes = require('./routes/email-routes');
+const predictionRoutes = require('./routes/prediction-routes');
+const autoQuotationRoutes = require('./routes/auto-quotation-routes');
+const similarProductsRoutes = require('./routes/similar-products-routes');
 
-  try {
-    const [rows] = await pool.query('SELECT * FROM quotation_items WHERE quotation_id = ?', [id]);
-    res.json(rows);
-  } catch (error) {
-    console.error('Error fetching quotation items:', error);
-    res.status(500).send('Error fetching quotation items');
-  }
-});
-// Add a new quotation
-app.post('/quotations', async (req, res) => {
-  const { companyName, orderDate, items } = req.body;
-
-  try {
-    // Insert the new quotation
-    const [result] = await pool.query(
-      'INSERT INTO quotations (company_name, order_date) VALUES (?, ?)',
-      [companyName, orderDate]
-    );
-    const quotationId = result.insertId;
-
-    // Enrich items with supplier information from the inventory table
-    const enrichedItems = await Promise.all(
-      items.map(async (item) => {
-        const [inventory] = await pool.query(
-          'SELECT supplier_details FROM inventory WHERE name = ? LIMIT 1',
-          [item.name]
-        );
-        const supplier = inventory.length > 0 ? inventory[0].supplier_details : 'No known supplier';
-
-        // Insert the item into quotation_items table
-        await pool.query(
-          'INSERT INTO quotation_items (quotation_id, item_name, quantity, price, supplier_name) VALUES (?, ?, ?, ?, ?)',
-          [quotationId, item.name, item.quantity, item.price || null, supplier]
-        );
-
-        return { ...item, supplier }; // Add supplier information to the item
-      })
-    );
-
-    res.status(201).json({ success: true, quotationId, items: enrichedItems });
-  } catch (error) {
-    console.error('Error adding quotation:', error);
-    res.status(500).send('Error adding quotation');
-  }
-});
-// Update quotation items
-app.put('/quotations/:id/items', async (req, res) => {
-  const { id } = req.params; // Quotation ID
-  const items = req.body; // Array of updated items
-
-  try {
-    // Update each item's price in the database
-    const updateQueries = items.map((item) =>
-      pool.query(
-        'UPDATE quotation_items SET price = ? WHERE quotation_id = ? AND item_name = ?',
-        [item.price, id, item.item_name]
-      )
-    );
-
-    await Promise.all(updateQueries);
-
-    res.status(200).json({ success: true });
-  } catch (error) {
-    console.error('Error updating quotation items:', error);
-    res.status(500).send('Error updating quotation items');
-  }
-});
-// Add a new quotation from parsed JSON
-app.post('/quotations/from-email', async (req, res) => {
-  const { sender, subject, parsedQuotation } = req.body; // Get sender, subject, and parsed items
-
-  try {
-    // Insert the new quotation
-    const [result] = await pool.query(
-      'INSERT INTO quotations (company_name, order_date) VALUES (?, ?)',
-      [sender, new Date()] // Use sender as company_name and current date as order_date
-    );
-    const quotationId = result.insertId;
-
-    // Enrich and insert items into the quotation_items table
-    const enrichedItems = await Promise.all(
-      parsedQuotation.map(async (item) => {
-        const [inventory] = await pool.query(
-          'SELECT supplier_details FROM inventory WHERE name = ? LIMIT 1',
-          [item.item]
-        );
-        const supplier = inventory.length > 0 ? inventory[0].supplier_details : 'No known supplier';
-
-        await pool.query(
-          'INSERT INTO quotation_items (quotation_id, item_name, quantity, supplier_name) VALUES (?, ?, ?, ?)',
-          [quotationId, item.item, item.quantity, supplier]
-        );
-
-        return { ...item, supplier }; // Add supplier information for debugging/logging
-      })
-    );
-
-    res.status(201).json({ success: true, quotationId, items: enrichedItems });
-  } catch (error) {
-    console.error('Error adding quotation from email:', error);
-    res.status(500).send('Error adding quotation from email');
-  }
-});
-app.use(sendEmailRouter); // Use the send email router
-app.put('/quotation-items/:id/status', async (req, res) => {
-  const { id } = req.params;
-  const { status } = req.body;
-
-  try {
-    const [result] = await pool.query('UPDATE quotation_items SET status = ? WHERE id = ?', [status, id]);
-    if (result.affectedRows === 0) {
-      return res.status(404).send('Item not found');
-    }
-    res.status(200).send('Status updated successfully');
-  } catch (error) {
-    console.error('Error updating status:', error);
-    res.status(500).send('Error updating status');
-  }
-});
-// to edit inventory
-app.put('/inventory/:id', async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { name, description, cost_price, selling_price, supplier_details } = req.body;
-    
-    // Validate the input
-    if (!name || !description || !cost_price || !selling_price) {
-      return res.status(400).json({ error: 'All fields are required' });
-    }
-
-    // Convert price values to numbers if they're strings
-    const costPrice = parseFloat(cost_price);
-    const sellingPrice = parseFloat(selling_price);
-
-    const query = `
-      UPDATE inventory 
-      SET 
-        name = ?,
-        description = ?,
-        cost_price = ?,
-        selling_price = ?,
-        supplier_details = ?,
-        updated_at = CURRENT_TIMESTAMP
-      WHERE id = ?
-    `;
-
-    const values = [
-      name,
-      description,
-      costPrice,
-      sellingPrice,
-      supplier_details || null,
-      id
-    ];
-
-    await pool.query(query, values);
-
-    // Fetch the updated record
-    const selectQuery = 'SELECT * FROM inventory WHERE id = ?';
-    const [updatedItem] = await pool.query(selectQuery, [id]);
-
-    if (!updatedItem.length) {
-      return res.status(404).json({ error: 'Inventory item not found' });
-    }
-
-    res.json(updatedItem[0]);
-  } catch (error) {
-    console.error('Error updating inventory:', error);
-    res.status(500).json({ 
-      error: 'Internal server error', 
-      details: error.message 
-    });
-  }
-});
-// to add inventory 
-app.post('/inventory', async (req, res) => {
-  try {
-    const { name, description, cost_price, selling_price, supplier_details } = req.body;
-    
-    // Validate the input
-    if (!name || !description || !cost_price || !selling_price) {
-      return res.status(400).json({ error: 'All fields are required' });
-    }
-
-    const query = `
-      INSERT INTO inventory 
-      (name, description, cost_price, selling_price, supplier_details) 
-      VALUES (?, ?, ?, ?, ?)
-    `;
-
-    const values = [
-      name,
-      description,
-      parseFloat(cost_price),
-      parseFloat(selling_price),
-      supplier_details || null
-    ];
-
-    const [result] = await pool.query(query, values);
-
-    if (result.affectedRows === 1) {
-      res.status(201).json({ 
-        message: 'Inventory item added successfully',
-        id: result.insertId 
+// Debug route to list all registered routes
+app.get('/api/debug', (req, res) => {
+  const routes = [];
+  
+  // Get routes from the app
+  app._router.stack.forEach(middleware => {
+    if(middleware.route) { // routes registered directly on the app
+      routes.push(`${Object.keys(middleware.route.methods).join(',').toUpperCase()} ${middleware.route.path}`);
+    } else if(middleware.name === 'router') { // router middleware
+      middleware.handle.stack.forEach(handler => {
+        if(handler.route) {
+          const methods = Object.keys(handler.route.methods)
+            .filter(method => handler.route.methods[method])
+            .map(method => method.toUpperCase());
+          routes.push(`${methods.join(',')} ${handler.route.path}`);
+        }
       });
-    } else {
-      res.status(400).json({ error: 'Failed to add inventory item' });
     }
+  });
+  
+  res.json({ 
+    message: 'API is working!',
+    routes: routes
+  });
+});
 
+// Simple test route
+app.get('/test', (req, res) => {
+  res.json({ message: 'Test route works!' });
+});
+
+// Direct email sending route (as a fallback)
+app.post('/send-email', async (req, res) => {
+  console.log('Received direct email request');
+  try {
+    const { to, subject, body } = req.body;
+    
+    // Validate required fields
+    if (!to || !subject || !body) {
+      return res.status(400).json({
+        success: false,
+        message: 'Missing required fields: to, subject, body'
+      });
+    }
+    
+    console.log(`Sending email to: ${to}`);
+    console.log(`Subject: ${subject}`);
+    
+    // For now, just simulate sending an email
+    console.log('Email would be sent with body:', body.substring(0, 100) + '...');
+    
+    // In a real implementation, you would use nodemailer here
+    // const transporter = nodemailer.createTransport({...});
+    // const info = await transporter.sendMail({...});
+    
+    return res.json({
+      success: true,
+      message: 'Email sent successfully (simulated)',
+      to: to,
+      subject: subject
+    });
   } catch (error) {
-    console.error('Error adding inventory:', error);
-    res.status(500).json({ 
-      error: 'Internal server error', 
-      details: error.message 
+    console.error('Error sending email:', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Error sending email',
+      error: error.message
     });
   }
 });
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+
+// Mount ALL routes
+app.use('/', authRoutes);
+app.use('/', quotationRoutes);
+app.use('/', priceRoutes);
+app.use('/', inventoryRoutes);
+app.use('/', emailRoutes);
+app.use('/', predictionRoutes);
+app.use('/', autoQuotationRoutes);
+app.use('/', similarProductsRoutes);
+// API health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
+  });
 });
+
+// Serve static files from the React app in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../build')));
+  
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build', 'index.html'));
+  });
+}
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error('Server error:', err);
+  res.status(500).json({
+    success: false,
+    message: 'Internal server error',
+    error: err.message
+  });
+});
+
+// Handle 404 errors
+app.use((req, res) => {
+  console.log(`Route not found: ${req.method} ${req.url}`);
+  res.status(404).json({
+    success: false,
+    message: `Cannot ${req.method} ${req.url}`
+  });
+});
+
+// Start the server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+  console.log(`Debug route available at: http://localhost:${PORT}/api/debug`);
+  console.log(`Health check available at: http://localhost:${PORT}/api/health`);
+  console.log(`Email sending available at: http://localhost:${PORT}/send-email`);
+  
+  // Check for credentials.json instead of environment variables
+  const fs = require('fs');
+  if (fs.existsSync('credentials.json')) {
+    console.log('Starting Gmail monitoring service...');
+    // Replace initializeMonitoring with startMonitoring
+    startMonitoring(0.5); // Start monitoring every 5 minutes
+  } else {
+    console.log('credentials.json not found, Gmail monitoring not started');
+  }
+});
+
+module.exports = app;
